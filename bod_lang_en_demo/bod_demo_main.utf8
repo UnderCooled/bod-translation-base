@@ -1,0 +1,2854 @@
+## DEMONS - DEMO - MAIN - ENGLISH
+
+###################### Legend to special markers in this document #################
+###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
+
+## text after "#"" is a comment (like those here)
+## \m - means special enter, for example: \m1.1 is an enter that is 10% higher than normal (110%)
+## \s - sprite (a flat image) with its id (id in ASCII; do not modify!), for example: \szz5, \sd or \s6
+## \1-9 - variable (do not touch!)
+## \n - end of line (text after the marker will appear in the line below)
+## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
+## "m", "f" or "n" designates gender used for !params! names of !magic! variants: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## What is written in capital letters must stay that way
+## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
+
+## There is a special section just for you to list all translated sections at the end of that file (named "Translator's Changelog")
+
+
+##############################
+## Main menu
+##############################
+
+##################################################### In-Game menu ###########################################
+
+igm_title = "Menu"
+igm_resume = "Resume"
+igm_back = "Back"
+igm_help = "Tutorials"
+igm_controls = "Controls"
+igm_tobii = "Tobii eye tracking"
+igm_tobii_soon_ttip = "Coming soon"
+igm_tobii_ttip = "To enable eye tracking functionality start the game with Tobii EyeX connected"
+igm_exit = "Exit to desktop"
+igm_menu = "Leave session"
+igm_options = "Options"
+igm_awards = "View awards"
+igm_paused = "~ Game paused ~"
+igm_options_title = "Options"
+igm_settings = "Video, audio and language"
+igm_disable_tips = "Disable tips screen"
+igm_disable_tips_info = "Disables showing tips when generating dungeons"
+
+igm_eyetracking_title = "Eye Tracking Settings"
+igm_eyetracking_ttip = "Eye tracking in Book of Demons requires borderless fullscreen window mode"
+btn_eyetrack_set_mode = "Enable Eye Tracking"
+igm_eytr_gold = "Pickup gold and drops with gaze"
+igm_eytr_look = "Look around with gaze"
+
+##################################################### Dialog Boxes################################################
+
+wnd_btn_yes = "Yes"
+wnd_btn_no = "No"
+
+
+##############################
+## Settings
+##############################
+
+################################################## Controls in Settings #############################################
+
+bod_ctrl_frame_reset = "Reset to defaults"
+bod_ctrl_frame_confirm = "Apply"
+bod_key_conf_title = "Configure controls"
+bod_ctrl_frame_keyboard = "Keyboard & mouse"
+bod_ctrl_frame_gamepad = "Gamepad"
+bod_ctrl_frame_steam_info = "Steam controller configuration can be changed in Steam settings."
+bod_ctrl_frame_xbox_info = "Controls configuration can be modified in Steam settings"
+bod_ctrl_hld_ttip = "Character on hold won't move or auto attack"
+chk_mouse_walk = "Mouse click to walk"
+chk_mouse_swap = "Swap mouse buttons"
+ch_smart_walk_ttip = "Character tries to move straight through crossings"
+ch_click_walk_ttip = "Move the character with left mouse button click"
+chk_smart_walk = "Smart keyboard movement"
+chk_mouse_emu = "Controller emulates mouse"
+ch_mouse_emu_ttip = "In windows and GUI controller emulates mouse"
+
+bod_select_key = "Press key"
+bod_used_key = "Key in use!"
+bod_ctrl_map_section = "Actions"
+bod_act_0 = "LMB"
+bod_act_1 = "LMB double click"
+bod_act_2 = "RMB"
+bod_act_3 = "RMB double click"
+bod_act_4 = "Move up"
+bod_act_5 = "Move left"
+bod_act_6 = "Move down"
+bod_act_7 = "Move right"
+bod_act_8 = "Hold"
+bod_act_9 = "Highlight loot"
+bod_act_10 = "Highlight loot toggle"
+bod_act_11 = "Use card slot 1"
+bod_act_12 = "Use card slot 2"
+bod_act_13 = "Use card slot 3"
+bod_act_14 = "Use card slot 4"
+bod_act_15 = "Use card slot 5"
+bod_act_16 = "Use card slot 6"
+bod_act_17 = "Use card slot 7"
+bod_act_18 = "Use card slot 8"
+bod_act_19 = "Use card slot 9"
+bod_act_20 = "Use card slot 10"
+bod_act_21 = "Open character"
+bod_act_22 = "Open cards"
+bod_act_23 = "Alter. open character"
+bod_act_24 = "Alter. open cards"
+bod_act_25 = "Close all windows"
+bod_act_26 = "Open menu"
+bod_act_27 = "Next special missile"
+bod_act_28 = "Toggle hold"
+bod_act_29 = "Toggle map"
+
+bod_ctrl_map_pad_lmb = "Primary action"
+bod_ctrl_map_pad_rmb = "Secondary action"
+bod_ctrl_map_pad_special_l = "Previous special attack"
+bod_ctrl_map_pad_special_r = "Next special attack"
+bod_ctrl_map_pad_dispel = "Dispel"
+bod_ctrl_map_pad_card_left = "Switch to left card"
+bod_ctrl_map_pad_card_right = "Switch to right card"
+bod_ctrl_map_pad_cast = "Cast a spell"
+bod_ctrl_map_pad_open_char = "Open character window"
+bod_ctrl_map_pad_open_card = "Open cards window"
+bod_ctrl_map_pad_movement = "Movement"
+bod_ctrl_map_pad_targetting = "Select target"
+bod_ctrl_map_pad_use = "Use"
+bod_ctrl_map_pad_lt = "Stationary attack"
+bod_ctrl_map_pad_rt = "Special attack"
+bod_ctrl_map_pad_highlight = "Toggle loot highlight"
+bod_ctrl_map_pad_reset_target = "Reset cursor position"
+
+## Key codes/names - should be short; codes will be displayed in limited space
+
+bod_generic_key = "Key code:\1"
+bod_now_allowed_key = "Reserved"
+
+bod_key_1 = "MOUSE 1"
+bod_key_2 = "MOUSE 2"
+bod_key_4 = "MOUSE 3"
+bod_key_5 = "MOUSE 4"
+bod_key_6 = "MOUSE 5"
+
+bod_key_3 = "CANCEL"
+bod_key_8 = "BACK"
+bod_key_9 = "TAB"
+bod_key_12 = "CLEAR"
+bod_key_13 = "RETURN"
+bod_key_32 = "SPACE"
+bod_key_16 = "SHIFT"
+bod_key_17 = "CONTROL"
+##bod_key_18 = "MENU"
+bod_key_18 = "ALT"
+bod_key_19 = "PAUSE"
+bod_key_20 = "CAPS LOCK"
+bod_key_21 = "KANA"
+
+bod_key_22 = "JUNJA"
+bod_key_23 = "FINAL"
+bod_key_24 = "FINAL"
+bod_key_25 = "HANJA"
+
+bod_key_26 = "KANJI"
+bod_key_27 = "ESCAPE"
+bod_key_28 = "CONVERT"
+bod_key_29 = "NONCONVERT"
+bod_key_30 = "ACCEPT"
+bod_key_31 = "MODECHANGE"
+
+bod_key_33 = "PRIOR"
+bod_key_34 = "NEXT"
+bod_key_35 = "END"
+bod_key_36 = "HOME"
+bod_key_37 = "LEFT"
+bod_key_38 = "UP"
+bod_key_39 = "RIGHT"
+bod_key_40 = "DOWN"
+bod_key_41 = "SELECT"
+bod_key_42 = "PRINT"
+bod_key_43 = "EXECUTE"
+bod_key_44 = "SNAPSHOT"
+bod_key_45 = "INSERT"
+bod_key_46 = "DELETE"
+bod_key_47 = "HELP"
+
+bod_key_91 = "L WIN"
+bod_key_92 = "R WIN"
+bod_key_93 = "APPS"
+bod_key_94 = "SLEEP"
+bod_key_96 = "N_0"
+bod_key_97 = "N_1"
+bod_key_98 = "N_2"
+bod_key_99 = "N_3"
+bod_key_100 = "N_4"
+bod_key_101 = "N_5"
+bod_key_102 = "N_6"
+bod_key_103 = "N_7"
+bod_key_104 = "N_8"
+bod_key_105 = "N_9"
+
+bod_key_106 = "MULTIPLY"
+bod_key_107 = "ADD"
+bod_key_108 = "SEPARATOR"
+bod_key_109 = "SUBSTRACT"
+bod_key_110 = "DECIMAL"
+bod_key_111 = "DIVIDE"
+bod_key_112 = "F1"
+bod_key_113 = "F2"
+bod_key_114 = "F3"
+bod_key_115 = "F4"
+bod_key_116 = "F5"
+bod_key_117 = "F6"
+bod_key_118 = "F7"
+bod_key_119 = "F8"
+bod_key_120 = "F9"
+bod_key_121 = "F10"
+bod_key_122 = "F11"
+bod_key_123 =  "F12"
+bod_key_124 =  "F13"
+bod_key_125 =  "F14"
+bod_key_126=   "F15"
+bod_key_127 =  "F16"
+bod_key_128 =  "F17"
+bod_key_129 =  "F18"
+bod_key_130 =  "F19"
+bod_key_131 =  "F20"
+bod_key_132 =  "F21"
+bod_key_133 =  "F22"
+bod_key_134 =  "F23"
+bod_key_135 =  "F24"
+
+bod_key_144 = "NUMLOCK"
+bod_key_145 = "SCROLL"
+
+bod_key_160 = "L. SHIFT"
+bod_key_161 = "R. SHIFT"
+bod_key_162 = "L. CTRL"
+bod_key_163 = "R. CTRL"
+bod_key_166 = "BROW. BCK"
+bod_key_167 = "BROW. FWD"
+bod_key_168 = "BROW. REFRESH"
+bod_key_169 = "BROW. STOP"
+bod_key_170 = "BROW. SEARCH"
+bod_key_171 = "BROW. FAV"
+bod_key_172 = "BROW. HOME"
+
+bod_key_173 = "VOL. MUTE"
+bod_key_174 = "VOL. DOWN"
+bod_key_175 = "VOL. UP"
+bod_key_176 = "NEXT TRACK"
+bod_key_177 = "PREV TRACK"
+bod_key_178 = "MEDIA STOP"
+bod_key_179 = "PLAY/PAUSE"
+bod_key_180 = "MAIL"
+bod_key_181 = "MEDIA SELECT"
+bod_key_182 = "APP1"
+bod_key_183 = "APP2"
+
+bod_key_186 = ";"
+bod_key_187 = "+"
+bod_key_188 = "COMMA"
+bod_key_189 = "-"
+bod_key_190 = "PERIOD"
+bod_key_191 = "/"
+bod_key_192 = "~"
+bod_key_219 = "["
+bod_key_220 = "BACKSLASH"
+bod_key_221 = "]"
+bod_key_222 = "'"
+
+bod_key_229 = "PROCESS"
+
+bod_key_246 = "ATTN"
+bod_key_247 = "CRSEL"
+bod_key_248 = "EXSEL"
+bod_key_249 = "EREOF"
+bod_key_250 = "PLAY"
+
+bod_key_251 = "ZOOM"
+
+bod_key_253 = "PA1"
+bod_key_254 = "CLEAR"
+bod_key_255 = "UNASSIGNED"
+
+
+##############################
+## Character Selection Screen
+##############################
+
+###################################### Name "generator" #####################################
+## Warrior
+name_war_1 = "Anwend"
+name_war_2 = "Askell"
+name_war_3 = "Asrodr"
+name_war_4 = "Bauger"
+name_war_5 = "Bjarki"
+name_war_6 = "Brattr"
+name_war_7 = "Eyvindr"
+name_war_8 = "Fjalar"
+name_war_9 = "Gautr"
+name_war_10 = "Geiri"
+name_war_11 = "Halldor"
+name_war_12 = "Heimir"
+name_war_13 = "Hialmolfr"
+name_war_14 = "Hodor"
+name_war_15 = "Hrodolfr"
+name_war_16 = "Hroi"
+name_war_17 = "Illugi"
+name_war_18 = "Ivar"
+name_war_19 = "Kadall"
+name_war_20 = "Ketil"
+name_war_21 = "Modolfr"
+name_war_22 = "Odinn"
+name_war_23 = "Osvif"
+name_war_24 = "Sigvaldi"
+name_war_25 = "Sokkolfr"
+name_war_26 = "Ulf"
+name_war_27 = "Vethorn"
+name_war_28 = "Vigsterkr"
+name_war_29 = "Vikar"
+name_war_30 = "Yngvar"
+name_war_max = "30"
+## Rogue
+name_rog_1 = "Acacia"
+name_rog_2 = "Allison"
+name_rog_3 = "Anastasia"
+name_rog_4 = "Anemone"
+name_rog_5 = "Arcadia"
+name_rog_6 = "Artemisia"
+name_rog_7 = "Athena"
+name_rog_8 = "Christobel"
+name_rog_9 = "Ebony"
+name_rog_10 = "Elissa"
+name_rog_11 = "Helena"
+name_rog_12 = "Isaura"
+name_rog_13 = "Kathleen"
+name_rog_14 = "Katniss"
+name_rog_15 = "Kolina"
+name_rog_16 = "Leah"
+name_rog_17 = "Maeve"
+name_rog_18 = "Merida"
+name_rog_19 = "Muriel"
+name_rog_20 = "Nora"
+name_rog_21 = "Pandora"
+name_rog_22 = "Persephone"
+name_rog_23 = "Persis"
+name_rog_24 = "Rhoda"
+name_rog_25 = "Sandrine"
+name_rog_26 = "Tauriel"
+name_rog_27 = "Theresa"
+name_rog_28 = "Vesna"
+name_rog_29 = "Xenia"
+name_rog_30 = "Yalena"
+name_rog_max = "30"
+## Mage
+name_mag_1 = "Adaraphos"
+name_mag_2 = "Arynno"
+name_mag_3 = "Ballicho"
+name_mag_4 = "Brachos"
+name_mag_5 = "Draqarro"
+name_mag_6 = "Garradhor"
+name_mag_7 = "Gyllero"
+name_mag_8 = "Horicho"
+name_mag_9 = "Horidos"
+name_mag_10 = "Innonar"
+name_mag_11 = "Irrenno"
+name_mag_12 = "Jaqadhor"
+name_mag_13 = "Jaqys"
+name_mag_14 = "Joradhor"
+name_mag_15 = "Joryrio"
+name_mag_16 = "Laranzello"
+name_mag_17 = "Lazonos"
+name_mag_18 = "Lysero"
+name_mag_19 = "Maerrynno"
+name_mag_20 = "Malenhor"
+name_mag_21 = "Marodos"
+name_mag_22 = "Nakenno"
+name_mag_23 = "Norys"
+name_mag_24 = "Nyessar"
+name_mag_25 = "Sallorno"
+name_mag_26 = "Stallan"
+name_mag_27 = "Thorynno"
+name_mag_28 = "Varen"
+name_mag_29 = "Vargor"
+name_mag_30 = "Vyrar"
+name_mag_max = "30"
+
+######################################### Slot/Character Selection Screen ###############################################
+
+char_slot_close = "Close"
+char_slot_unused = "Slot empty"
+char_slot_title = "Select \1 slot"
+char_slot_rem_title = "Delete character"
+char_slot_rem_bod = "Are you sure you want to permanently delete that character?"
+
+#back_to_menu = "Back To The Archive" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+enter_town = "Enter Town"
+create_char = "Create character"
+sel_cont = "Resume game"
+unlock_full_version = "Unlock full version"
+
+class_0 = "Warrior"
+class_1 = "Rogue"
+class_2 = "Mage"
+
+class_0_rank_0 = "NOVICE WARRIOR"
+class_0_rank_1 = "WARRIOR"
+class_0_rank_2 = "MASTER WARRIOR"
+class_0_rank_3 = "LEGENDARY WARRIOR"
+class_1_rank_0 = "NOVICE ROGUE"
+class_1_rank_1 = "ROGUE"
+class_1_rank_2 = "MASTER ROGUE"
+class_1_rank_3 = "LEGENDARY ROGUE"
+class_2_rank_0 = "NOVICE MAGE"
+class_2_rank_1 = "MAGE"
+class_2_rank_2 = "MASTER MAGE"
+class_2_rank_3 = "LEGENDARY MAGE"
+
+class_0_lev = "\1 (Level \2 Warrior)"
+class_1_lev = "\1 (Level \2 Rogue)"
+class_2_lev = "\1 (Level \2 Mage)"
+
+class_0_lev_rank_0 = "Level \1 Novice Warrior"
+class_0_lev_rank_1 = "Level \1 Warrior"
+class_0_lev_rank_2 = "Level \1 Master Warrior"
+class_0_lev_rank_3 = "Level \1 Legendary Warrior"
+
+class_1_lev_rank_0 = "Level \1 Novice Rogue"
+class_1_lev_rank_1 = "Level \1 Rogue"
+class_1_lev_rank_2 = "Level \1 Master Rogue"
+class_1_lev_rank_3 = "Level \1 Legendary Rogue"
+
+class_2_lev_rank_0 = "Level \1 Novice Mage"
+class_2_lev_rank_1 = "Level \1 Mage"
+class_2_lev_rank_2 = "Level \1 Master Mage"
+class_2_lev_rank_3 = "Level \1 Legendary Mage"
+
+char_locked = "Reach level 5 with Warrior to unlock"
+char_demo = "Character not available in demo."
+char_unav = "Character coming soon!"
+char_locked_tip = "Reach level 5 with Warrior to unlock. This takes about 20 minutes."
+
+#################################### Selection Screen - create new character ##########################
+
+war_title = "Play as Warrior"
+mag_title = "Play as Mage"
+rog_title = "Play as Rogue"
+
+start_game = "Start Game"
+disabled_start_tooltip = "To start you must enter a valid character name"
+char_name = "Character name"
+char_daredevil = "Daredevil"
+char_daredevil_tip = "Daredevil characters are visible in the Hall of Fame, but when they die it's permanent and you need to start all over."
+roll_tooltip = "Generate random character name"
+sig_cards = "  Signature Cards  "
+char_daredevil_title = "Daredevil"
+char_daredevil_confirm = "Confirm"
+char_daredevil_back = "Back"
+char_daredevil_info = "When you die in the \^FFFFFFDaredevil\^^ mode - you are dead for good and your progress is stored in the \^FFFFFFHall of Fame\^^. Be especially careful playing this mode.\n\nAdditionally, in the freeplay, you can only play on the highest unlocked difficulty level."
+
+###################################### New characters unlocked window ###################################
+
+wnd_char_unlock_title = "New Characters"
+
+wnd_char_unlock_congrat_rogue = "Congratulations! By reaching level 5 you have unlocked\n2 new playable character classes!"
+wnd_char_unlock_visit_rogue = "Visit character selection screen to check them out"
+wnd_char_unlock_check_rogue = "From now on, you can play as one of them."
+
+wnd_char_unlock_congrat = "Congratulations! By reaching level 5 you have unlocked\nnew playable character class: \^fcda92Mage\^^"
+wnd_char_unlock_visit = "Visit character selection screen to check him out\n(Rogue coming soon)"
+wnd_char_unlock_check = "From now on, you can play as a Mage\n(Rogue coming soon)"
+
+wnd_char_unlock_rogue = "\sz> Rogue"
+wnd_char_unlock_mage = "\sz? Mage"
+
+############################# Class descriptions ###########################
+
+# Warrior
+war_description = "A mighty adventurer that believes in the brute power of steel. He is proficient in all kinds of weapons and armours. You can sometimes spot a little madness in his eyes when he is charging a large group of monsters."
+# Dagger
+war_sign_card_tooltip_0 = "Grants an extra attack against additional opponent in range"
+# poison bomb
+war_sign_card_tooltip_1 = "Throws toxic bombs around you that poison monsters damaging them over time"
+# Mighty Blow
+war_sign_card_tooltip_2 = "Deals massive damage and stuns a single enemy"
+
+#Mage
+mag_description = "A powerful mystic proficient in all kinds of magic. Wearing only a robe he leaves direct face-to-face combat to his summoned minions, himself bringing devastation from a safe distance."
+# Book of Ice
+mag_sign_card_tooltip_0 = "Boosts your spells with ice magic, slowing and freezing your opponents"
+# Hourglass
+mag_sign_card_tooltip_1 = "Slows time around you giving you a tactical advantage over the enemies"
+# Golem
+mag_sign_card_tooltip_2 = "Summons a powerful rock golem to fight by your side"
+
+#Rogue
+rog_description = "A cunning thief always on a lookout for fame and fortune. Equipped with a bow she wanders dungeons leaving a pile of corpses pierced by her poisonous arrows. Theatricality and deception are her most powerful allies."
+# Fire Arrow
+rog_sign_card_tooltip_0 = "Equips your character with devastating fire arrows that do additional damage to ice monsters"
+# Claws
+rog_sign_card_tooltip_1 = "A monster getting to close? Cut it to ribbons"
+# Decoy
+rog_sign_card_tooltip_2 = "Summon illusions to fight by your side and quadruple your firepower"
+
+
+################################
+## Town
+################################
+
+# NPC Close-ups
+npc_btn_previous = "Previous"
+npc_btn_next = "Next"
+npc_btn_back = "Back"
+npc_btn_close = "Close"
+npc_btn_next_gossip = "Next gossip"
+npc_btn_continue_gossip = "Continue"
+npc_btn_collect_all = "Collect all"
+npc_btn_fuse = "Fuse Runes"
+npc_btn_upgr = "Upgrade"
+npc_gossips_section_title = "Gossips \1/\2"
+npc_button_gold_amount = "\1 \s0"
+npc_button_gossip_tip = "Talk to \1"
+
+# Healer
+npc_name_0 = "Healer"
+npc_description_0 = "Hello my friend. Can I aid you in any way?"
+npc_button1_0 = "Gossip"
+npc_button2_0 = "Heal"
+npc_button3_0 = "Death Rage"
+npc_button3_0_gold = "\1 \s0"
+npc_description_heal_0 = "You're welcome"
+npc_description_heal_1 = "I will bill you later"
+npc_healer_heal_ttip_0 = "Let me heal your body and mind!"
+npc_healer_heal_ttip_1 = "You look fine to me!"
+npc_healer_char_ttip = "Why, hello there! Need some snake oil? Just kidding. I'm fresh out of snake oil."
+npc_healer_death_rage_ttip_charged = "You are fully equipped with Rage"
+npc_healer_death_rage_ttip_not_enough_gold = "Great power comes with great cost. Come back when you have enough gold."
+npc_healer_death_rage_ttip_buy = "Ready to charge your Death Rage?"
+npc_healer_death_rage_ttip_locked = "Death rage recharges with level up and after reaching level cap it can be recharged here for gold"
+
+# Barmaid
+npc_name_1 = "Barmaid"
+npc_description_1 = "Hi there! Need something to eat or drink?"
+npc_button1_1 = "Gossip"
+npc_button2_1 = "Magical cauldron"
+npc_button3_1 = "Golden key"
+npc_button2_1_empty = "Magical cauldron - Empty"
+npc_button2_1_empty_ttip = "Cauldron is empty right now. Go down and find some prizes, then come back to buy them.\m2.0Next cauldron will cost \1\s0."
+npc_barmaid_char_ttip = "Don't drink and fight!"
+npc_barmaid_cauldron_desc = "The magic in cauldron increases every time you find an ingredient in the dungeon."
+npc_barmaid_cauldron_btn_collect_lbl = "Collect prizes"
+npc_barmaid_cauldron_btn_collect_empty = "Cauldron is empty"
+npc_barmaid_cauldron_ttip_not_enough_gold = "Not enough gold"
+npc_barmaid_cauldron_ttip_help = "\s9 L-Click to learn more"
+npc_barmaid_cauldron_ttip_help_pad = "Press \s9 to learn more"
+npc_barmaid_cauldron_count_life = "\s0Life: \1"
+npc_barmaid_cauldron_count_mana = "\s0Mana: \1"
+npc_barmaid_cauldron_count_prizes = "\s0Prizes: \1"
+npc_barmaid_cauldron_collect_desc = "Click on the prizes to collect them!"
+npc_barmaid_cauldron_collect_desc_pad = "Press \s9 on the prizes to collect them!"
+npc_barmaid_cauldron_collect_next_cost = "Next cauldron cost: \1\s0"
+npc_barmaid_cauldron_collect_empty = "Cauldron is empty"
+npc_barmaid_cauldron_confirm_title = "Magical cauldron"
+npc_barmaid_cauldron_confirm_msg = "Do you wish to collect the cauldron prizes now, or wait longer and risk losing the bonus?"
+npc_barmaid_cauldron_confirm_help = "Each time you collect prizes the price of the cauldron increases. When the hero dies unbought prizes are lost."
+npc_barmaid_cauldron_confirm_btn_yes = "Collect"
+npc_barmaid_cauldron_confirm_btn_no = "Not now"
+npc_barmaid_cauldron_confirm_chk_not_again = "Do not show again"
+npc_barmaid_cauldron_ttip_locked = "This option is not yet available"
+npc_barmaid_cauldron_ttip_buy = "Buy content of the cauldron"
+npc_barmaid_cauldron_prize_tip_bronze = "\^FFFFFFBronze Prize\^^"
+npc_barmaid_cauldron_prize_tip_silver = "\^FFFFFFSilver Prize\^^, contains 3 bronze prizes"
+npc_barmaid_cauldron_prize_tip_gold = "\^FFFFFFGolden Prize\^^, contains 3 silver prizes and 9 bronze"
+npc_barmaid_key_ttip_not_enough_gold = "You need more gold to buy this."
+npc_barmaid_key_ttip_buy = "Buy 1 Quest Key (You have \1)."
+npc_barmaid_key_ttip_locked = "This option is not yet available"
+
+# Sage
+npc_name_2 = "Sage"
+npc_description_2 = "Stay and listen for a while. Where there is darkness there is always light. You are our hope in those dark times."
+npc_button1_2 = "Gossip"
+npc_button2_2 = "Identify Card"
+npc_button2_2_with_num = "Identify Card (\1/\2)"
+npc_button3_2 = "Unlock Card Slot"
+npc_button3_2_gold = "\1 \s0"
+npc_sage_unlock_ttip_0 = "This would allow you to use even more cards!"
+npc_sage_unlock_ttip_1 = "You don't have enough gold to unlock next slot"
+npc_sage_unlock_ttip_2 = "You got them all!"
+npc_sage_all_unlocked = "All Card Slots Unlocked"
+npc_sage_gossips_section_title = "Bestiary (\1/\2)"
+npc_sage_char_ttip = "Are you seeking arcane knowledge? Better try library"
+npc_sage_identify_tip = "You can afford to identify \1 out of \2 unidentified cards"
+npc_sage_identify_none_tip = "You have no unidentified cards"
+npc_sage_identify_btn_empty_ttip = "You have no unidentified cards"
+npc_sage_identify_title = "Please select a card you wish me to examine. I'd love to give it a closer look"
+npc_sage_identify_cards_header = "\s0Your Unidentified Cards"
+npc_sage_identify_card_btn_label = "Identify Card"
+npc_sage_identify_card_btn_no_gold_ttip = "Not enough gold to identify card"
+npc_sage_identify_card_btn_not_sel_ttip = "Pick a card to unlock"
+
+npc_sage_identify_card_ttip_cost_not = "You need \^FF0000\1\^^ \s= to identify this card"
+npc_sage_identify_card_ttip_cost_met = "In order to identify this card for \^00FF00\1\^^ \s= press \s9"
+
+npc_sage_monster_unmet_ttip = "Monster unmet"
+npc_sage_monster_kills_info = "Kills: \^FFFFFF\1\^^"
+npc_sage_monster_click_info = "\s9 L-Click to learn more"
+npc_sage_monster_click_info_pad = "Press \s9 to learn more"
+
+# Gypsy
+npc_name_3 = "Fortune Teller"
+npc_description_3 = "You there! I can see your future is very grim. Unless you'll use one of my magical cards."
+npc_button1_3 = "Gossip"
+npc_button2_3 = "Upgrade card"
+npc_button2_3_with_num = "Upgrade card (\1)"
+npc_button3_3 = "Charge card"
+npc_button3_3_with_num = "Charge card (\1/\2)"
+npc_button4_3 = "Fuse runes"
+npc_button5_3 = "Sell runes"
+npc_gypsy_char_ttip = "I could sell you anything, but I will settle for only useful cards"
+
+npc_gypsy_upgrade_tip = "Improve your cards"
+npc_gypsy_upgrade_locked_tip = "Upgrading your cards will be available after you find your first rune card"
+npc_gypsy_fuse_tip = "Merge your low tier runes to create higher tier ones"
+npc_gypsy_fuse_locked_tip = "You haven't found any rune card yet"
+
+npc_gypsy_upgrade_desc = "Before upgrading, pick a card and fill the required slots with runic cards"
+npc_gypsy_upgrade_upgrade = "Upgrade"
+npc_gypsy_upgrade_tip_no_card = "Select a card you wish to upgrade first"
+npc_gypsy_upgrade_tip_no_gold = "Not enough gold to upgrade card"
+npc_gypsy_upgrade_tip_no_runes = "Fill slots above with proper runic cards to upgrade this card"
+npc_gypsy_upgrade_tip_max = "This card cannot be upgraded any more"
+npc_gypsy_upgrade_tip_ready = "Click to upgrade this card"
+npc_gypsy_upgrade_tip_ready_pad = "Press to upgrade this card"
+npc_gypsy_upgrade_downgrade_btn = "Downgrade"
+npc_gypsy_upgrade_downgrade_tip = "Downgrade the card and retrieve runes"
+npc_gypsy_upgrade_fuse_tip = "Fuse runes"
+
+npc_gypsy_charge_tip = "Recharge your item cards"
+
+npc_gypsy_fuse_fuse = "Fuse"
+npc_gypsy_fuse_not_ready = "Fill both slots below with runic cards to fuse them"
+npc_gypsy_fuse_no_gold = "You don't have enough gold to fuse runic cards of this level"
+npc_gypsy_fuse_active = "Click to fuse cards below into a higher level runic card (\^FCDA92\1\^^)" #FCDA92
+npc_gypsy_fuse_active_pad = "Press to fuse cards below into a higher level runic card (\^FCDA92\1\^^)" #FCDA92
+
+npc_gypsy_sell_tip = "Exchange runes for gold"
+npc_gypsy_sell_locked_tip = "You haven't found any rune card yet"
+npc_gypsy_sell_runes_desc = "Please select rune you wish to sell"
+npc_gypsy_sell_runes_sell = "Sell"
+npc_gypsy_sell_runes_pick = "Pick a Rune"
+npc_gypsy_sell_runes_sell_tip = "Click to sell selected rune and earn some gold"
+npc_gypsy_sell_runes_sell_tip_pad = "Press to sell selected rune and earn some gold"
+npc_gypsy_sell_runes_pick_tip = "Select a card you wish to sell"
+npc_gypsy_charge_card_anavailable_tip = "You have no item cards"
+npc_gypsy_charge_all_full = "All item cards fully charged"
+
+cathedral_ttip_title = "Cathedral"
+cathedral_ttip = "Place of organized oppression and suffering. Then Archdemon took over."
+
+############################ Charging cards (Fortune Teller) ######################
+
+wnd_charge_title = "Charge Cards"
+wnd_charge_quote = "Please select a card you wish to charge. Be sure I'll charge you too if you know what I mean."
+wnd_charge_cards_sep = "\sA Item Cards"
+wnd_charge_checkbox = "Show All"
+wnd_charge_apply_btn = "Charge Card"
+wnd_charge_apply_btn_pick = "Pick a Card"
+wnd_charge_card_price = "\1\s=" # nothing to translate here, move along
+wnd_charge_card_price_red = "\^FF4832\1\^^\s=" # nothing to translate here, move along
+wnd_charge_back = "Back"
+wnd_charge_max = "\^00FF00MAX\^^\s>"   #translate only MAX
+crd_charge_select_ttip = "\s9 L-Click to select"
+crd_charge_deselect_ttip = "\s9 L-Click to deselect"
+crd_charge_buy_ttip = "\s: R-Click to charge as much as possible"
+
+crd_charge_select_pad_ttip = "Press \s9 to select"
+crd_charge_deselect_pad_ttip = "Press \s9 to deselect"
+crd_charge_buy_pad_ttip = "Press \sd to charge as much as possible"
+crd_charge_buy_one_pad_ttip = "Press \s9 to charge once "
+
+crd_charge_full_ttip = "Card already at maximum charge"
+wnd_charge_btn_nocash_ttip = "Not enough gold to charge"
+wnd_charge_btn_allmax_ttip = "All cards are charged"
+wnd_charge_chk_ttip = "Show also fully charged cards"
+
+###################################### Upgrading cards ###########################
+
+wnd_upgrade_title = "Upgrade Cards"
+wnd_upgrade_cardinality = "Upgrade Cards: \^FFFFFF\1\^^\s?"
+wnd_upgrade_quote = "Please select a card you wish to upgrade"
+wnd_upgrade_card_price = "\1\s=\2\s?" # nothing to translate here, move along
+wnd_upgrade_btn_label = "Upgrade Card"
+wnd_upgrade_btn_label_pick = "Pick a Card"
+wnd_upgrade_lvl2_cards_sep = "Upgrade to level 3"
+wnd_upgrade_lvl1_cards_sep = "Upgrade to level 2"
+wnd_upgrade_others_cards_sep = "Not upgradable at this time"
+wnd_upgrade_empty_grp_no_unupgradable = "No cards here"
+wnd_upgrade_empty_grp_no_content = "No cards on this level"
+wnd_upgrade_empty_grp_no_cash = "Not enough gold"
+wnd_upgrade_empty_grp_no_cards = "Not enough upgrade cards"
+wnd_upgrade_dialog_box = "Confirm Upgrade"
+wnd_upgrade_no_cards_in_grp = "Not upgradable at this time"
+
+crd_upgrade_select_ttip = "\s9 L-Click to select card"
+crd_upgrade_deselect_ttip = "\s9 L-Click to deselect"
+
+crd_upgrade_select_pad_ttip = "Press \s9 to select card"
+crd_upgrade_deselect_pad_ttip = "Press \s9 to deselect"
+
+crd_upgrade_max_ttip = "Card at highest level"
+wnd_upgrade_warning_item = "Cost of charging this card will rise from \1\s= now to \2\s=\n Are you sure?"
+wnd_upgrade_warning_artifact = "Green mana cost of equipping this card will rise from \1\s5 now to \2\s5.\3\n Are you sure?"
+wnd_upgrade_warning_spell = "Mana cost of using this card will rise from \1\s4 now to \2\s4. \n Are you sure?"
+wnd_upgrade_warning_now_equipped = "This card is currently equipped."
+wnd_upgrade_warning_y= "Upgrade"
+wnd_upgrade_warning_n= "Cancel"
+
+########################## Slot unlock confirmation dialog - Sage #####################
+
+confirm_slot_unlock_title = "Card slot"
+confirm_slot_unlock_label = "Are you sure you want to spend \1 \s0 to unlock new card slot?"
+confirm_slot_yes = "Yes"
+confirm_slot_no = "No"
+
+########################################## Cauldron (Barmaid) ##################################
+
+cauldron_ttip_title = "Magical Cauldron"
+cauldron_ttip_desc = "Head to the town and talk to Barmaid to learn about the Cauldron."
+
+
+###################################################
+# Crosscut Screen
+###################################################
+
+cc_back_to_town = "Back To Town"
+cc_back_to_town_pad = "Back To Town \sa"
+
+cc_begin_game = "Begin Game \si"
+cc_begin_quest = "Begin Quest!"
+cc_master_quest = "Master Quest!"
+cc_replay_quest = "Replay Quest!"
+cc_quest_not_discovered = "Not discovered"
+cc_go_down = "Go Down \si"
+cc_go_down_quest_close = "Abandon Quest"
+cc_go_down_quest_0 = "Enter Catacombs"
+cc_go_down_quest_1 = "Go To Hell"
+cc_go_down_quest_2 = "Complete Adventure & Unlock Freeplay"
+cc_go_down_quest_complete = "Complete Quest"
+cc_go_down_ttip = "Close this game and progress deeper"
+cc_go_down_ttip_dis = "You can't go down until you finish this part of the dungeon"
+cc_go_down_quest_ttip_dis = "Close the quest without finishing."
+
+cc_close_game_frame = "Leave This Dungeon?"
+cc_cgf_txt = "You are about to leave this part of dungeon. Are you sure you wish to progress deeper now?"
+cc_cgf_warn = "When you leave this dungeon, you can't go back. If you leave any treasures behind, it might take a while before you encounter them again."
+cc_cgf_yes = "Go deeper! \si"
+cc_cgf_no = "Don't end yet"
+
+cc_close_quest_title = "Abandon This Quest?"
+cc_close_game_title = "Abandon This Game?"
+cc_abandon_quest_txt = "You are about to quit the quest. Have in mind your key will not be recovered!"
+cc_abandon_game_txt = "You are about to reset current Flexigame to the beginning. This game will not count to your progress, but you won't lose your exp points and loot.\n\^FF4832This is a debug feature. Please use it only if you are stuck!\^^ "
+cc_abandon_quest_corpse_txt = "Don't worry though about valuables in your tombstone. You will have them back."
+cc_abandon_quest_yes = "Abandon"
+cc_abandon_game_yes = "Abandon"
+
+cc_close_game_corpse_frame = "Cannot leave dungeon"
+cc_cgf_corpse_warn = "You cannot leave this dungeon until you recover your tombstone and your lost possessions."
+cc_cgf_go_back = "Go Back"
+
+cc_quest_0_title = "Quest I - The Cook"
+cc_quest_1_title = "Quest II - The Antipope"
+cc_quest_2_title = "Quest III - The Archdemon"
+cc_quest_est_playtime = "\s0Estimated play time ~ \1 min"
+cc_quest_start_ttip_master = "This will allow you to choose quest level to master."
+cc_quest_start_ttip_no_key = "You cannot start the quest now.\n\^FF4832You don't have a key\^^"
+cc_quest_start_ttip_locked = "You cannot start the quest now.\n\^FF4832Another game is open.\^^"
+cc_quest_start_ttip_locked_no_keys = "You cannot start the quest now.\n\^FF4832Another game is open.\nYou don't have a key\^^"
+cc_quest_start_ttip_disabled = "Mastering quests is disabled in this version"
+
+cc_ts_0_first_game_label = "Labyrinth start here"
+cc_ts_1_first_game_label = "Catacombs start here"
+cc_ts_2_first_game_label = "Hell starts here"
+
+########################################### Low hp warning after starting the game #######################
+
+low_hp_warning_title = "Warning"
+low_hp_warning_btn_confirm = "Enter Dungeon"
+low_hp_warning_btn_no = "Not yet"
+low_hp_warning_chk_not_again = "Don't show it again"
+low_hp_warning_help = "You are not in your best condition. You should probably see Healer before entering the dungeon.\m1.3Are you sure you want to start the adventure despite your low health?"
+
+
+## BETA FINISHED DIALOG (TEMPORARY)
+beta_finished_dialog_title = "End of Beta"
+beta_finished_dialog_text = "You have finished beta."
+
+## AUTORESET DIALOG (TEMPORARY)
+wnd_autoreset_title = "Autoreset"
+wnd_autoreset_text = "All game data will be reset."
+wnd_autoreset_btn_reset = "Reset"
+wnd_autoreset_btn_cancel = "Cancel"
+
+##################################### Dungeon progress bar ######################
+
+game_prog_tilest = "Currently in: \1"
+
+game_prog_prog = "Game progress: \1%"
+game_prog_tilest_0 = "\^FCDA92Maze\^^"
+game_prog_tilest_1 = "\^FCDA92Catacombs\^^"
+game_prog_tilest_2 = "\^FCDA92Hell\^^"
+game_prog_freeplay = "\^FCDA92Freeplay\^^"
+game_prog_depth = "Depth: \1"
+
+game_prog_player = "You"
+game_prog_archdemon_ttip_header = "Archdemon"
+game_prog_archdemon_ttip_header_dead = "Archdemon's remains"
+game_prog_archdemon_ttip_desc = "Defeat \^FCDA92Archdemon\^^ to unlock new game mode."
+game_prog_archdemon_ttip_desc_dead = "You have slain \^FCDA92Archdemon\^^."
+game_prog_archdemon_ttip_locked = "\sQ\^FF4832Freeplay mode locked\^^"
+
+game_prog_town = "Town"
+
+game_prog_quest_0 = "The Cook"
+game_prog_quest_1 = "The Antipope"
+game_prog_quest_2 = "The Archdemon"
+
+game_prog_quest_key = "You \^00FF00have\^^ a key, you can complete this quest on higher difficulty"
+game_prog_quest_no_key = "You \^FF4832need\^^ a key to play this quest on higher difficulty"
+
+############################### Flexiscope ################################
+
+cc_flexi_frame = "Setup New Game"
+cc_flexi_title = "Flexiscope (tm)"
+cc_flexi_desc = "Select game size below. Flexiscope analyses your gameplay style and predicts how long it will take to complete each game size. The estimates will get more accurate with time."
+cc_flexi_start = "Start Game \si"
+cc_flexi_b1 = "Very Small"
+cc_flexi_b2 = "Small"
+cc_flexi_b3 = "Medium"
+cc_flexi_b4 = "Big"
+cc_flexi_b5 = "Very Big"
+cc_flexi_min = "\1 min."
+cc_flexi_rewards = "Rewards:"
+cc_flexi_progress = "Progress:"
+cc_flexi_gold = "Gold:"
+cc_flexi_rew_rew_tip = "Number of awards hidden in dungeon (such as \^FFFFFFcards\^^, \^FFFFFFscrolls\^^, \^FFFFFFkeys\^^, \^FFFFFFcauldron ingredient\^^)"
+cc_flexi_rew_gold_tip = "Approximate amount of gold hidden in this game"
+
+cc_flexi_rew_prog_tip = "Progress towards final quest in the game."
+cc_flexi_rew_prog_fp_tip = "Progress towards unlocking the next difficulty level."
+cc_flexi_rew_prog_fp_noprog_tip = "You must play on highest available difficulty to progress towards unlocking even higher difficulty"
+cc_flexi_rew_prog_fp_complete_tip = "You have unlocked highest difficulty level in the game!"
+cc_flexi_rew_prog_tip_perc = "Progress now: \1\nProgress after: \2"
+cc_flexi_rew_prog_tip_depth = "Depth now: \1\nDepth after: \2"
+
+cc_flexi_freeplay = "Freeplay"
+cc_flexi_fp_basic = "Basic"
+cc_flexi_ts_select = "Select Tileset"
+cc_flexi_ts_0 = "Maze"
+cc_flexi_ts_1 = "Catacombs"
+cc_flexi_ts_2 = "Hell"
+cc_flexi_ts_tip_daredevil_disabled = "In \^FCDA92Daredevil\^^ the Tileset is selected at random."
+cc_flexi_diff_select = "Select Difficulty"
+cc_flexi_fp_normal = "Play Normal"
+cc_flexi_fp_hard = "Play Hard"
+cc_flexi_fp_nightmare = "Play Nightmare"
+cc_flexi_fp_massacre = "Play Massacre"
+
+cc_flexi_fp_tool_0 = "\sn Gold loss on death: \^FFBD4220\^^%\m1.2\sn Cards cursed by boss: \^FFBD422-4\^^"
+cc_flexi_fp_tool_1 = "\sn Gold loss on death: \^FFBD4230\^^%\m1.2\sn Cards cursed by boss: \^FFBD423-5\^^\m1.2\sn Imposed Cards: \^FFBD422\^^"
+cc_flexi_fp_tool_2 = "\sn Gold loss on death: \^FFBD4240\^^%\m1.2\sn Cards cursed by boss: \^FFBD424-6\^^\m1.2\sn Imposed Cards: \^FFBD423\^^\m1.2\sn Cards lost on death: \^FFBD421\^^"
+cc_flexi_fp_tool_3 = "\sn Gold loss on death: \^FFBD4250\^^%\m1.2\sn Cards cursed by boss: \^FFBD425-8\^^\m1.2\sn Imposed Cards: \^FFBD425\^^\m1.2\sn Cards lost on death: \^FFBD425\^^"
+cc_flexi_fp_tool_h_0 = "Normal Difficulty"
+cc_flexi_fp_tool_h_1 = "Hard Difficulty"
+cc_flexi_fp_tool_h_2 = "Nightmare Difficulty"
+cc_flexi_fp_tool_h_3 = "Massacre Difficulty"
+cc_flexi_fp_unlocked_h = "Congratulations! You have unlocked the \^FFBD42\1\^^ difficulty mode.\nFollowing rules apply:"
+cc_flexi_fp_unlocked_diff_0 = "Normal"
+cc_flexi_fp_unlocked_diff_1 = "Hard"
+cc_flexi_fp_unlocked_diff_2 = "Nightmare"
+cc_flexi_fp_unlocked_diff_3 = "Massacre"
+
+cc_flexi_locked_ttip_1 = "This scope will be unlocked when any of your characters finishes first game"
+cc_flexi_locked_ttip_2 = "This scope will be unlocked when any of your characters reaches level 5"
+cc_flexi_locked_ttip_3 = "This scope will be unlocked when any of your characters reaches level 10"
+cc_flexi_locked_ttip_4 = "This scope will be unlocked when any of your characters reaches level 15"
+cc_flexi_locked_by_quest_tip = "Game size locked because a special quest is in your way"
+cc_flexi_quest_entrance = "Quest Entrance"
+cc_flexi_creating_game = "Creating game"
+cc_flexi_randomize_tip = "Randomize the game"
+cc_flexi_randomize_no_gold = "Insufficient amount of gold"
+cc_flexi_diff_locked_2 = "To unlock Hard difficulty you need to practice enough on Normal"
+cc_flexi_diff_locked_3 = "To unlock Nightmare difficulty you need to practice enough on Hard"
+cc_flexi_diff_locked_4 = "To unlock Massacre difficulty you need to practice enough on Nightmare"
+cc_flexi_diff_locked_daredevil = "To spice things up, in \^FCDA92Daredevil\^^ mode you can play only on highest available difficulty"
+
+cc_flexi_about_title = "Flexiscope (tm)"
+cc_flexi_about_close = "Let's go!"
+cc_flexi_about_close_ttip = "Go choose your game size\nand slay some monsters!"
+cc_flexi_about_desc1 = "CONGRATULATIONS!\m1.3\^FCDA92FLEXISCOPE\^^ IS NOW AVAILABLE!"
+cc_flexi_about_desc2 = "\^FCDA92With Flexiscope you choose the size of your game session.\^^\m1.8Depending on your preferences, you can divide your adventure into smaller or bigger games. Regardless of how much time you have, Flexiscope ensures fair balance of threats and rewards and that the gameplay experience can be completed in the predicted time.\m1.8 Since Flexiscope learns your gameplay style the time estimates for each subsequent session size should be more accurate."
+
+cc_flexi_diff_unlocked_title = "New Difficulty"
+
+######################### Summary screen - after killing the Archdemon #################
+
+endgame_congrats_title = "Congratulations!"
+endgame_congrats_subtitle = "You have killed the Archdemon."
+endgame_congrats_desc = "But your adventure doesn't end here. You have unlocked the \^FCDA92Freeplay Mode\^^ which gives you more freedom in setting up games."
+endgame_congrats_challenge_title = "Challenges await"
+endgame_congrats_challenge_diff = "difficulty levels to unlock:"
+endgame_congrats_challenge_mons = "monsters to discover:"
+endgame_congrats_challenge_card = "common cards to find:"
+endgame_congrats_challenge_legends = "legendary cards to find:"
+endgame_congrats_challenge_ques = "quest levels to master:"
+endgame_congrats_challenge_lvls = "levels to reach level cap:"
+endgame_congrats_challenge_achv = "achievements to get:"
+endgame_congrats_challenge_slot = "slots to unlock:"
+
+press_any_to_skip_anim_kbd = "Press any key to skip sequence"
+press_any_to_skip_anim_joy = "Press any button to skip sequence"
+
+############################### Quest Mastering window #####################################
+
+cc_qm_frame = "Quest Mastering"
+cc_qm_title_1 = "The Cook"
+cc_qm_title_2 = "Antipope"
+cc_qm_title_3 = "The Archdemon"
+cc_qm_desc_1 = "Challenge the Cook once again in Hells Kitchen itself. Prove once more who's the true Master Chef under the Cathedral."
+cc_qm_desc_2 = "Challange Antipope one more time and send him to hell... where his master dwells."
+cc_qm_desc_3 = "Challenge Archdemon himself. Make him pay for the destruction spread around Town!"
+cc_qm_diff = "Select Difficulty "
+cc_qm_btn_diff_1 = "Play Nightmare"
+cc_qm_btn_diff_1b = "Finished Nightmare"
+cc_qm_btn_diff_2 = "Play Hell"
+cc_qm_btn_diff_2b = "Finished Hell"
+cc_qm_btn_diff_3 = "Play Massacre"
+cc_qm_btn_diff_3b = "Replay Massacre"
+cc_qm_tip_low_level = "It is not recommended to start this quest before you reach level \1"
+cc_qm_tip_key = "Keys are precious"
+cc_qm_tip_no_key = "You don't have any key to unlock the quest"
+
+## Death during mastering quest
+death_qm_title = "Quest Mastering Failed"
+death_qm_desc = "Unfortunately you died and therefore you didn't finish the quest. Hopefully you will be luckier the next time."
+death_qm_keys_left = "Keys left: \^FFFFFF\1\s0\^^"
+death_qm_back_to_town = "Resurrect in Town"
+death_qm_retry = "Heal and Retry Quest"
+death_qm_tip_no_key = "You need a key play the quest again"
+
+## Mastering enabled
+quest_mastering = "Quest Mastering"
+quest_mastering_unlocked_info = "Quest mastering has been enabled.\nPlease note that your golden keys have been recalculated.\n\nGood luck fighting the quest bosses on higher difficulties!"
+
+################################### Level/cross cut Tooltips ##################################
+
+cc_prize_clear = "\^FCDA92Level clear\^^"
+cc_prize_corpse = "\^FCDA92Corpse\^^"
+cc_prize_undiscovered = "Undiscovered prize"
+cc_prize_boss= "\^FCDA92Boss\^^"
+cc_prize_chest = "\^FCDA92Chest\^^"
+cc_prize_shrine = "\^FCDA92Shrine\^^"
+cc_prize_bookcase = "\^FCDA92Book case\^^"
+cc_prize_ancient_tome = "\^FCDA92Ancient tome\^^"
+cc_prize_general = "\^FCDA92Prize\^^"
+
+cc_prize_tip_clear = "\^40FF40You collected everything in this level. There is nothing more to search for.\^^"
+cc_prize_tip_corpse = "You died on this level. You must collect your remains in order to leave this dungeon."
+cc_prize_tip_undiscovered = "\^FF4040You haven't seen it yet.\^^"
+cc_prize_tip_consumed = "\^40FF40You have collected the prize.\^^"
+cc_prize_tip_discovered_general = "\^FF4040You have walked by the prize but didn't collect it.\^^"
+cc_prize_tip_discovered_boss = "\^FF4040You haven't killed the boss.\^^"
+
+cc_freeplay_sep = "Freeplay Mode Starts Here"
+cc_monster_unmet = "Monster unmet"
+cc_monster_kills_info = "Total kills: \^FFFFFF\1\^^"
+cc_monster_count_none = "None left"
+cc_monster_count_one = "One left"
+cc_monster_count_couple = "Couple left"
+cc_monster_count_some = "Some left"
+cc_monster_count_dozen = "About a dozen left"
+cc_monster_count_lot = "Plenty left"
+
+###################################### Level/mod finished summary screen ###########################
+
+summary_avt_ttip_change = "You can change your avatar in the main R2G menu"
+wnd_summary_ok = "OK \si"
+wnd_summary_title = "Game Series Progress"
+wnd_summary_rank = "Rank \1:"
+wnd_summary_score = "Score:"
+wnd_summary_next_rank = "Next rank:"
+wnd_summarynext_avatar_at = "Next avatar:"
+wnd_summary_flexi_results = "Flexiscope Results"
+wnd_summary_rank_prg_ttip = "Total cost of next rank: \1"
+wnd_summary_clean_sweep_title_ttip = "Clean Sweep"
+wnd_summary_clean_sweep_ttip = "You have swept all levels clean!"
+wnd_summary_heart_iron_title_ttip = "Heart of Iron"
+wnd_summary_heart_iron_ttip = "You didn't die even once!"
+wnd_summary_blade_title_ttip = "Ruthless Blade"
+wnd_summary_blade_ttip = "You killed every single last one of them!"
+wnd_summary_stars_ttip = "Stars collected in this dungeon  (this feature is currently disabled)."
+wnd_summary_avt_research_prg_ttip = "Total cost of this avatar: \1"
+wnd_summary_score_togo = "\1 to go"
+wnd_summary_autoresearch = "Researched avatar was picked automatically. You can change it if you want."
+summary_btn_change_avt = "Change \sd"
+summary_btn_leave_avt = "Accept \si"
+summary_avt_ttip_change_info = "You can change your avatar in the main R2G menu"
+summary_avt_ttip_info = "\^00FF00Congratulations! Avatar Unlocked!\^^"
+sum_wnd_nothing = "Nothing to do here"
+sum_wnd_title = "Hero's To-Do"
+
+sum_wnd_healer = "Visit Healer to:"
+sum_wnd_healer_rage = "Recharge Deathrage"
+sum_wnd_healer_heal = "Restore Health and Mana"
+
+sum_wnd_barmaid = "Visit Barmaid to:"
+
+sum_wnd_barmaid_cauldron = "Purchase cauldron contents \s0 \1 \s1 \2 \s2 \3"
+sum_wnd_barmaid_cauldron_no_par = "Purchase cauldron contents"
+sum_wnd_barmaid_key = "Purchase golden key"
+
+sum_wnd_sage = "Visit Sage to:"
+sum_wnd_sage_ident = "Identify magic card (\1 available)"
+sum_wnd_sage_slot = "Unlock next card slot"
+
+sum_wnd_fortune = "Visit Fortune-Teller to:"
+sum_wnd_fortune_upgrade = "Upgrade a magic card (\1 available)"
+sum_wnd_fortune_charge = "Charge item cards (\1 available)"
+sum_wnd_fortune_sell_runes = "Sell runes"
+
+sum_wnd_lvl = "You have \1 unspent Level-Up Points !"
+sum_wnd_not_now = "Not now"
+sum_wnd_goto = "Visit Town"
+
+
+#########################
+## Levels
+#########################
+
+#################################### Drop/Loot tooltips ############################
+pick_up_crap = "Slightly used coin"
+pick_up_gold = "\1 gold"
+pick_up_card = "Card"
+
+pick_up_card_upg = "Upgrade Card"
+pick_up_unident_card_upg = "Unidentified Card"
+pick_up_unident_legend_card_upg = "Unidentified Legendary Card"
+pick_up_bomb_fire = "Fire Bomb"
+pick_up_bomb_ice = "Ice Bomb"
+pick_up_bomb_poison = "Poison Bomb"
+pick_up_tp = "Town Portal"
+pick_up_hp_pot = "Health potion"
+pick_up_mana_pot = "Mana potion"
+pick_up_reju_pot = "Rejuvenation potion"
+pick_up_div_pot = "Divine potion"
+pick_up_anti_pot = "Remedy potion"
+pick_up_arrow_f = "Fire Arrows"
+pick_up_arrow_i = "Ice Arrows"
+pick_up_arrow_p = "Poison Arrows"
+pick_up_arrow_e = "Epic Arrows"
+pick_up_scroll_hp = "Health Scroll"
+pick_up_scroll_mana = "Mana Scroll"
+pick_up_golden_key = "Golden Key"
+pick_up_quest_stone = "Shard"
+pick_up_quest_key = "Quest Key"
+pick_up_ingrid = "Ingredient"
+pick_up_star = "Golden Star"
+pick_up_hour= "Hourglass"
+pick_up_stolen = "Stolen Card"
+pick_up_xp = "XP Scroll"
+
+################################### Level/mod notifications #############################
+
+notif_lvl_clear = "LEVEL CLEAR"
+notif_new_gossip = "NEW GOSSIP IN TOWN"
+notif_new_monster = "NEW MONSTER LORE"
+notif_lvl_up = "LEVEL UP!"
+notif_new_rank = "NEW RANK: \1"
+notif_new_cards = "NEW CARDS USABLE!"
+notif_deathrage_used = "DEATHRAGE USED"
+notif_input_mouse_keyboard = "MOUSE AND KEYBOARD MODE"
+notif_input_gamepad = "GAMEPAD MODE"
+
+wnd_btn_close = "Close"
+
+################################# Gameplay notifications/tips ##############################
+
+dung_dispell_hint = "CLICK & HOLD TO DISPEL"
+dung_dispell_pad_hint = "HOLD \sa TO DISPEL"
+
+## floating texts
+dung_miss = "MISS"
+dung_stun = "STUNNED"
+dung_immune = "IMMUNE"
+dung_ice_resisted = "Ice damage resisted"
+dung_freeze_resisted = "Freeze resisted"
+dung_block = "BLOCKED"
+dung_block_shield = "\s2 BLOCKED"
+dung_deflect_shield = "\s2 DEFLECTED"
+dung_stun_block = "STUN BLOCKED"
+dung_potion_no_need = "No need to drink, I'm full"
+dung_no_mana = "No mana!"
+dung_stun_tip = "Catch the stars to recover"
+
+## Boss card locking
+dung_card_disabled = "\1\ncurses the cards!"
+
+################################ Retrieving card deck after death ########################
+
+wnd_restore_hand = "Would you like to restore your hand from before death?"
+wnd_restore_hand_ok = "Yes"
+wnd_restore_hand_no = "No"
+
+##################################### New card window ##########################
+
+new_card_resume = "Continue"
+new_card_resume_equip = "Equip"
+
+############################ Death Screen, oh so frightening! ################################
+
+dung_death_you_dead = "YOU ARE DEAD!\nClick to resurrect in Town"
+dung_death_you_dead_qm = "YOU ARE DEAD!\nClick to continue"
+dung_death_you_dead_daredevil = "YOU ARE DEAD!\nClick to continue"
+dung_death_you_dead_pad = "YOU ARE DEAD!\nPress \s9 to resurrect in Town"
+dung_death_you_dead_qm_pad = "YOU ARE DEAD!\nPress \s9 to continue"
+dung_death_you_dead_daredevil_pad = "YOU ARE DEAD!\nPress \s9 to continue"
+dung_death_you_toll = "Death takes its toll: \^ffffff\1\^^"
+dung_death_you_toll_gold = "Gold: \^ffffff\1\^^ (\^ffffff\2%\^^)"
+dung_death_you_toll_cards = "Gold: \^ffffff\1\^^ (\^ffffff\2%\^^)  Cards:\^ffffff\3\^^"
+dung_death_you_0 = "Normal Difficulty"
+dung_death_you_1 = "Hard Difficulty"
+dung_death_you_2 = "Nightmare Difficulty"
+dung_death_you_3 = "Massacre Difficulty"
+dung_death_info_fmt = "\1, \2\nDied in \3 on depth: \^FFFFFF\4\n\5 killed by \6\^^" ## char_name, char_rank, tileset or quest, depth, adverb, killer
+dung_death_adverb_0 = "Spectacularly"
+dung_death_adverb_1 = "Cruelly"
+dung_death_adverb_2 = "Horrifyingly"
+dung_death_adverb_count = "3"
+dung_death_killer_fire = "Fire"
+dung_death_killer_poison = "Poison"
+dung_death_killer_unknown = "Mystic Force"
+dung_death_share = "\si Share"
+dung_death_time_of_death = "Time of death: \^FFFFFF\4:\5 \3-\2-\1\^^"  ## year, month, day, hour, minute
+
+
+###################################################
+## Loading Screen - tips displayed while loading and other infos
+###################################################
+
+game_tip_000 = "Use fire attacks to shatter frozen hearts and vice versa"
+game_tip_000_pad = "Use fire attacks to shatter frozen hearts and vice versa" ## for controllers
+game_tip_001 = "Use fire against monsters with golden hearts to kill them faster"
+game_tip_002 = "You can cure poison by clicking on the demon orb when it flashes"
+game_tip_002_pad = "You can cure poison by clicking \sa when demon orb flashes"
+game_tip_003 = "You can retreat to town as often as you wish, even in the middle of the dungeon with the Town Portal card"
+game_tip_004 = "You can use item cards directly from the cards pane by holding RMB for a short time"
+game_tip_004_pad = "You can use item cards directly from the cards pane by holding \sd for a short time"
+game_tip_005 = "You can always backtrack your footprints to find the level entrance"
+game_tip_006 = "When hit by a spider web your cards can get tangled and are temporarily unusable"
+game_tip_007 = "After being hit by a charging monster quickly click on the tilted cards to fix them"
+game_tip_007_pad = "After being hit by a charging monster quickly try to use the tilted card to fix it"
+game_tip_008 = "After you take the stairs down, you can re-enter previous level from the back"
+game_tip_009 = "Many cards gain additional effects when upgraded. Inspect them!"
+game_tip_010 = "Upgraded item cards are better and hold more charges but the charges often cost extra"
+game_tip_011 = "If you progress the game and leave stuff behind, don't worry. Sooner or later you will have a chance to find it again"
+game_tip_012 = "You can change most of the key bindings in options"
+game_tip_012_pad = "Mighty Blow card on level 2 breaks shields."
+game_tip_013 = "You can highlight loot in the dungeon (Default key: ALT)"
+game_tip_013_pad = "Poison damage bypasses monster shields"
+game_tip_014 = "You can disable auto attack and force stop your movement (Default key: Shift)"
+game_tip_014_pad = "Bombs are very effective against monsters lurking in groups"
+game_tip_015 = "You can use spell and item cards using keyboard shortcuts shown below the cards"
+game_tip_015_pad = "You can use spell and item cards using button shown below the cards"
+game_tip_016 = "Click and hold monster skill bubbles to break their special attacks"
+game_tip_016_pad = "Hold \sa to dispel skill bubbles and break monsters special attacks"
+game_tip_017 = "When fighting a lot of monsters, get rid of the summoners first, or get overwhelmed!"
+game_tip_018 = "There are many healing cards other than Healing Potion. Choose the ones that suit you best"
+game_tip_019 = "Poison damage cuts through monster shields"
+game_tip_020 = "When you die multiple times, all your items and gold are moved to the tomb of your last death"
+game_tip_021 = "If you enjoy extreme challenge, try the Daredevil mode"
+game_tip_022 = "You can disable hints screen before the dungeon in the options"
+game_tip_023 = "When you open the Cards Pane in dungeon, time slows down so you can use or rearrange cards in the heat of the battle"
+game_tip_024 = "Remember that Remedy card cures and gives immunity to poison, slow, freeze and stun"
+game_tip_025 = "You can pick up gold in dungeon just by hovering over it. You don't need to click on it "
+game_tip_026 = "Icicles create smaller echo shockwaves when hit by an ice shockwave"
+game_tip_027 = "If you enjoy extreme challenge, try the higher difficulty levels in Freeplay mode"
+#game_tip_028 = "Press TAB to show map"
+#game_tip_028_pad = "Press \sz8 to show map"
+
+game_tip_total = "28"
+
+game_tip_dung_ready = "Dungeon generated. Click to continue..."
+game_tip_dung_ready_pad = "Dungeon generated. Press \s9 to continue..."
+
+
+
+############################
+## Character Window, Card Menu, Bottom bar, Level up etc.
+############################
+
+########################################### Character Window ##############################
+
+wnd_stats_title = "Stats"
+wnd_stats_tab_basic = "Basic"
+wnd_stats_tab_expert = "Expert"
+wnd_stats_next_rank_lbl = "Next rank at level:"
+wnd_stats_curr_xp_lbl = "Current XP:"
+wnd_stats_next_level_lbl = "XP for next level:"
+wnd_stats_max_rank_reached = "Max rank reached. Max level: \1."
+wnd_stats_max_rank_reached_max_level = "Max rank reached."
+wnd_stats_max_lvl_reached = "Max level reached"
+wnd_stats_hearts = "Hearts:  \^FFFFFF\1/\2\^^\s0"
+wnd_stats_mana = "Mana:  \^FFFFFF\1/\2\^^\s1"
+wnd_stats_lvlup_lbl = "Level UP +\1"
+wnd_stats_lvlup_ttip = "L-Click to distribute point (points: \1)"
+wnd_stats_lvlup_ttip_pad = "Press to distribute point (points: \1)"
+wnd_stats_lvlup_ttip_nopoints = "You don't have any points to distribute"
+wnd_stats_nolvlup_lbl = "Level UP"
+wnd_stats_cauldron_part_title = "Cauldron contents"
+wnd_stats_cauldron_part_desc = "Visit Barmaid to buy the essence from cauldron and obtain fantastic prizes."
+wnd_stats_cauldron_part_desc_inactive = "Magical cauldron is empty. Visit Barmaid after finding some ingredients."
+wnd_stats_cauldron_part_price = "Cauldron price: \^FFFFFF\1\^^\s0"
+wnd_stats_cauldron_tip_hp = "Hearts in cauldron"
+wnd_stats_cauldron_tip_mana = "Mana in cauldron"
+wnd_stats_cauldron_tip_prizes = "Number of prizes in cauldron"
+
+# expert character stats
+stats_ex_header_character = "CHARACTER"
+stats_ex_level = "Level:"
+stats_ex_level_max = "\^FCDA92Omnipotent\^^"
+stats_ex_xp = "Experience:"
+stats_ex_next_level = "Next Level:"
+stats_ex_hp = "Heart points:"
+stats_ex_mana = "Mana points:"
+stats_ex_deaths = "Deaths:"
+stats_ex_header_cards = "CARDS"
+stats_ex_cards_found_common = "Common cards found:"
+stats_ex_cards_found_magic = "Magical cards found:"
+stats_ex_cards_found_legend = "Legendary cards found:"
+stats_ex_cards_upgr_found = "Upgrade cards found:"
+stats_ex_cards_upgraded = "Number of cards upgraded:"
+stats_ex_cards_unidentified = "Unidentified cards found:"
+stats_ex_cards_identified = "Number of cards identified:"
+stats_ex_cards_spent = "Total gold spent on card items:"
+stats_ex_cards_slots = "Card slots unlocked:"
+stats_ex_cards_corpse = "Cards left in your corpse:"
+stats_ex_header_collectibles = "COLLECTIBLES"
+stats_ex_total_gold_collected = "Total gold collected:"
+stats_ex_gold_spent_cauldr = "Total gold spent on cauldron:"
+stats_ex_gold = "Current gold:"
+stats_ex_golden_keys_found = "Golden keys found:"
+stats_ex_cauldr_prizes_found = "Number of Cauldron prizes found:"
+stats_ex_cauldr_prizes_lost = "Number of Cauldron prizes lost:"
+stats_ex_crap_collected = "Number of crap collected:"
+stats_ex_diarrhoea_chance = "Chance to get diarrhea when drinking from fountain:"
+stats_ex_counterfeit_money = "Counterfeit money found:"
+stats_ex_equip_net_worth = "Equipment net worth:"
+stats_ex_header_explor = "EXPLORATION"
+stats_ex_max_depth = "Maximal depth underground:"
+stats_ex_secrets_found = "Secrets found:"
+stats_ex_towns_visited = "Towns visited:"
+stats_ex_lvls_visited = "Dungeon levels visited:"
+stats_ex_fall_stairs_chance = "Chance to fall while walking stairs:"
+stats_ex_wrong_turns = "Wrong turns in the maze:"
+stats_ex_bosses_encounter = "Bosses encountered in the dungeon:"
+stats_ex_header_reputation = "REPUTATION"
+stats_ex_rep_gypsy = "Fortune Teller:"
+stats_ex_rep_sage = "Sage:"
+stats_ex_rep_healer = "Healer:"
+stats_ex_rep_barmaid = "Barmaid:"
+stats_ex_rep_northern_clan = "Northern Clan:"
+stats_ex_header_adv_skills = "ADVANCED SKILLS"
+stats_ex_skill_lockpick = "Lockpicking skill:"
+stats_ex_skill_haggling = "Haggling:"
+stats_ex_skill_sneak = "Sneaking:"
+stats_ex_header_combat = "COMBAT"
+stats_ex_auto_att_range = "Auto-attack range:"
+stats_ex_auto_att_speed = "Auto-attack speed:"
+stats_ex_att_max_speed = "Maximum attack speed:"
+stats_ex_max_dmg_dlt_1hit = "Maximum damage dealt with single hit:"
+stats_ex_max_dmg_rcv_1hit = "Maximum damage received with single hit:"
+stats_ex_block_against_left_handed_chance = "Block chance against left handed enemies:"
+stats_ex_hearts_crushed_reg = "Regular hearts crushed:"
+stats_ex_hearts_crushed_burn = "Burning hearts crushed:"
+stats_ex_hearts_crushed_frozen = "Frozen hearts crushed:"
+stats_ex_hearts_crushed_stone = "Stone hearts crushed:"
+stats_ex_hearts_crushed_armored = "Golden hearts crushed:"
+stats_ex_hearts_crushed_poison = "Poisoned hearts crushed:"
+stats_ex_dreams_crushed = "Childhood dreams crushed:"
+stats_ex_total_dmg_rcv = "Total damage received:"
+stats_ex_hit_chance_eyes_closed = "Chance to hit with eyes closed:"
+stats_ex_part_weapon_dmg_reduct = "Particle weapon damage reduction:"
+stats_ex_header_monsters = "MONSTERS"
+stats_ex_monst_discovered = "Monsters discovered:"
+stats_ex_monst_fam_discovered = "Monster families discovered:"
+stats_ex_killed_enemies = "Enemies killed:"
+stats_ex_bosses_defeated = "Bosses defeated:"
+stats_ex_killed_skeletons = "Skeletons killed:"
+stats_ex_killed_demons = "Demons killed:"
+stats_ex_killed_goats = "Goats killed:"
+stats_ex_killed_spiders = "Spiders killed:"
+stats_ex_killed_ghosts = "Ghosts killed:"
+stats_ex_killed_zombies = "Zombies killed:"
+stats_ex_killed_gargoyles = "Gargoyles killed:"
+stats_ex_header_esoteric = "ESOTERIC KNOWLEDGE"
+stats_ex_fake_entries = "Number of fake entries on this list"
+
+######################################### Cards window ################################
+wnd_cards_title = "Cards"
+wnd_cards_tab_all = "\s0 All cards - \1/\2"
+wnd_cards_tab_upgrades = "\s4 Upgrades \1"
+
+wnd_cards_tab_all_43 = "\s0 \1/\2"
+
+wnd_cards_tab_upgrades_43 = "Upgrades \1"
+
+wnd_cards_sep_artifacts = "\s0 Artifact cards \1/\2"
+wnd_cards_sep_items = "\s0 Item cards  \1/\2"
+wnd_cards_sep_spells = "\s0 Spell cards  \1/\2"
+wnd_cards_sep_specials = "\s0 Special cards"
+wnd_cards_sep_upgrade = "\s0 Upgrade cards"
+wnd_cards_sep_req_met = "\s0 Requirements met"
+wnd_cards_sep_req_not = "\s0 Cannot upgrade now"
+wnd_cards_sep_max = "\s0 Cards at maximum level"
+
+crd_tab_general_ttip = "View whole deck"
+crd_tab_upgrades_ttip = "View upgrade options"
+
+## Magic variants picker frame
+frm_cardpicker = "Card variants"
+frm_cardpicker_lbl = "Select the card variant you wish to use"
+
+frm_cardpicker_rarity_0 = "\so Common"
+frm_cardpicker_rarity_1 = "\sp \^7AA9FFMagical\^^"
+frm_cardpicker_rarity_2 = "\sq \^BB64F5Legendary\^^"
+
+frm_cardpicker_ttip_sel = "\s9 L-Click to select variant"
+frm_cardpicker_ttip_sel_pad = "Press \s9 to select variant"
+frm_cardpicker_ttip_cur = "Currently selected variant"
+
+msg_variant_change_warn_title = "Warning"
+msg_variant_change_warn_text = "Changing variant will set charges to zero. Remember to restock at Fortune-Teller's.\m1.5For \^FCDA92\1\^^\s1 you will receive \^FCDA92\2\^^\s0. Are you sure?"
+
+## Card downgrade select frame
+frm_card_dwng_title = "Downgrade card"
+frm_card_dwng_desc = "Downgrading card allows you to retrieve runes that you can use later to upgrade a different card."
+frm_card_dwng_chk_equipped = "Show equipped cards"
+frm_card_dwng_btn_downgrade = "Downgrade"
+frm_card_dwng_btn_tip_select = "Select card you wish to downgrade"
+frm_card_dwng_btn_tip_gold = "Not enough gold to downgrade this card"
+frm_card_dwng_btn_tip_confirm = "You will be moved to window where you can downgrade selected card and retrieve runes from it"
+frm_card_dwng_btn_back = "Back"
+frm_card_dwng_btn_ok = "OK"
+frm_card_dwng_sec_all = "Unequipped"
+frm_card_dwng_sec_equipped = "Equipped"
+
+## Card downgrade frame
+frm_card_dwng_req_text = "Are you sure?"
+frm_card_dwng_req_desc = "You will be given \1 random rune cards."
+
+######################################## Level up window ########################
+
+wnd_lu_header = "Increase your maximum Hearts or Mana points"
+wnd_lu_hearts = "Currently: \^FFFFFF\1\^^\s3"
+wnd_lu_mana = "Currently: \^FFFFFF\1\^^\s4"
+wnd_lu_counter = "Points left: \^FFFFFF\1\^^"
+wnd_lu_close_btn = "Distribute later"
+wnd_lu_title = "Level Up"
+wnd_luhp_label = "+1"
+wnd_luma_label = "+1"
+wnd_lu_btn_health_ttip = "Increase health by \^FFFFFF1\^^\s3"
+wnd_lu_btn_mana_ttip = "Increase mana by \^FFFFFF1\^^\s4"
+
+####################################### Missiles #################################
+
+missile_ttip_more = "Check related card for more informations."
+missile_ttip_count = "Available: \^FFFFFF\1 / \2\^^"
+missile_ttip_usage_hint = "Attack using \s: R-Click"
+missile_ttip_usage_hint_pad = "Attack using \sk"
+missile_ttip_select_hint = "\s9 L-Click to select"
+missile_ttip_select_hint_pad = "Press \s` to cycle type"
+
+####################################### Bottom bar ###############################
+## Death Rage
+lbar_death_rage_plain = "Death Rage: \^D8D8D8Inactive\^^"
+lbar_death_rage_locked = "Skill unlocks at level 10"
+lbar_death_rage = "Death Rage: \^00FF00Ready\^^"
+lbar_death_rage_spent = "Death Rage: \^D8D8D8Used\^^"
+lbar_dr_0 = "\sEReckless Fling Level \1/3"
+lbar_dr_2 = "\sGArcane Wisdom Level \1/3"
+lbar_dr_1 = "\sFDeadly Gambit Level \1/3"
+lbar_dr_whatis = "A passive skill that triggers when you are about to die. It heals you and grants short time immunity. Death Rage recharges every time you level up."
+lbar_dr_whatis_cap = "A passive skill that triggers when you are about to die. It heals you and grants short time immunity. Visit healer to recharge."
+lbar_dr_0_class = "Knocks nearby enemies back giving you time to retreat"
+lbar_dr_2_class = "Transforms you into orbs of electricity that hurl around damaging enemies"
+lbar_dr_1_class = "Stuns nearby monsters giving you extra time to asses situation"
+
+## Bonus XP
+lbar_xp_icon_on = "You are receiving double experience.\n Bonus XP left: \^FFFFFF\1\^^"
+lbar_xp_icon_off = "You are not receiving bonus experience currently."
+lbar_xp_icon_off_cap = "You are not receiving bonus experience currently. Level cap reached."
+
+## XP bar
+lbar_xp_bar_ = "This bar shows your progress to the next level."
+lbar_xp_bar_stats = "Experience Points: \^FFFFFF\1\^^ to go.\nCurrent level: \^FFFFFF\2\^^."
+lbar_xp_bonus = "Receiving bonus XP"
+lbar_xp_bar_cap = "Maximum level reached, XP no longer collected"
+
+## Health globe
+lbar_health_ball = "Health"
+lbar_health_desc = "This orb contains your hearts \s3. Once you lose all hearts you die, so pay attention!"
+lbar_health_desc_poison = "\^FF4832You are poisoned!\^^ When this skull is visible \s9 L-Click the orb to shorten poisoning time."
+lbar_health_desc_poison_pad = "\^FF4832You are poisoned!\^^ When this skull is visible press \sa to shorten poisoning time."
+
+## Mana globe
+lbar_mana_ball = "Mana"
+lbar_mana_desc = "This orb contains your blue\sI and green mana\sJ."
+
+lbar_blue_title = "\s4Blue Mana"
+lbar_blue_mana_desc = "Casting spells costs blue mana. There are many ways to replenish it (fountains, potions, artifacts cards etc.)."
+lbar_green_title = "\s5Green Mana"
+lbar_green_mana_desc = "Equipping artifact cards \sH converts blue mana\sI to green mana\sJ.\m1.2Green mana can't be used for casting but it will change \sJ \sO \sI once you unequip the artifact cards."
+
+direction_stairs_ttip= "This way to the exit"
+direction_stairs_no_clean_ttip = "Level not clear"
+direction_stairs_clean_ttip = "\^00FF00Level clear\^^, use \s9 to exit now"
+
+lbar_char_but = "Show character stats pane"
+lbar_char_but2 = "Keyboard shortcut: \^ffcc00\1\^^"
+lbar_char_but2_pad = "Press \sz: to open"
+
+lbar_cards_but = "Show character cards pane"
+lbar_cards_but2 = "Keyboard shortcut: \^ffcc00\1\^^"
+lbar_cards_but2_pad = "Press \sz; to open"
+
+## Counters
+gold_count_ttip = "Character's gold"
+star_count_ttip = "Character's collected stars (this feature is currently disabled)"
+key_count_ttip = "Character's golden keys"
+
+#Level up button
+lvl_up_btn_ttip = "Unspent character points: \^FFFFFF\1\^^"
+
+
+#########################
+## Achievements 
+#########################
+
+achiev_unlocked = "Achievement Unlocked!"
+
+
+###############################
+# DUNGEON TEXTS
+###############################
+
+############################################# Character dialogues/barks ##################################
+## Warrior
+war_sanctity = "I can see that the sanctity of this place has been fouled!"
+war_0_first = "I am the sword that splits darkness."
+war_1_first = "The stench of decay is getting stronger. I must be getting close."
+war_2_first = "This is an evil place. It reeks of ill will and spite."
+war_full = "I'm full..."
+war_q0_intro = "Abomination is scared, but mere doors won't protect it. I must find the key!"
+war_q0_find_key = "I must find the key."
+war_q0_engage = "Meet your doom!"
+war_q1_intro = "Treachery, not unexpected."
+war_q1_engage = "Go to hell!"
+war_q2_intro = "I like that."
+war_q2_engage = "I will pour my wrath upon you!"
+
+## Mage
+mage_sanctity = "Well, the sanctity of this place has been fouled!"
+mage_0_first = "The dead seem to be particularly lively today."
+mage_1_first = "The subtle stench of rotting bodies... Ah, this takes me back to my university years."
+mage_2_first = "Interesting... Rock floating in magma. This can't be stable. Better be quick."
+mage_full = "I'm full..."
+mage_q0_intro = "The smell leaves something to be desired, to say the least."
+mage_q0_find_key = "How anticlimactic. I better find the key now."
+mage_q0_engage = "Now you will cease to exist."
+mage_q1_intro = "Poor choice of your last practical joke ever. I'm not laughing..."
+mage_q1_engage = "Just perish!"
+mage_q2_intro = "Ha! This is it."
+mage_q2_engage = "Go to hell!"
+
+## Rogue
+rogue_sanctity = "The sanctity of this place has been fouled, that's for sure."
+rogue_0_first = "I wonder if taking a bow into the dungeon was a smart choice."
+rogue_1_first = "I get the feeling things are about to get... interesting."
+rogue_2_first = "So my ex was right after all. I went to hell..."
+rogue_full = "I'm full..."
+rogue_q0_intro = "I have a special arrow for whatever waits on the other side."
+rogue_q0_find_key = "Closed. But finding keys is what we thieve do for a living."
+rogue_q0_engage = "Hey, good lookin', whatcha cookin'?"
+rogue_q1_intro = "Stealing from a thief?! You will regret that."
+rogue_q1_engage = "Say your last prayer, Bishop."
+rogue_q2_intro = "Finally I get to meet the fellow responsible for this mess."
+rogue_q2_engage = "Too bad no one's here to see me kick your demon butt!"
+
+## Barks/dialogues initialized when approaching statues and portals leading to bosses ##
+
+war_0_erectus = "Huh... this is new. I wonder where it leads."
+war_1_erectus = "This must be the hole where the treacherous bishop hides."
+war_2_erectus = "Finally, this hell is almost over... literally!"
+
+war_0_erectus_op = "Foul magic! This must be some kind of portal to the lair of whatever rules this dungeon!"
+war_1_erectus_op = "Prepare yourself fallen priest. Your penance begins now."
+war_2_erectus_op = "So this is it. The final battle. Prepare yourself demon, I'm coming for you." ## Warrior
+
+mage_0_erectus = "Curious. I smell garlic... and roast meat..."
+mage_1_erectus = "Judging by the last time I saw a chasm like that, this one should lead to the Antipope's sanctuary."
+mage_2_erectus = "I need to go deeper than hell to battle the Dark One."
+
+mage_0_erectus_op = "It's logical to assume this portal leads to the Cook's lair. I'd better prepare myself."
+mage_1_erectus_op = "Looks like it's time to pay the Antipope a home visit. I'd better make myself ready."
+mage_2_erectus_op = "So this is it. The ultimate evil! It better be ready, because I am."
+
+rogue_0_erectus = "Looks disturbingly deep."
+rogue_1_erectus = "This must lead to the Antipope's hideout. I must find the tome."
+rogue_2_erectus = "They really should put a fence around this chasm. The last thing you wanna do is fall into the Archdemon's lair."
+
+rogue_0_erectus_op = "A portal. Probably leading to the murderous demon cook. I'd better get ready."
+rogue_1_erectus_op = "The main entrance to Antipope's lair I presume."
+rogue_2_erectus_op = "I'm coming, Archdemon, and I have an arrow with your name on it!"
+
+################################### Narrator (Erectuses) ##########################
+
+## Subtitles to statues (erectus)
+
+## Cook, Hell'o'Kitchen - Narrator
+erectus_0_0 = "Boiling marrow, brewing blood,"
+erectus_0_1 = "Take a peek and you'll go mad,"
+erectus_0_2 = "Through the hellish kitchen's door"
+erectus_0_3 = "For the Master still craves more."
+erectus_0_4 = "Underground where shines no sun."
+erectus_0_5 = "This cook's work is never done."
+erectus_0_6 = "Among screams he toils with haste,"
+erectus_0_7 = "Creature of most subtle taste."
+erectus_0_8 = "Cuts and chops both bone and gut,"
+erectus_0_9 = "Be it sinew, be it fat,"
+erectus_0_10 = "Not an ounce of flesh he'll shun,"
+erectus_0_11 = "This cook's work is never done!"
+
+## timings - DO NOT TOUCH unless everything was blown up
+erectus_0_0_in = "0"
+erectus_0_0_out = "3.37"
+
+erectus_0_1_in = "3.37"
+erectus_0_1_out = "6.46"
+
+erectus_0_2_in = "6.46"
+erectus_0_2_out = "9"
+
+erectus_0_3_in = "9"
+erectus_0_3_out = "12.2"
+
+erectus_0_4_in = "12.2"
+erectus_0_4_out = "15.6"
+
+erectus_0_5_in = "15.6"
+erectus_0_5_out = "18.6"
+
+erectus_0_6_in = "18.6"
+erectus_0_6_out = "22.3"
+
+erectus_0_7_in = "22.3"
+erectus_0_7_out = "25.9"
+
+erectus_0_8_in = "25.9"
+erectus_0_8_out = "29.4"
+
+erectus_0_9_in = "29.4"
+erectus_0_9_out = "32.6"
+
+erectus_0_10_in = "32.6"
+erectus_0_10_out = "35.8"
+
+erectus_0_11_in = "35.8"
+erectus_0_11_out = "39.7"
+
+## Antipope
+erectus_1_0 = "Heaven's radiance has turned bleak"
+erectus_1_1 = "For the one whose heart was weak"
+erectus_1_2 = "Robes of white, now dark with stain,"
+erectus_1_3 = "Countless prayers - all in vain!"
+erectus_1_4 = "Because he let the fear take root,"
+erectus_1_5 = "Dark designs are now afoot."
+erectus_1_6 = "Seals lie broken by his words,"
+erectus_1_7 = "Enter the unholy hordes."
+erectus_1_8 = "Darkness falls, blood shall be spilt"
+erectus_1_9 = "But another carries guilt."
+
+## timings - DO NOT TOUCH unless everything was blown up
+erectus_1_0_in = "0"
+erectus_1_0_out = "3.3"
+
+erectus_1_1_in = "3.3"
+erectus_1_1_out = "6.4"
+
+erectus_1_2_in = "6.4"
+erectus_1_2_out = "9.5"
+
+erectus_1_3_in = "9.5"
+erectus_1_3_out = "13.7"
+
+erectus_1_4_in = "13.7"
+erectus_1_4_out = "17.3"
+
+erectus_1_5_in = "17.3"
+erectus_1_5_out = "20.9"
+
+erectus_1_6_in = "20.9"
+erectus_1_6_out = "23.8"
+
+erectus_1_7_in = "23.8"
+erectus_1_7_out = "26.7"
+
+erectus_1_8_in = "26.7"
+erectus_1_8_out = "30.5"
+
+erectus_1_9_in = "30.5"
+erectus_1_9_out = "33.5"
+
+## Archdemon
+erectus_2_0 = "There's a night no light can pierce,"
+erectus_2_1 = "There's a hunger, old and fierce,"
+erectus_2_2 = "No man shall survive the dread,"
+erectus_2_3 = "Of His gaze that's fiery red."
+erectus_2_4 = "Those who tried to reach His lair,"
+erectus_2_5 = "Passed through deepest caverns where,"
+erectus_2_6 = "Yelled the demon voices shrill,"
+erectus_2_7 = "Down the pit that's deeper still."
+erectus_2_8 = "As they entered, so they fell,"
+erectus_2_9 = "On their souls he feasted well."
+erectus_2_10 = "There's no way to stop His blight,"
+erectus_2_11 = "And darkness shall consume all light."
+
+## timings - DO NOT TOUCH
+erectus_2_0_in = "0"
+erectus_2_0_out = "3.2"
+
+erectus_2_1_in = "3.2"
+erectus_2_1_out = "6.5"
+
+erectus_2_2_in = "6.5"
+erectus_2_2_out = "9.4"
+
+erectus_2_3_in = "9.4"
+erectus_2_3_out = "12.8"
+
+erectus_2_4_in = "12.8"
+erectus_2_4_out = "15.6"
+
+erectus_2_5_in = "15.6"
+erectus_2_5_out = "18.6"
+
+erectus_2_6_in = "18.6"
+erectus_2_6_out = "21.4"
+
+erectus_2_7_in = "21.4"
+erectus_2_7_out = "24.9"
+
+erectus_2_8_in = "24.9"
+erectus_2_8_out = "28.0"
+
+erectus_2_9_in = "28.0"
+erectus_2_9_out = "31.3"
+
+erectus_2_10_in = "31.3"
+erectus_2_10_out = "34.1"
+
+erectus_2_11_in = "34.1"
+erectus_2_11_out = "39.0"
+
+
+## cook cutscene initial subs
+cook_0_0 = "Ahhh... Just have to butcher you, and voila! Adventurer Du Jour. Master will appreciate!"
+cook_0_0_in = "0"
+cook_0_0_out = "11"
+
+## cook introduction subs
+intro_cook_0 = "Dinner Time!"
+intro_cook_0_in = "0"
+intro_cook_0_out = "2.0"
+
+## cook death speech
+goodbye_cook_0 = "Noooooooo"
+goodbye_cook_1 = "I left the stove on!"
+goodbye_cook_0_in = "0.6"
+goodbye_cook_0_out = "2.1"
+goodbye_cook_1_in = "2.1"
+goodbye_cook_1_out = "4"
+
+## cook taunts when changing states
+taunt_cook_0 = "HA HA HA HA HA..."
+taunt_cook_1 = "M-HM-HM-HM-HM-HM"
+taunt_cook_2 = "HA HA HA HA!"
+
+
+## antipope introduction subs
+intro_antipope_0 = "Time to join my dark flock adventurer!"
+intro_antipope_0_in = "0"
+intro_antipope_0_out = "3"
+intro_antipope_1 = "On your knees!"
+intro_antipope_1_in = "3"
+intro_antipope_1_out = "5"
+
+## antipope introduction subs2
+intro_antipope2_0 = "Reject false idols, all you need is faith!"
+intro_antipope2_0_in = "0"
+intro_antipope2_0_out = "3.8"
+intro_antipope2_1 = "Faith in the Archdemon! Muahahah!"
+intro_antipope2_1_in = "3.8"
+intro_antipope2_1_out = "7.5"
+
+## antipope taunt normal
+taunt_antipope_normal_0 = "Too weak to face me without your puny cards?"
+taunt_antipope_normal_0_in = "0"
+taunt_antipope_normal_0_out = "3.5"
+taunt_antipope_normal_1 = "Very well, it will be more educational when the will of Archdemon BREAKS YOU!"
+taunt_antipope_normal_1_in = "3.5"
+taunt_antipope_normal_1_out = "10.0"
+taunt_antipope_normal_2 = "To me, faithful!"
+taunt_antipope_normal_2_in = "10.3"
+taunt_antipope_normal_2_out = "12.3"
+
+## antipope taunt freeze
+taunt_antipope_freeze_0 = "Did you know hell can actually freeze over?"
+
+## antipope taunt fire
+taunt_antipope_fire_0 = "Let me rekindle your faith!"
+
+## antipope taunt poison
+taunt_antipope_poison_0 = "The scriptures are poisoning your mind! Let me demonstrate! Muahaha!"
+
+## antipope death speech
+goodbye_antipope_0 = "I'm telling on you, Master will avenge me!"
+goodbye_antipope_0_in = "0"
+goodbye_antipope_0_out = "3.7"
+
+
+## Angel
+intro_angel_0 = "You ventured deeper than anyone before."
+intro_angel_1 = "All hope lies in you."
+intro_angel_2 = "Find the Archdemon's lair and slay him!"
+intro_angel_0_in = "1.0"
+intro_angel_0_out = "3"
+intro_angel_1_in = "3"
+intro_angel_1_out = "6"
+intro_angel_2_in = "6"
+intro_angel_2_out = "9"
+
+angel_gate_0 = "The gate behind me leads to the Arch-Evil's Lair."
+angel_gate_1 = "Sealed with two foul seals"
+angel_gate_2 = "it bars me from entering"
+angel_gate_3 = "but you can break them with the nether stone."
+angel_gate_4 = "It was split in two and hidden in this dungeon."
+angel_gate_5 = "Find the shards!"
+
+angel_gate_0_in = "1.0"
+angel_gate_0_out = "4"
+angel_gate_1_in = "4"
+angel_gate_1_out = "6.3"
+angel_gate_2_in = "6.3"
+angel_gate_2_out = "8.5"
+angel_gate_3_in = "8.5"
+angel_gate_3_out = "11.5"
+angel_gate_4_in = "11.5"
+angel_gate_4_out = "15.3"
+angel_gate_5_in = "15.3"
+angel_gate_5_out = "16.8"
+
+angel_3_0 = "You are halfway there."
+angel_3_1 = "One more shard and the passage will unlock."
+angel_3_0_in = "1.0"
+angel_3_0_out = "3"
+angel_3_1_in = "3"
+angel_3_1_out = "6"
+
+angel_4_0 = "The seals are broken,"
+angel_4_1 = "and the gate is now open."
+angel_4_2 = "You must walk alone and bear the fate "
+angel_4_3 = "of all worlds on your shoulders."
+angel_4_4 = "Fight valiantly, and fail them not!"
+angel_4_0_in = "1.0"
+angel_4_0_out = "3"
+angel_4_1_in = "3"
+angel_4_1_out = "5"
+angel_4_2_in = "5"
+angel_4_2_out = "7.5"
+angel_4_3_in = "7.5"
+angel_4_3_out = "9"
+angel_4_4_in = "9"
+angel_4_4_out = "13"
+
+
+## archdemon introduction subs
+intro_archdemon_0 = "You think you can defeat me?"
+intro_archdemon_1 = "Ha ha ha ha ha!"
+intro_archdemon_2 = "I would be offended if it wasn't so pathetic."
+intro_archdemon_3 = "Puny mortal... Your soul shall be mine to devour!"
+
+intro_archdemon_0_in = "0"
+intro_archdemon_0_out = "5"
+
+intro_archdemon_1_in = "5"
+intro_archdemon_1_out = "8"
+
+intro_archdemon_2_in = "8"
+intro_archdemon_2_out = "12.5"
+
+intro_archdemon_3_in = "13.7"
+intro_archdemon_3_out = "20.3"
+
+# archdemon death speech
+goodbye_archdemon_0 = "What?! Nooo! This cannot be..."
+goodbye_archdemon_0_in = "0.7"
+goodbye_archdemon_0_out = "5"
+goodbye_archdemon_1 = "aaaaaaAAAAAAARRGH!"
+goodbye_archdemon_1_in = "5"
+goodbye_archdemon_1_out = "8"
+goodbye_archdemon_2 = "GRRARARARAAAARHRGH!"
+goodbye_archdemon_2_in = "9"
+goodbye_archdemon_2_out = "13.5"
+goodbye_archdemon_3 = "WAARWRARAAAAAAARGH!"
+goodbye_archdemon_3_in = "14.5"
+goodbye_archdemon_3_out = "18.5"
+goodbye_archdemon_4 = "AAAAAAARRGHGHGH!"
+goodbye_archdemon_4_in = "19.0"
+goodbye_archdemon_4_out = "30"
+
+# archdemon taunts
+taunt_archdemon_0 = "But wait, there's more!"
+taunt_archdemon_1 = "Ha ha ha ha ha ha ha ha ha!"
+taunt_archdemon_2 = "Surrender! All the good musicians are already here!"
+taunt_archdemon_3 = "I have a circle in hell reserved just for you!"
+taunt_archdemon_4 = "One roasted wannabe hero, coming right up!"
+taunt_archdemon_5 = "Don't die just yet - you have to see THIS!"
+taunt_archdemon_6 = "Let's consider who is really evil here.\nDid I break into your home to destroy you?"
+taunt_archdemon_7 = "Did it hurt? I have more for your other cheek!"
+
+# Ending song
+song_0 = "Our bishop was crazy, proclaimed himself pope"
+song_1 = "Made friends with the demons, guess he was on dope"
+song_2 = "He offered his soul to the depths of the hell"
+song_3 = "And now you can tell - things ain't very swell"
+song_4 = "Sha la la la lie - die, demons, die!"
+song_5 = "Sha la la la lie - why won't you die, tonight?"
+song_6 = "Dark tides have befallen the lands of the men"
+song_7 = "Our heroes are slaughtered time and again"
+song_8 = "The Archdemon's army stands now awaken"
+song_9 = "But our paper world is not yet forsaken!"
+song_10	= "Sha la la la lie - die, demons, die!"
+song_11	= "Sha la la la lie - why won't you die, tonight?"
+song_12	= "Behold! Someone brave has answered my prayer"
+song_13	= "Why, it's you! Our kind and most handsome player"
+song_14	= "Hope and delight can return to our hearts"
+song_15	= "Please kill the demons, but save their private parts!"
+song_16	= "Hmm.. For potions! Of course."
+song_17	= "Sha la la la lie - die, demons, die!"
+song_18	= "Sha la la la lie - you better hide tonight."
+song_19	= "The Archdemon screams and trashes in rage"
+song_20	= "Sinister schemes go down in bright flames"
+song_21	= "The traveler slashes, chops, dices and cuts,"
+song_22	= "He will kill the demons, and swim in their guts!"
+song_23	= "Sha la la la lie - die, demons, die!"
+song_24	= "Sha la la la lie - now you will die, tonight!"
+song_25	= "Sha la la la lie - I'll wash my robes tonight!"
+
+
+## Game outro - warrior
+bod_outro_subs_0 = "The Archdemon lies mortally wounded."
+bod_outro_subs_1 = "The evil is once again defeated."
+bod_outro_subs_2 = "Or is it?"
+
+bod_outro_subs_0_in = "2.5"
+bod_outro_subs_0_out = "5.3"
+bod_outro_subs_1_in = "6.4"
+bod_outro_subs_1_out = "8.5"
+bod_outro_subs_2_in = "10.3"
+bod_outro_subs_2_out = "11.5"
+
+
+##############################
+## Tutorials and Tooltips 
+##############################
+
+## BOD_TUTORIAL_TAG_TARGET
+bod_tut_titl_0 = "\^b4ed07TARGETABLE\^^"
+bod_tut_body_0 = "Can be used only if you are targeting enemy unit"
+bod_tut_body_0_pad = "Can be used only if you are targeting enemy unit"
+
+## BOD_TUTORIAL_TAG_ITEM
+bod_tut_titl_1 = "\^ed0741ITEM\^^"
+bod_tut_body_1 = "Item cards consume charges when used. You can charge them at Fortune Teller's or find charges in the dungeon."
+bod_tut_body_1_pad = "Item cards consume charges when used. You can charge them at Fortune Teller's or find charges in the dungeon.\nPress \^ffff00X\^^ to use selected card.\nUse \^ffff00dpad side arrows\^^ to change selected card."
+
+## BOD_TUTORIAL_TAG_ARTEFACT
+bod_tut_titl_2 = "\^7ea30dARTIFACT\^^"
+bod_tut_body_2 = "Artifact cards possess powerful passive effects but lock some of your mana when equipped. "
+bod_tut_body_2_pad = "Artifact cards posses powerful passive effects but lock some of your mana when equipped. "
+
+## BOD_TUTORIAL_TAG_SPELL
+bod_tut_titl_3 = "\^1489c4SPELL\^^"
+bod_tut_body_3 = "Spell cards consume mana when used. "
+bod_tut_body_3_pad = "Spell cards consume mana when used.\nPress \^ffff00X\^^ to use selected card.\nUse \^ffff00dpad side arrows\^^ to change selected card."
+
+## BOD_TUTORIAL_TAG_CD
+bod_tut_titl_4 = "\^db7d1aEFFECT ON COOLDOWN\^^"
+bod_tut_body_4 = "This card has effect that is active when card is on cooldown."
+bod_tut_body_4_pad = "This card has effect that is active when card is on cooldown."
+
+## BOD_TUTORIAL_TAG_RARE
+bod_tut_titl_5 = "\^7AA9FFMAGICAL\^^"
+bod_tut_body_5 = "This card is rare, better put it in your sleeve!"
+bod_tut_body_5_pad = "This card is rare, better put it in your sleeve!"
+
+## BOD_TUTORIAL_TAG_LEGEND
+bod_tut_titl_6 = "\^BB64F5LEGENDARY\^^"
+bod_tut_body_6 = "Stuff of legends, you will have something to hang over the mantel!"
+bod_tut_body_6_pad = "Stuff of legends, you will have something to hang over the mantel!"
+
+## BOD_TUTORIAL_TAG_LVL_1
+bod_tut_titl_7 = "\^ff9999HEARTS\^^"
+bod_tut_body_7 = "Invest Level-Up points into hearts \s3 to make your character withstand more damage"
+bod_tut_body_7_pad = "Invest Level-Up points into hearts \s3 to make your character withstand more damage"
+
+## BOD_TUTORIAL_TAG_LVL_2
+bod_tut_titl_8 = "\^66ccffMANA\^^"
+bod_tut_body_8 = "Invest Level-Up points into mana \s4 to equip more artifact cards and use more spell cards."
+bod_tut_body_8_pad = "Invest Level-Up points into mana \s4 to equip more artifact cards and use more spell cards."
+
+## BOD_TUTORIAL_TAG_LVL_3
+bod_tut_titl_9 = "\^ff99ffCAULDRON\^^"
+bod_tut_body_9 = "After you make the choice, the point of the opposite type goes into the cauldron."
+bod_tut_body_9_pad = "After you make the choice, the point of the opposite type goes into the cauldron."
+
+##BOD_TUTORIAL_END_OF_TAGS_RES
+# number 10 is reserved!
+# number 11 is reserved!
+# number 12 is reserved!
+# and so on until 100
+
+#BOD TUTORIALS VERSION 2.0
+bod_tutv2_100_titl= "Movement"
+bod_tutv2_100_c0 = "\^ffff00Click anywhere\^^ to \^ffff00move\^^"
+bod_tutv2_100_c1 = "\^ffff00Click behind\^^ or on your character to \^ffff00stop\^^"
+bod_tutv2_100_c2 = "Your character will \^ffff00stop at intersections\^^"
+
+bod_tutv2_100_c0_pad = "Use \sz5 to \^ffff00move\^^" # left stick
+bod_tutv2_100_c1_pad = "Use \sz6 to \^ffff00select objects\^^"  # right stick
+bod_tutv2_100_c2_pad = "You can \^ffff00interact\^^ with objects in your \^ffff00light radius using \sv\^^" #Y
+
+bod_tutv2_101_titl= "Interaction"
+bod_tutv2_101_c0 = "You can \^ffff00interact\^^ with objects in your \^ffff00light radius\^^"
+bod_tutv2_101_c0_pad = "To \^ffff00interact\^^ with important objects \^ffff00hold \sv\^^"
+
+bod_tutv2_102_titl= "Attacking"
+bod_tutv2_102_c0 = "\^ffff00Click\^^ to choose a target your character \^ffff00auto-attacks\^^"
+bod_tutv2_102_c1 = "Auto attack is slow. Each hit damages 1 heart. \^ffff00Click\^^ or \^ffff00click-and-hold\^^ on target to \^ffff00attack faster\^^"
+bod_tutv2_102_c2 = "When engaged with monsters, \^ffff00click-and-hold to retreat\^^"
+
+bod_tutv2_102_c0_pad = "\^ffff00Use \sz6\^^ to choose a target your character \^ffff00auto-attacks\^^"
+bod_tutv2_102_c1_pad = "Auto attack is slow. Each hit damages 1 heart. \^ffff00Click or hold \ss\^^ on to \^ffff00attack faster\^^"
+bod_tutv2_102_c2_pad = "When engaged with monsters, \^ffff00use \sz5 to retreat\^^"
+
+bod_tutv2_103_titl= "Points of Interest"
+bod_tutv2_103_c0 = "Icons on the top represent \^ffff00Points of Interest\^^ on this level"
+bod_tutv2_103_c1 = "The icon is \^ffff00revealed\^^ when you're getting \^ffff00near\^^"
+
+bod_tutv2_104_titl= "Heart Points"
+bod_tutv2_104_c0 = "Heart points are your life. If you \^ffff00lose\^^ them all, you will \^ffff00die\^^"
+bod_tutv2_104_c1 = "Your heart points \^ffff00don't auto-regenerate\^^. Use \^ffff00fountains\^^ and \^ffff00cards\^^ to recover health"
+bod_tutv2_104_c2 = "You can always go back to the Town and be healed by the \^ffff00Healer\^^. For free!"
+
+bod_tutv2_105_titl= "Exploration"
+bod_tutv2_105_c0 = "Notice the \^ffff00footprints\^^ you leave behind. They show the direction you came from and mark the places you've \^ffff00visited\^^"
+bod_tutv2_105_c1 = "\^ffff00Golden footprints\^^ mean a corridor has been \^ffff00fully visited\^^. \^ffff00Normal footprints\^^  -  \^ffff00partially visited\^^. No footprints - you haven't been there yet"
+
+bod_tutv2_106_titl= "Cards"
+bod_tutv2_106_c0 = "\^ffff00View your cards\^^ by pressing \^ffff00\"I\"\^^ or using the \^ffff00button\^^ in the bottom right corner."
+bod_tutv2_106_c1 = "\^ffff00Rearrange cards\^^ between your card pane and slots by \^ffff00clicking or dragging\^^ them. Only \^ffff00equipped cards\^^ are \^ffff00active\^^"
+bod_tutv2_106_c2 = "Use cards in slots with \^ffff00R-Click\^^ or \^ffff000 - 9 keys\^^.\nTo \^ffff00unlock\^^ more card slots visit \^ffff00Sage\^^ in the Town"
+
+bod_tutv2_106_c0_pad = "\^ffff00View your cards\^^ by \^ffff00pressing \sy\^^ You can scroll that window using \sz5"
+bod_tutv2_106_c1_pad = "\^ffff00Rearrange cards\^^ between your card pane and slots by \^ffff00clicking or holding \ss and dragging \sz6\^^ them. Only \^ffff00equipped cards\^^ are \^ffff00active\^^"
+bod_tutv2_106_c2_pad = "Use \sz1 & \sz2 to change active card slot.\nPress \su to use a card.\nTo \^ffff00unlock\^^ more card slots visit \^ffff00Sage\^^ in the Town"
+
+bod_tutv2_107_titl= "Boss Fights"
+bod_tutv2_107_c0 = "Bosses are tough to defeat. Each one has \^ffff00multiple stages\^^"
+bod_tutv2_107_c1 = "The more stages a boss has, the more rewards he drops when slain. All boss' stages are shown on the \^ffff00Boss Bar\^^"
+bod_tutv2_107_c2 = "Before each stage, the boss is \^ffff00immune\^^ - he is preparing a special attack and cannot be stopped"
+
+bod_tutv2_108_titl= "Poison"
+bod_tutv2_108_c0 = "Poison damages you over time. Total number of poison damage is shown \^ffff00below the heart orb\^^"
+bod_tutv2_108_c1 = "When the \^ffff00demon glows\^^, quickly \^ffff00click\^^ the orb to \^ffff00shorten\^^ the poison duration"
+bod_tutv2_108_c1_pad = "When the \^ffff00demon glows\^^, quickly \^ffff00click \st\^^ to \^ffff00shorten\^^ the poison duration"
+
+bod_tutv2_109_titl= "Level Up"
+bod_tutv2_109_c0 = "\^ffff00Kill\^^ monsters and gain \^ffff00experience points\^^ to level up"
+bod_tutv2_109_c1 = "Each time you \^ffff00level up\^^, all monsters \^ffff00lose one heart\^^"
+bod_tutv2_109_c2 = "Every level gives you \^ffff00one point\^^ which can be added to your \^ffff00hearts or boost your mana\^^"
+bod_tutv2_109_c2_pad = "Every level gives you \^ffff00one point\^^ which can be added to your \^ffff00hearts or boost your mana\^^. You can do that from character pane \sz9"
+
+bod_tutv2_110_titl= "Casting Monsters"
+bod_tutv2_110_c0 = "Some monsters \^ffff00cast\^^ skills"
+bod_tutv2_110_c1 = "During casting monsters are \^ffff00immune\^^ to damage"
+bod_tutv2_110_c2 = "\^ffff00Click-and-hold\^^ a skill bubble to \^ffff00break\^^ the skill of selected monster"
+bod_tutv2_110_c2_pad = "\^ffff00Hold\^^ \st to \^ffff00break\^^ the skill of selected monster"
+
+bod_tutv2_111_titl= "Shielded Monsters"
+bod_tutv2_111_c0 = "Some armoured monsters are \^ffff00protected\^^ by shields"
+bod_tutv2_111_c1 = "Damage the shield by \^FF4832clicking the shield icon\^^. Monsters are \^ffff00immune\^^ until their shields are destroyed"
+bod_tutv2_111_c2 = "Some shields are \^ffff00magical\^^ and can \^ffff00reappear\^^ after being destroyed"
+bod_tutv2_111_c1_pad = "Damage the shield by \^FF4832tapping\^^ \st. Monsters are \^ffff00immune\^^ until their shields are destroyed"
+#bod_tutv2_111_extra = "\^FF4832Be sure to aim at the shield icon, it's the weak spot!\^^"
+
+bod_tutv2_112_titl= "Linked Monsters"
+bod_tutv2_112_c0 = "Some monsters are \^ffff00guarded\^^ by others. They are \^ffff00immune\^^ until you kill all the guards"
+bod_tutv2_112_c1 = "Some \^ffff00rewards\^^ can also be guarded by monsters. You need to kill all of the guards to get the \^ffff00treasure\^^"
+
+bod_tutv2_113_titl= "Death Rage"
+bod_tutv2_113_c0 = "Death Rage is triggered when you are \^ffff00about to die\^^"
+bod_tutv2_113_c1 = "Death rage \^ffff00recharges\^^ when you level up"
+
+bod_tutv2_114_titl= "Cauldron Ingredients"
+bod_tutv2_114_c0 = "\^ffff00Ingredients\^^ found in the dungeon are placed in the cauldron and transformed into \^ffff00prizes\^^"
+bod_tutv2_114_c1 = "To \^ffff00collect\^^ the contents of the cauldron,  talk to the \^ffff00Barmaid\^^"
+bod_tutv2_114_c2 = "Beware! When you die, you \^ffff00lose the prizes stored in the cauldron\^^!\n(Mana and heart points are preserved)"
+
+bod_tutv2_115_titl= "Cauldron Level-Up Points"
+bod_tutv2_115_c0 = "Every time you turn a \^ffff00level-up point\^^ into heart or mana, the point of the \^ffff00opposite type\^^ goes into the \^ffff00cauldron\^^"
+bod_tutv2_115_c1 = "To \^ffff00collect\^^ the contents of the cauldron,  talk to the \^ffff00Barmaid\^^"
+bod_tutv2_115_c2 = "Even though you lose the prizes, \^ffff00dying doesn't destroy level-up points\^^ in the cauldron"
+
+bod_tutv2_116_titl= "Rogue Mechanics"
+bod_tutv2_116_c0 = "Unlike warrior's attack, \^ffff00arrows\^^ you shoot get \^ffff00blocked\^^ by obstacles and monsters."
+bod_tutv2_116_c1 = "You can shoot \^ffff00outside\^^ your interaction radius with \^ffff00Shift\^^ key pressed.  \^ffff00R-Click\^^ shoots \^ffff00special arrows\^^ in the same manner."
+bod_tutv2_116_c1_pad = "You can shoot \^ffff00outside\^^ your interaction radius with \sz3 key hold."
+bod_tutv2_116_c2 = "\^ffff00Bow can't be used\^^ when monsters get \^ffff00too close\^^! \nIn such cases \^ffff00melee attack\^^ or take a step back to shoot."
+
+bod_tutv2_117_titl= "Mage Mechanics"
+bod_tutv2_117_c0 = "Mage's missiles are \^ffff00guided\^^ and will avoid monsters on their way to the target."
+bod_tutv2_117_c1 = "Use \^ffff00right mouse button\^^ to shoot freely or use special missiles."
+bod_tutv2_117_c1_pad = "Use \sz4 to shoot freely or use special missiles."
+
+bod_tutv2_118_titl= "Zombie mechanics"
+bod_tutv2_118_c0 = "Zombies and some other monsters have \^ffff00poisoned hearts\^^"
+bod_tutv2_118_c1 = "On death, zombies \^ffff00explode\^^ with a shockwave that \^ffff00poisons\^^ everyone around.\n\^ffff00Deadly\^^ poisoned monsters are marked with a \^ffff00skull\^^"
+bod_tutv2_118_c2 = "Zombies cannot be poisoned. They are \^ffff00healed\^^ instead"
+
+bod_tutv2_119_titl= "Elemental attacks"
+bod_tutv2_119_c0 = "Monsters with \^ffff00elemental attacks\^^ are marked with a spiked circle. They can burn, poison or freeze you. Beware!"
+
+bod_tutv2_120_titl= "Golden Shield Hearts"
+bod_tutv2_120_c0 = "Some tough monsters have \^ffff00golden hearts\^^"
+bod_tutv2_120_c1 = "When damaged, those monsters are \^ffff00temporarily immune\^^ and \^ffff00spawn guardians\^^. Beware!"
+bod_tutv2_120_c2 = "Use \^ffff00Fire\^^ against monsters with golden hearts to kill them \^ffff00quicker\^^"
+
+bod_tutv2_121_titl= "Gargoyles"
+bod_tutv2_121_c0 = "Gargoyles have \^ffff00stone hearts\^^ - they are immune to elemental effects: poison, fire and ice"
+bod_tutv2_121_c1 = "When gargoyles turn to statues they \^ffff00heal over time\^^. Beware!"
+
+bod_tutv2_122_titl= "Ghosts"
+bod_tutv2_122_c0 = "Ghosts can \^ffff00pass through walls\^^ and other objects"
+bod_tutv2_122_c1 = "They can \^ffff00appear from corpses\^^ of your slain enemies"
+bod_tutv2_122_c2 = "Ghosts are creatures of \^ffff00cold\^^. Beware!"
+
+bod_tutv2_123_titl= "Goatmen"
+bod_tutv2_123_c0 = "Goats are chaotic creatures and have \^ffff00randomized heart points\^^"
+bod_tutv2_123_c1 = "Goats \^ffff00heal when they bleat\^^, so you better not retreat"
+
+bod_tutv2_124_titl= "Spiders"
+bod_tutv2_124_c0 = "Beware! Spiders can ambush you and \^ffff00chase you on the ceiling\^^!"
+bod_tutv2_124_c1 = "Most spiders \^ffff00spawn smaller spiders\^^ when slain!"
+bod_tutv2_124_c2 = "\^ffff00Poison\^^ is especially good against spiders. It damages them even when they are \^ffff00hidden.\^^"
+
+bod_tutv2_125_titl= "Demons"
+bod_tutv2_125_c0 = "\^ffff00In hell\^^ demons can \^ffff00burn your mana\^^ with their attacks"
+bod_tutv2_125_c1 = "When \^ffff00all flames\^^ under the mana globe \^ffff00are lit\^^, each demon \^ffff00hit\^^ additionally \^ffff00burns your mana\^^"
+bod_tutv2_125_c2 = "When \^ffff00green mana is burned\^^, your \^ffff00artifact cards get disabled\^^ right to left"
+
+bod_tutv2_126_titl= "Advanced Movement"
+bod_tutv2_126_c0 = "You can hold your position and \^ffff00disable auto-attack\^^ by holding the \^ffff00hold\^^ button (shift by default)"
+bod_tutv2_126_c1 = "You can highlight all objects using \^ffff00alt\^^ key, or toggle it using \^ffff00caps lock\^^."
+bod_tutv2_126_c2 = "You can also move using \^ffff00wasd\^^ keys (all keyboard controls can be remapped in options)."
+bod_tutv2_126_c0_pad = "You can hold your position and \^ffff00disable auto-attack\^^ with \sz3."
+bod_tutv2_126_c1_pad = "You can \^ffff00toggle highlight\^^ of all objects by pressing \sz5 key."
+bod_tutv2_126_c2_pad = "To \^ffff00check controls\^^ open options window."
+
+bod_tutv2_127_titl= "Re-entering a level"
+bod_tutv2_127_c0 = "After you take the stairs down, you can \^ffff00re-enter the level from the back by clicking on the right side of the level\^^"
+bod_tutv2_127_c1 = "You can always \^ffff00go back to town\^^ from the crosscut screen, even \^ffff00between levels\^^"
+
+bod_tutv2_128_titl= "Timed State"
+bod_tutv2_128_c0 = "If there is a circle around a boss, the boss is \^ffff00immune\^^"
+bod_tutv2_128_c1 = "The immunity timer \^ffff00progresses\^^ while you are \^ffff00inside\^^ the marked range - regardless of whether you attack the boss or not"
+
+bod_tutv2_129_titl= "Imposed Cards"
+bod_tutv2_129_c0 = "Higher Difficulty levels \^ffff00impose\^^ usage of some \^ffff00random cards\^^. Build your hand around their strengths and weaknesses, as you can't unequip them."
+
+bod_tutv2_130_titl= "Cursed Cards"
+bod_tutv2_130_c0 = "In Freeplay mode Bosses can \^ffff00curse\^^ your \^ffff00cards\^^. \nYou can move cursed cards around but they won't work until you \^ffff00slay\^^ the Boss."
+
+bod_tutv2_131_titl= "Death"
+bod_tutv2_131_c0 = "Collect your \^ffff00tombstone\^^ to retrieve your \^ffff00lost goods\^^."
+bod_tutv2_131_c1 = "Each time you die, your \^ffff00lost goods\^^ will be \^ffff00moved\^^ to the \^ffff00new tombstone\^^."
+
+bod_tutv2_132_titl= "Card Variants"
+bod_tutv2_132_c0 = "For each card, you can find more powerful \^7AA9FFMagical\^^ and \^BB64F5Legendary\^^  variants."
+bod_tutv2_132_c1 = "To change a card variant you're currently using, \^ffff00hover\^^ over it in cards pane and click on \^ffff00variants icon\^^."
+bod_tutv2_132_c2 = "Each \^ffff00card variant\^^ is upgraded \^ffff00separately\^^."
+bod_tutv2_132_c1_pad = "To change a card variant you're currently using, hover over it in cards pane and click on variants icon."
+
+bod_tutv2_133_titl= "Anger Management"
+bod_tutv2_133_c0 = "Fast attacks \^ffff00anger\^^ some monsters. Such monsters \^ffff00heal\^^ themselves and have \^ffff00special attacks\^^." 
+bod_tutv2_133_c1 =  "\^ffff00The meter\^^ shows how annoyed the monster is. When \^ffff00left alone\^^ the monster \^ffff00calms down\^^."
+bod_tutv2_133_c2 = "\^ffff00Frozen\^^ or \^ffff00stunned\^^ monsters \^ffff00won't\^^ be angered. Auto-attacks alone won't enrage the monster."
+
+bod_tutv2_999_titl= "XXX"
+bod_tutv2_999_c0 = "XXX"
+bod_tutv2_999_c1 = "XXX"
+bod_tutv2_999_c2 = "XXX"
+
+################ Small Tutorials that appear in small boxes somewhere around the screen ##########
+
+## BOD_TUTORIAL_SMALL_ARROWS
+bod_tut_titl_201 = "\^ff99ffSPECIAL MISSILES\^^"
+bod_tut_body_201 = "You have equipped a special missile. You can now use it instead of your primary attack by \s: r-clicking."
+bod_tut_body_201_pad = "You have equipped a special missile. You can now use it instead of your primary attack by pressing \s`."
+
+## BOD_TUTORIAL_SMALL_FIRST_CARD
+bod_tut_titl_202 = "\^ff99ffUSABLE CARDS\^^"
+bod_tut_body_202 = "You can use the card by clicking it by \s: r-clicking it or by pressing corresponding key on the keyboard."
+bod_tut_body_202_pad = "You can use usable cards by selecting it with \sb and \sc and use by pressing \sd"
+
+
+## Tutorial UI
+wnd_tutorial_options = "TUTORIALS"
+tut_skip_all = "Skip tutorials"
+tut_skip_all_pad = "Skip tutorials \sd"
+wnd_tuts_desc = "Check all tutorials you wish to skip.\nYou can change it later in Help menu."
+wnd_tutorials_select = "Check All"
+wnd_tutorials_deselect = "Clear All"
+wnd_tutorials_skip = "Skip"
+wnd_tutorials_exit = "Close"
+wnd_tutorials_exit_pad = "Close"
+
+wnd_tut_prev = "Prev"
+wnd_tut_next = "Next"
+
+bod_tutorial_close = "\s9 Click to close"
+bod_tutorial_close_pad = "Hold to close"
+bod_tutorial_counter = "\1/\2"
+
+##Color scheme - if changed, change also in tutorial titles abvove
+bod_crd_tag_target = "\^b4ed07TARGETABLE\^^"
+bod_crd_tag_item = "\^ed0741ITEM\^^"
+bod_crd_tag_artefact = "\^7ea30dARTIFACT\^^"
+bod_crd_tag_spell = "\^1489c4SPELL\^^"
+bod_crd_tag_cd = "\^db7d1aEFFECT ON COOLDOWN\^^"
+bod_crd_tag_rare= "\^7AA9FFMAGICAL\^^"
+bod_crd_tag_legend = "\^BB64F5LEGENDARY\^^"
+
+###################################################### Card Discovered/deciphered ############################################
+
+bod_crd_tag_target_tt = "Can only be used when you are targetting an enemy unit" #Target
+bod_crd_tag_item_tt = "Item cards consume charges when used. You can charge them at Fortune Teller's or find charges in the dungeon. " #Item
+bod_crd_tag_artefact_tt = "Artifact cards posses powerful passive effects but lock some of your blue mana when equipped. " #Artifact
+bod_crd_tag_spell_tt = "Spell cards consume blue mana when used." #Spell
+bod_crd_tag_cd_tt = "This card has an effect that is active when the card is cooling down after use." #Cooldown
+bod_crd_tag_rare_tt= "This card is rare, better put it in a sleeve!" #Rare
+bod_crd_tag_legend_tt = "Stuff of legends, you will have something to hang over the mantel!" #Legendary card
+bod_crd_disco_header = "NEW CARD"
+bod_crd_disco_rune_tit = "RUNE CARD"
+bod_crd_disco_rune = "This type of card can be used to upgrade other cards" #Rune
+bod_crd_ttip_free_because_manapotion ="(Mana Potion effect)"
+
+bod_crd_disco_unident_tit = "MAGICAL CARD"
+bod_crd_disco_unident = "You have found a rare and probably powerful card! Sage can identify it for you."
+bod_crd_disco_unident_leg_tit = "LEGENDARY CARD"
+bod_crd_disco_unident_leg = "You have found a Legendary card! Sage can identify it for you."
+
+crd_upgrade_discovery_ttip = "You can use rune cards to upgrade other cards. Talk with Fortune Teller to find out more."
+
+bod_press_frame_button = "Close"
+
+
+######################################
+## Leaderboards 
+######################################
+
+daredevil_hall_of_fame = "Daredevil Hall of Fame"
+daredevil_hall_of_fame_title = "Hall of Fame"
+daredevil_hall_of_fame_tab_local = "Local"
+daredevil_hall_of_fame_tab_global = "Global"
+daredevil_hall_of_fame_tab_friends = "Friends"
+daredevil_hall_of_fame_conn_timeout = "Connection timeout"
+daredevil_header_name = "Name"
+daredevil_header_depth = "Depth"
+daredevil_entry_level = "Level \1"
+
+## Daredevil - Personal Leaderboard
+fake_daredevil_01_name = "Shielded Skeleton"
+fake_daredevil_01_depth = "200"
+fake_daredevil_02_name = "Petit Gargoyle"
+fake_daredevil_02_depth = "300"
+fake_daredevil_03_name = "Plowing Corpse"
+fake_daredevil_03_depth = "400"
+fake_daredevil_04_name = "Gargoyle"
+fake_daredevil_04_depth = "500"
+fake_daredevil_05_name = "Corrupted Priest"
+fake_daredevil_05_depth = "600"
+fake_daredevil_06_name = "Cool Skeleton"
+fake_daredevil_06_depth = "700"
+fake_daredevil_07_name = "Hammer Gargoyle"
+fake_daredevil_07_depth = "800"
+fake_daredevil_08_name = "Skeletomancer"
+fake_daredevil_08_depth = "900"
+fake_daredevil_09_name = "Whopper"
+fake_daredevil_09_depth = "1000"
+fake_daredevil_10_name = "Uber Gargoyle"
+fake_daredevil_10_depth = "2000"
+fake_daredevil_11_name = "Chaotic Goat"
+fake_daredevil_11_depth = "3000"
+fake_daredevil_12_name = "Tiny Spectre"
+fake_daredevil_12_depth = "4000"
+fake_daredevil_13_name = "Battering Goat"
+fake_daredevil_13_depth = "5000"
+fake_daredevil_14_name = "Mirage Lancer"
+fake_daredevil_14_depth = "6000"
+fake_daredevil_15_name = "Arachnod"
+fake_daredevil_15_depth = "7000"
+fake_daredevil_16_name = "Slithering Warrior"
+fake_daredevil_16_depth = "8000"
+fake_daredevil_17_name = "Phantom Beast"
+fake_daredevil_17_depth = "10000"
+fake_daredevil_18_name = "Succubus"
+fake_daredevil_18_depth = "20000"
+fake_daredevil_19_name = "Horror Gargoyle"
+fake_daredevil_19_depth = "40000"
+fake_daredevil_20_name = "The Ugly Duckling"
+fake_daredevil_20_depth = "990000"
+fake_daredevil_count = "20"
+
+
+##############################################################################################
+########################################## BOD DEMO ##########################################
+
+demo_frm_header = "You have completed the demo!"
+demo_frm_quit = "Go Back"
+demo_frm_buy = "Continue in Full Version"
+
+demo_frm_video_00_text = "Challenge the evil Cook in his demonic kitchen!"
+demo_frm_video_01_text = "Find and max-up all cards!"
+demo_frm_video_02_text = "Slay ghosts, spiders and goatmen in forgotten catacombs!"
+demo_frm_video_03_text = "Master new cards when playing Mage and Rogue*\n*Rogue coming soon during early access"
+demo_frm_video_03_text_rogue = "Master new cards when playing Mage and Rogue."
+demo_frm_video_04_text = "Outsmart the sneaky Antipope!"
+demo_frm_video_05_text = "Test your limits in Freeplay and Daredevil modes!"
+demo_frm_video_06_text = "Experience true horror when fighting demons in hell"
+demo_frm_video_07_text = "Give in to your OCD and complete all 100+ achievements!"
+demo_frm_video_08_text = "Battle the Archdemon and have a time of your life!"
+
+demo_frm_video_bonus_text_00 = "Remember all those paper cuts? It's revenge time!"
+demo_frm_video_bonus_text_01 = "Why are you still here? Buy the game already!"
+demo_frm_video_bonus_text_02 = "Monsters, monsters, monsters... Monsters everywhere!"
+demo_frm_video_bonus_text_03 = "You know you like it, make yourself a favor and buy the game!"
+demo_frm_video_bonus_text_04 = "More monsters, more classes, more cards, more fun!"
+demo_frm_video_bonus_text_count = "5"
+
+demo_frm_video_00_start = "0"
+demo_frm_video_00_end = "7.26"
+demo_frm_video_01_start = "7.26"
+demo_frm_video_01_end = "11.10"
+demo_frm_video_02_start = "11.10"
+demo_frm_video_02_end = "21.14"
+demo_frm_video_03_start = "21.14"
+demo_frm_video_03_end = "29.14"
+demo_frm_video_04_start = "29.14"
+demo_frm_video_04_end = "38.28"
+demo_frm_video_05_start = "38.28"
+demo_frm_video_05_end = "50.04"
+demo_frm_video_06_start = "50.04"
+demo_frm_video_06_end = "62.02"
+demo_frm_video_07_start = "62.02"
+demo_frm_video_07_end = "68.0"
+demo_frm_video_08_start = "68.0"
+demo_frm_video_08_end = "75.27"
+
+
+pax_key = "PRESS ANY KEY TO PLAY!"
+
+bod_csc_clear = "Level Clear!"
+bod_csc_monst_holder = "\1 \2"
+bod_csc_monst_hidden = "(hidden)"
+bod_csc_body = "To Do on this level:"
+bod_csc_barrel = "Barrel"
+bod_csc_chest = "Chest"
+bod_csc_gargoyle = "Gargoyle in a stone"
+bod_csc_cursed = "Cursed Chest"
+bod_csc_sarco = "Sarcophagus"
+bod_csc_bookbase = "Bookcase"
+bod_csc_tome = "Ancient Tome"
+bod_csc_shrine = "Shrine"
+bod_csc_summoned = "Summon spark"
+bod_csc_spore = "Slimy Spore"
+bod_csc_erectus = "Statue"
+
+automap_title = "\1 - Dungeon \2 - Level \3 of \4"
+automap_diff = "Difficulty: \1"
+
+#################################
+## Review Window 
+#################################
+
+ReviewFrame_Title = "YOUR INPUT"
+ReviewFrame_Txt = "Your opinion matters to us a lot!\m1.5What do you think about Book of Demons?"
+ReviewFrame_positive = "I like it"
+ReviewFrame_negative = "It's Bad"
+ReviewFrame_chk_not_again = "Don't show it again"
+
+ReviewFrame_positive_txt = "Great to hear you enjoy the game! We're a small indie team, and we're trying to make Book of Demons as fun as possible.\n\nIt would mean a lot to us, if you could..."
+ReviewFrame_review = "Review the game on Steam"
+ReviewFrame_share = "Share on Social Media"
+ReviewFrame_review_ttip = "Reviews on Steam are currently the most important indicator for game visibility. Each and single one means a lot to us!"
+ReviewFrame_share_ttip = "Let your friends and followers know about the game, they may enjoy it too!"
+
+ReviewFrame_negative_txt = "We are sorry to hear that. We're a small indie team, and we're trying to make Book of Demons as fun as possible.\n\nIt would help us a lot, if you could..."
+ReviewFrame_feedback = "Tell us what we should improve"
+
+
+############################
+## BOSS NAMES
+############################
+
+## !!!!!      Max 23 characters each!   !!!!!!!!!!!!!!!
+
+#Shielded Skeleton
+boss_1101_name = "Erica the Shieldmaiden"
+boss_1102_name = "Slig the Shieldman"
+boss_1103_name = "Barn the Shieldman"
+boss_1104_name = "Eufia the Shieldmaiden"
+
+#Skeleton Archer
+boss_1201_name = "Horik the Quick"
+boss_1202_name = "Helmud Hawkeye"
+boss_1203_name = "The Sharpshooting Joe"
+boss_1204_name = "Ritt the Swifthanded"
+
+boss_1205_name = "Horik the Quick"
+boss_1206_name = "Helmud Hawkeye"
+boss_1207_name = "The Sharpshooting Joe"
+boss_1208_name = "Ritt the Swifthanded"
+
+#Voracious Corpse
+boss_1301_name = "The Decayed Hook"
+boss_1302_name = "One Armed Stink"
+boss_1303_name = "Jack the Hungry One"
+boss_1304_name = "The Bear-handed"
+boss_1305_name = "Hadheaded Plague"
+
+boss_1306_name = "The Decayed Hook"
+boss_1307_name = "One Armed Stink"
+boss_1308_name = "Jack the Hungry One"
+
+#Corrupted  Priest
+boss_1401_name = "Blasphemy Mike"
+boss_1402_name = "Mark the Heretic"
+boss_1403_name = "Profan Peter"
+boss_1404_name = "Desecrated Ralph"
+boss_1405_name = "Alfred the Forsaken"
+boss_1406_name = "Lucas the Deceiver"
+
+#Hammer Gargoyle
+boss_1501_name = "Stoned Nightmare"
+boss_1502_name = "Rock Evil"
+boss_1503_name = "Granite Death"
+boss_1504_name = "Stoneform Brute"
+boss_1505_name = "Hammered Beast"
+boss_1506_name = "Corrupted Stone"
+
+#Goatchanter
+boss_1601_name = "Beeeeeelzebub"
+boss_1602_name = "Mr. GoaTee"
+boss_1603_name = "Chaotic Bleat"
+boss_1604_name = "Longhorn"
+boss_1605_name = "Bleat Wit"
+boss_1606_name = "Twisted Horn"
+
+#Skeleton Warrior
+boss_1701_name = "Jared the Cursed"
+boss_1702_name = "Flavious the Corrupted"
+boss_1703_name = "Steve the Plagued"
+boss_1704_name = "Rick the Decayed"
+boss_1705_name = "Tresh the Rottenheart"
+boss_1706_name = "Rollo the Disgusting"
+boss_1707_name = "Snosh the Smelling"
+
+#Succubus
+boss_1801_name = "Enticing Death"
+boss_1802_name = "Tantalizing Agony"
+boss_1803_name = "Intriguing Decay"
+boss_1804_name = "Forbidden One"
+boss_1805_name = "Provokative Painmaid"
+boss_1806_name = "Blazing Love"
+boss_1807_name = "Fallen Mistress"
+
+#Arachnod
+boss_1901_name = "Crypto Becki"
+boss_1902_name = "Crypto Goodnighti"
+boss_1903_name = "Crypto Narino"
+boss_1904_name = "Crypto Simonis"
+boss_1905_name = "Crypto Verde"
+boss_1906_name = "Crypto Chiriqui"
+boss_1907_name = "Crypto Bocas"
+
+#Puffy Corpse
+boss_2001_name = "The Meaty Plague"
+boss_2002_name = "The Chunky Decay"
+boss_2003_name = "Jelly-belly Bomb"
+boss_2004_name = "The Big Bad and Rotting"
+boss_2005_name = "The Chubby Terror"
+boss_2006_name = "The Pudgy Greenfoul"
+boss_2007_name = "The Fat Sack"
+
+#Hyper Skelserker
+boss_2101_name = "Ron the Berserker"
+boss_2102_name = "Crazy Ivan"
+boss_2103_name = "Lester Crypthorror"
+boss_2104_name = "Mack the Crazy Axes"
+boss_2105_name = "Conrad the Chop-Chop"
+boss_2106_name = "Arthur the Painbringer"
+boss_2107_name = "Wyatt the Hasety"
+
+boss_2108_name = "Ron the Berserker"
+boss_2109_name = "Mack the Crazy Axes"
+boss_2110_name = "Conrad the Chop-Chop"
+
+#Spectre
+boss_2201_name = "Lost Wraith"
+boss_2202_name = "Frozen Spectre"
+boss_2203_name = "Lonely Vision"
+boss_2204_name = "Moaning Phantom"
+boss_2205_name = "The Sad Ghost"
+boss_2206_name = "Frosty Spirit"
+boss_2207_name = "Chilled Wraith"
+boss_2208_name = "Cold Shadow"
+boss_2209_name = "Cold Shadow"
+
+#Wicked Longlegs
+boss_2301_name = "Hairy Willy"
+boss_2302_name = "Legged Jack"
+boss_2303_name = "Merry The Eightlegged"
+boss_2304_name = "Steve The Clumsy"
+boss_2305_name = "Sticky Joe"
+boss_2306_name = "Sitting Sophie"
+boss_2307_name = "Weird Eyes Alice"
+boss_2308_name = "Tall Eli"
+
+#Battering Goat
+boss_2401_name = "Odi the Swift"
+boss_2402_name = "Ozzik the Black"
+boss_2403_name = "Jres the Downbringer"
+boss_2404_name = "Het the Fieldruler"
+boss_2405_name = "Freddie the King"
+boss_2406_name = "Lemmy the Hammer"
+boss_2407_name = "Rob the Zombie-eater"
+boss_2408_name = "Bruce Ironbrute"
+
+#Arachgod
+boss_2501_name = "Jelly Legs Wallace"
+boss_2502_name = "Glade Wrathful Clinton"
+boss_2503_name = "Flo Golden-Eye Stanton"
+boss_2504_name = "Ed Ugly Mug Whulsup"
+boss_2505_name = "Adela Lazy Goodwin"
+boss_2506_name = "Wyman Striker Netley"
+boss_2507_name = "Kendrick Grim Norton"
+boss_2508_name = "Joola Crazy Wright"
+
+#Spect. Whopper
+boss_2601_name = "Phantom Muscle"
+boss_2602_name = "Wraith Meatball"
+boss_2603_name = "Beefy Spirit"
+boss_2604_name = "Force Wraith"
+boss_2605_name = "Might Ghost"
+boss_2606_name = "Armed Phantom"
+boss_2607_name = "Spectral Bouncer"
+boss_2608_name = "Gym Spirit"
+boss_2609_name = "Legdayskipping Ghost"
+
+#Cool Crawler
+boss_2701_name = "Euscorpius"
+boss_2702_name = "Megacormus"
+boss_2703_name = "Plesiochactas"
+boss_2704_name = "Chactopsis"
+boss_2705_name = "Alloscorpiops"
+boss_2706_name = "Dasyscorpiops"
+boss_2707_name = "Neoscorpiops"
+boss_2708_name = "Troglocormus"
+boss_2709_name = "Scorpiops"
+
+#Mirage Mage
+boss_2801_name = "The Laughing Wizard"
+boss_2802_name = "The Howling Doctor"
+boss_2803_name = "The Talking Maniac"
+boss_2804_name = "The Weeping Dancer"
+boss_2805_name = "The Midnight Gatekeeper"
+boss_2806_name = "The Mansion Apparition"
+boss_2807_name = "The Weeping Mage"
+boss_2808_name = "The Spectral Sorcerer"
+boss_2809_name = "The Forsaken Wizard"
+
+#Skull Spook
+boss_2901_name = "The Sleepy Head"
+boss_2902_name = "Don Spook"
+boss_2903_name = "King Headbag"
+boss_2904_name = "Dull Skull"
+boss_2905_name = "The Spooky Head"
+boss_2906_name = "Don Smokeleone"
+boss_2907_name = "Rick The Spectral Leader"
+boss_2908_name = "Lui The Egg"
+boss_2909_name = "The Big Bold"
+
+#Slith Archer
+boss_3001_name = "Hawkeyed Snake"
+boss_3002_name = "Slithering Sharpshooter"
+boss_3003_name = "The Quick Serpent"
+boss_3004_name = "Agile Reptile"
+boss_3005_name = "Viper Arrow"
+boss_3006_name = "Swifthanded Snake"
+boss_3007_name = "Spikegiver"
+boss_3008_name = "Two Arrows one Snake"
+boss_3009_name = "Swift Slithering"
+
+#Petit Gargoyle
+boss_3101_name = "Swiftstone"
+boss_3102_name = "Legend of Greenrock"
+boss_3103_name = "Granite Stink"
+boss_3104_name = "Unrolled Stone"
+boss_3105_name = "Decayed Rock"
+boss_3106_name = "Piece of Stone"
+boss_3107_name = "Ore Jorre"
+boss_3108_name = "Petit Granite"
+boss_3109_name = "Gray Matter"
+boss_3110_name = "Stoned Smell"
+
+#Diabolist
+boss_3201_name = "Ultharm the Black"
+boss_3202_name = "Sthresuhr the Fearsome"
+boss_3203_name = "Muggaz the Flame"
+boss_3204_name = "Krikrow the Burning"
+boss_3205_name = "Sthrurzhobruz the Bold"
+boss_3206_name = "Rommerm the Doombringer"
+boss_3207_name = "Vanthatrorth the Strong"
+boss_3208_name = "Khaakoubrex the Furious"
+boss_3209_name = "Voknuunguk the Mad"
+boss_3210_name = "Cragnokhas the Sick"
+
+#Hopping Corpse
+boss_3301_name = "Bouncing Fear"
+boss_3302_name = "Rotten Mother"
+boss_3303_name = "Boxing Green"
+boss_3304_name = "Corrupted "
+boss_3305_name = "Kanga the Roothless"
+boss_3306_name = "Roo the Spoiled Child"
+boss_3307_name = "Marsupial Terror"
+boss_3308_name = "Large-Foot Evil"
+boss_3309_name = "Jumping Decay"
+boss_3310_name = "Rufus the Green"
+
+#Slith Horror
+boss_3401_name = "Furious Snakeform"
+boss_3402_name = "Slithering Blades"
+boss_3403_name = "Winged Death"
+boss_3404_name = "Viperswords"
+boss_3405_name = "Blazing Reptile"
+boss_3406_name = "The Moody Serpent"
+boss_3407_name = "Viper Horror"
+boss_3408_name = "Slytherwing"
+boss_3409_name = "Reptiled Furry"
+boss_3410_name = "The Moody Serpent"
+
+#Elem Lord
+boss_3501_name = "Lord Frostfart"
+boss_3502_name = "Lord Stinknose"
+boss_3503_name = "Lord Iceflame"
+boss_3504_name = "Lord Chillburned"
+boss_3505_name = "Lord Hotflake"
+boss_3506_name = "Lord Blazingglaze"
+boss_3507_name = "Lord Iceberger"
+boss_3508_name = "Lord Blazeface"
+boss_3509_name = "Lord Pyrecold"
+boss_3510_name = "Lord Tinderwinter"
+
+#Elder Goatchanter
+boss_3601_name = "Beastfang"
+boss_3602_name = "Fanghorn"
+boss_3603_name = "Clawcaster"
+boss_3604_name = "Beastwitch"
+boss_3605_name = "Beastspawn"
+boss_3606_name = "Warpclaw"
+boss_3607_name = "Clawtooth"
+boss_3608_name = "Hornfang"
+boss_3609_name = "Witchbeast"
+boss_3610_name = "Fangspawn"
+
+#Skeletomancer
+boss_3701_name = "Bone Sorcerer"
+boss_3702_name = "Outlawed Warlock"
+boss_3703_name = "Evil Witch"
+boss_3704_name = "Exiled Juggler"
+boss_3705_name = "Wizard of Blasphemy"
+boss_3706_name = "Banished Shaman"
+boss_3707_name = "Corrupted Sear"
+boss_3708_name = "Black Conjuror"
+boss_3709_name = "Decayed Enhancer"
+boss_3710_name = "Cursed Mage"
+
+boss_3711_name = "Bone Sorcerer"
+boss_3712_name = "Outlawed Warlock"
+boss_3713_name = "Evil Witch"
+
+#Incubus
+boss_3801_name = "Enticing Muscle"
+boss_3802_name = "Tantalizing Brute"
+boss_3803_name = "Intriguing Flame"
+boss_3804_name = "Tempting Death"
+boss_3805_name = "Blazing One"
+boss_3806_name = "Big Red Rick"
+boss_3807_name = "Unforgivable Pain"
+boss_3808_name = "Forgotten Pleasure"
+boss_3809_name = "Blackballed Master"
+boss_3810_name = "Flaming Pain"
+
+#Horror Whopper
+boss_3901_name = "Zlaras the Giant"
+boss_3902_name = "Dafthor the Giant"
+boss_3903_name = "Arolas the Giant"
+boss_3904_name = "Mugi the Giant"
+boss_3905_name = "Xorvag the Giant"
+boss_3906_name = "Glacvag the Giant"
+boss_3907_name = "Nunir the Giant"
+boss_3908_name = "Wufom the Giant"
+boss_3909_name = "Kavag the Giant"
+
+#Hot Crawler
+boss_4001_name = "Deathstalker the King"
+boss_4002_name = "King Androctonus"
+boss_4003_name = "King Babycurus"
+boss_4004_name = "King Buthacus"
+boss_4005_name = "King Zabius"
+boss_4006_name = "King Uroplectes"
+boss_4007_name = "King Isometrus"
+boss_4008_name = "King Tityus"
+
+#Arachnod
+boss_4101_name = "Crypto Narino"
+boss_4102_name = "Crypto Simonis"
+boss_4103_name = "Crypto Verde"
+
+#Hog
+boss_4201_name ="Flying Wong Hog"
+boss_4202_name ="Cursed Hog"
+boss_4203_name ="Chunky Smoke"
+boss_4204_name ="Green Glutton"
+boss_4205_name ="Gas Bombino"
+
+#PlowingCorpse
+boss_4301_name ="Old MacDonald"
+boss_4302_name ="Ugly Joe"
+boss_4303_name ="Old Ronald"
+boss_4304_name ="Wyatt Wild"
+boss_4305_name ="Hudson West"
+
+#UberGargoyle
+boss_4401_name ="Ruby Terror"
+boss_4402_name ="Ruby Terror"
+boss_4403_name ="Ruby Terror"
+boss_4404_name ="Ruby Terror"
+boss_4405_name ="Ruby Terror"
+
+#HorrorGargoyle
+boss_4501_name ="Turquoise Horror"
+boss_4502_name ="Turquoise Horror"
+boss_4503_name ="Turquoise Horror"
+boss_4504_name ="Turquoise Horror"
+boss_4505_name ="Turquoise Horror"
+
+#Cool Skel
+boss_4601_name ="Daddy Cool"
+boss_4602_name ="Ice Shield"
+boss_4603_name ="Freezing Handed"
+boss_4604_name ="Cold Buckler"
+boss_4605_name ="Glacial Shieldman"
+
+#Cool Archer
+boss_4701_name ="Frostshot"
+boss_4702_name ="Snowbow"
+boss_4703_name ="Coldshot"
+boss_4704_name ="Frostshot"
+boss_4705_name ="Frostshot"
+
+#Horror Archer
+boss_4801_name ="Hotshot"
+boss_4802_name ="Blaze Arrow"
+boss_4803_name ="Flame Shooter"
+boss_4804_name ="Grill Sticks"
+boss_4805_name ="Hotshot"
+
+#Burning Whopper
+boss_4901_name ="Grilled Jerry"
+boss_4902_name ="Pin Jean"
+boss_4903_name ="Grilled Jerry"
+boss_4904_name ="Flaming Mike"
+boss_4905_name ="The Megzilla"
+
+#Phantom Beast
+boss_5001_name ="Beastly Boy"
+boss_5002_name ="Phantom of the O"
+boss_5003_name ="Phantomic Wizard"
+boss_5004_name ="Ex-Fortuneteller"
+boss_5005_name ="Masked Frost"
+boss_5006_name ="Ice Hands"
+
+# Glutton
+boss_5101_name = "Glu Glu"
+boss_5102_name = "Glu Glu"
+boss_5103_name = "Glu Glu"
+boss_5104_name = "Glu Glu"
+boss_5105_name = "Glu Glu"
+
+#Slithering Horror  Magus
+boss_5201_name = "Sneaky Mage"
+boss_5202_name = "Sneaky Mage"
+boss_5203_name = "Sneaky Mage"
+boss_5204_name = "Sneaky Mage"
+boss_5205_name = "Sneaky Mage"
+
+
+################################ QUEST BOSS NAMES ##############################
+## Their names must be repeated for every stage they have ##
+
+boss_10001_name = "\smThe Cook"
+boss_10002_name = "\smThe Cook"
+boss_10003_name = "\smThe Cook"
+boss_10004_name = "\smThe Cook"
+boss_10005_name = "\smThe Cook"
+boss_10006_name = "\smThe Cook"
+boss_10007_name = "\smThe Cook"
+boss_10008_name = "\smThe Cook"
+boss_10009_name = "\smThe Cook"
+
+boss_10101_name = "\smThe Antipope"
+boss_10102_name = "\smThe Antipope"
+boss_10103_name = "\smThe Antipope"
+boss_10104_name = "\smThe Antipope"
+boss_10105_name = "\smThe Antipope"
+boss_10106_name = "\smThe Antipope"
+boss_10107_name = "\smThe Antipope"
+boss_10108_name = "\smThe Antipope"
+boss_10109_name = "\smThe Antipope"
+
+boss_10201_name = "\smThe Archdemon"
+boss_10202_name = "\smThe Archdemon"
+boss_10203_name = "\smThe Archdemon"
+boss_10204_name = "\smThe Archdemon"
+boss_10205_name = "\smThe Archdemon"
+boss_10206_name = "\smThe Archdemon"
+boss_10207_name = "\smThe Archdemon"
+boss_10208_name = "\smThe Archdemon"
+boss_10209_name = "\smThe Archdemon"
+boss_10210_name = "\smThe Archdemon"
+boss_10211_name = "\smThe Archdemon"
+boss_10212_name = "\smThe Archdemon"
+boss_10213_name = "\smThe Archdemon"
+boss_10214_name = "\smThe Archdemon"
+boss_10215_name = "\smThe Archdemon"
+
+#Archdemon Quest Bosses
+#Slith Horror Magus
+boss_10301_name = "Slithering Seal Guardian"
+boss_10302_name = "Slithering Seal Guardian"
+boss_10303_name = "Slithering Seal Guardian"
+#Slith Warrior
+boss_10401_name = "Slithering Seal Guardian"
+boss_10402_name = "Slithering Seal Guardian"
+boss_10403_name = "Slithering Seal Guardian"
+#Slith Archer
+boss_10501_name = "Slithering Seal Guardian"
+boss_10502_name = "Slithering Seal Guardian"
+boss_10503_name = "Slithering Seal Guardian"
+#Diabolist
+boss_10601_name = "Demonic Seal Guardian"
+boss_10602_name = "Demonic Seal Guardian"
+boss_10603_name = "Demonic Seal Guardian"
+#Incubus
+boss_10701_name = "Demonic Seal Guardian"
+boss_10702_name = "Demonic Seal Guardian"
+boss_10703_name = "Demonic Seal Guardian"
+
+#Evil Player Characters Bosses
+
+boss_10801_name = "Ghost from the Past"
+boss_10802_name = "Ghost from the Past"
+boss_10803_name = "Ghost from the Past"
+boss_10804_name = "Ghost from the Past"
+boss_10805_name = "Ghost from the Past"
+boss_10806_name = "Ghost from the Past"
+boss_10807_name = "Ghost from the Past"
+boss_10808_name = "Ghost from the Past"
+boss_10809_name = "Ghost from the Past"
+boss_10810_name = "Ghost from the Past"
+
+boss_10901_name = "Ghost from the Past"
+boss_10902_name = "Ghost from the Past"
+boss_10903_name = "Ghost from the Past"
+boss_10904_name = "Ghost from the Past"
+boss_10905_name = "Ghost from the Past"
+boss_10906_name = "Ghost from the Past"
+boss_10907_name = "Ghost from the Past"
+boss_10908_name = "Ghost from the Past"
+boss_10909_name = "Ghost from the Past"
+boss_10910_name = "Ghost from the Past"
+
+boss_11001_name = "Ghost from the Past"
+boss_11002_name = "Ghost from the Past"
+boss_11003_name = "Ghost from the Past"
+boss_11004_name = "Ghost from the Past"
+boss_11005_name = "Ghost from the Past"
+boss_11006_name = "Ghost from the Past"
+boss_11007_name = "Ghost from the Past"
+boss_11008_name = "Ghost from the Past"
+boss_11009_name = "Ghost from the Past"
+boss_11010_name = "Ghost from the Past"
+
+#Disclaimer on start of the game
+ea_title = "Early Access Disclaimer"
+ea_description = "Thank you for participating in Book of Demons Early Access!\m1.8Please remember that this game is still in development and you may (and probably will) experience bugs, unfinished features or maybe even game crashes. We are working hard to address all of those problems and add new features.\n\nYour feedback will be of much help to us. At any time, you can use our in-game FEEDBACK WIDGET to send us your opinion (be it negative or positive) about anything in the game. This will help us make the game better.\m1.8We hope that you will have a fun time playing our game even at this stage of production.\m2.6                                                               With love,\n                                                               Thing Trunk Team"
+
+demo_title = "Book of Demons Demo"
+demo_description = "Thank you for playing Book of Demons Demo.\m1.8Please remember that this game is still in development and you may (and probably will) experience bugs, unfinished features and mechanics or maybe even game crashes.\nWe are working hard to address all of those problems and your feedback will be of much help for us. \n\nAt any time, you can use our in-game FEEDBACK WIDGET to tell us your opinion (both negative and positive) about a specific aspect of the game. This will help us make the game better.\m1.8We hope that you will have a fun time playing our game even at this stage of production.\m2.6   With love,\n   Thing Trunk Team"
+
+press_title = "Press build"
+press_description = "Welcome to Book of Demons Press Build!\m1.8Please remember that you are playing an Early Access game. Many elements are not yet final.\m1.8Playing Warrior until level 5 which unlocks other classes should take about 20 minutes. During this time you should become familiar with all the basic mechanics of the game.\m1.8We hope that you will have a fun time playing our game even at this stage of production.\m2.6                                                               With love,\n                                                               Thing Trunk Team"
+
+
+################################## Translator's Changelog ######################################
+# Using # sign create a list of already translated items/sections
+## 1.
+## 2.
+## 3.
+## 4.
+## etc
+##
+
+
+#This line should be always at the end of the file to validate that utf is correct
+back_to_menu = "Back To The Archive"

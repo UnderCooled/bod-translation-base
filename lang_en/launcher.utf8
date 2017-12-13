@@ -1,0 +1,1252 @@
+﻿## DEMONS - DEMO - LAUNCHER - ENGLISH
+
+###################### Legend to special markers in this document #################
+###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
+
+## text after "#"" is a comment (like those here)
+## \m - means special enter, for example: \m1.1 is an enter that is 10% higher than normal (110%)
+## \s - sprite (a flat image) with its id (id in ASCII; do not modify!), for example: \szz5, \sd or \s6
+## \1-9 - variable (do not touch!)
+## \n - end of line (text after the marker will appear in the line below)
+## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
+## "m", "f" or "n" designates gender used for !params! names of !magic! variants: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## What is written in capital letters must stay that way
+## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
+
+## There is a special section just for you to list all translated sections at the end of that file (named "Translator's Changelog")
+
+
+##################################
+## Archive of Awesome  
+##################################
+
+#welcome_player = "Welcome \1" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+
+############################ Products ##############################
+
+product_unknown = "Mysterious content"
+product_launcher = "Archive of Awesome"
+product_bod = "Book of Demons"
+
+product_boa = "Book of Aliens"
+player = "Player"
+
+############################ Pedestals ##############################
+
+lclick = "\s0 l-click to start"
+lclick_pad = "Press \s0 to start"
+rclick = "\s1 r-click for options"
+rclick_pad = "Press \s1 for options"
+
+rclick_beta = "\s0 click to read Sneak Peek notes"
+rclick_beta_pad = "Press \s0 to read Sneak Peek notes"
+rclick_demo = "\s1 click to learn more"
+rclick_demo_pad = "Press \s1 to learn more"
+loading = "LOADING"
+
+wnd_btn_ok = "OK"
+wnd_btn_accept = "Accept"
+wnd_btn_reject = "Reject"
+wnd_btn_apply = "Apply"
+wnd_btn_cancel = "Cancel"
+wnd_btn_yes = "Yes"
+wnd_btn_no = "No"
+wnd_btn_back = "Back"
+wnd_btn_close = "Close"
+wnd_btn_sel_and_close = "Select and close"
+wnd_btn_continue = "Continue"
+wnd_btn_retry = "Retry"
+wnd_btn_abort = "Abort"
+
+############################ Options ##############################
+
+wnd_opt_title = "OPTIONS"
+wnd_opt_sfx_volume = "SFX Volume"
+wnd_opt_music_volume = "Music Volume"
+wnd_opt_graphics_options = "Graphics Options"
+wnd_opt_btn_caption_lang = "Language: "
+wnd_opt_btn_caption_sel_lang = "Language"
+wnd_opt_btn_caption_resolution = "Resolution: "
+wnd_opt_btn_caption_window_mode = "Display: "
+wnd_opt_cb_vsync = "VSync"
+wnd_opt_cb_caption_screen_prop = "Fix screen proportions"
+wnd_opt_cb_pause_unfocused = "Pause game when not focused"
+wnd_opt_tip_window_mode_unavailable = "To switch to windowed mode you must first choose lower resolution."
+wnd_opt_tip_proportional_scalling = "This fixes incorrect screen aspect ratio on some devices"
+wnd_opt_tip_vsync = "Enables Vertical Synchronisation. Try disabling this option when experiencing mouse lag."
+wnd_opt_tip_pause_unfocused = "Pauses the game when its window has no focus"
+
+wnd_opt_mode_title = "Display"
+wnd_opt_mode_fullscreen = "Fullscreen"
+wnd_opt_mode_window = "Window"
+wnd_opt_mode_borderless = "Borderless Window"
+under_construction = "Coming soon."
+
+wnd_res_title = "GAME RESOLUTION"
+wnd_res_caption_available_res = "Available resolutions"
+wnd_res_suggested = "\^30FF30suggested\^^"
+wnd_res_unadvised = "\^FFC000not advised\^^"
+wnd_res_show_all = "Show All"
+wnd_res_confirm_title = "CONFIRM VIDEO SETTINGS"
+wnd_res_confirm_question = "Do you want to keep this video settings?"
+wnd_res_reverting_beg = "Reverting to previous video settings in"
+wnd_res_reverting_end = "seconds."
+
+wnd_lang_title = "SELECT LANGUAGE"
+
+wnd_feedback_agr_title = "Gameplay Statistics"
+wnd_feedback_agr_accept = "Accept"
+wnd_feedback_agr_deny = "Deny"
+wnd_feedback_agr_text = "Would you like to help us debug and balance the game by sending gameplay statistics to our server?\nThis would help us a lot. Thanks!"
+
+wnd_langs_title = "LANGUAGES"
+wnd_langs_btn_more = "More Languages"
+wnd_langs_confirm_title = "Confirm language change"
+wnd_langs_confirm_msg = "In order to complete the game need to be restarted.\n Do you want to confirm the settings and launch the game again?"
+
+############################ Profile Manager ##############################
+
+wnd_prof_title_mng = "MANAGE PROFILES"
+wnd_prof_title_new = "NEW PROFILE"
+wnd_prof_title_new_beta = "NEW SNEAK PEEK PROFILE"
+wnd_prof_title_ren = "RENAME PROFILE"
+wnd_prof_btn_new = "Create new profile"
+wnd_prof_btn_rename = "Rename profile"
+wnd_prof_btn_del = "Delete profile"
+wnd_prof_lbl_info = "Select profile you want to use."
+wnd_prof_msg_new = "Enter unique name to create a new profile"
+wnd_prof_msg_new_beta = "Enter unique name to create a new Sneak Peek profile"
+wnd_prof_msg_rename = "Enter new unique name for this profile"
+wnd_prof_msg_name_empty = "Name must contain at least 1 character"
+wnd_prof_msg_name_too_long = "Name has maximum allowed length"
+wnd_prof_msg_exists = "This profile already exists"
+wnd_prof_msgbox_confirm_delete_title = "Confirm delete"
+wnd_prof_msgbox_confirm_delete_msg = "Are you sure you want to delete selected profile?"
+
+wnd_betaprof_title = "SNEAK PEEK PROFILE"
+wnd_betaprof_msg = "To play Sneak Peek versions of game you need to change to a special Sneak Peek profile"
+wnd_betaprof_btn_change = "Change profile"
+wnd_betaprof_btn_create = "Create new Sneak Peek profile"
+
+wnd_nobeta_title = "SNEAK PEEK NOT AVAILABLE"
+wnd_nobeta_msg = "We are sorry but you cannot start \1 Sneak Peek without internet connection."
+
+wnd_betawarn_title = "BETA WARNING"
+wnd_betawarn_msg = "Please note that playing on a Sneak Peek profile will involve sending gameplay data to our servers. Data will be used for gameplay analysis and bugfixing. No personal or sensitive data is collected."
+
+wnd_share_avatar = "Share avatar"
+wnd_share_death = "Share death"
+share_facebook = "Facebook"
+share_twitter = "Twitter"
+share_reddit = "Reddit"
+
+############################ Languages ##############################
+
+##Default bitmap font used by the game
+lang_en = "English"
+lang_en_us = "English (US)"
+lang_cs = "Czech"
+lang_de = "German"
+lang_pl = "Polish"
+lang_sv = "Swedish"
+lang_sw = "Swahili"
+lang_es = "Spanish"
+lang_pt = "Portugese"
+lang_pt_br = "Brazilian Portugese"
+lang_no = "Norwegian"
+lang_it = "Italian"
+lang_fi = "Finnish"
+lang_nl = "Dutch"
+lang_da = "Danish"
+lang_fr = "French"
+lang_hu = "Hungarian"
+lang_tr = "Turkish"
+
+## Special megafont that covers thousands of characters and hundreds of languages
+## Use with care and check in game if everything is OK
+lang_af = "Afrikaans"
+lang_be = "Belarusian"
+lang_bg = "Bulgarian"
+lang_ab = "Abkhazian"
+lang_lv = "Latvian"
+lang_lt = "Lithuanian"
+lang_uk = "Ukrainian"
+lang_vi = "Vietnamese"
+lang_ku = "Kurdish"
+lang_el = "Greek"
+lang_id = "Indonesian"
+lang_eo = "Espernato"
+lang_fil = "Filipino"
+lang_ko = "Korean"
+lang_th = "Thai"
+lang_ru = "Russian"
+lang_zh = "Chinese (Simplified)"
+lang_ja = "Japanese"
+
+############################ Main Menu ##############################
+
+mmenu_awards = "View Awards"
+mmenu_awards_ttip = "Click to view awards for this profile"
+mmenu_profile = "Change Profile"
+mmenu_options = "Options"
+mmenu_options_ttip = "Click to manage R2G products"
+mmenu_credits = "Credits"
+mmenu_update = "Products"
+mmenu_website = "Visit Website"
+mmenu_website_ttip = "Opens R2G website in external browser"
+mmenu_website_offline_ttip="You are offline"
+mmenu_key = "Activate Key"
+mmenu_what_is = "What is R2G?"
+mmenu_changelog = "Changelog"
+mmenu_sandbox = "Pop-up Sandbox"
+mmenu_sandbox_ttip = "Learn about this awesome feature in production"
+mmenu_exit = "Exit"
+menu_updates_available_label = "Updates available"
+menu_up_to_date_label = "Up to date"
+
+rank_menu_text = "Rank level: \1"
+rank_holder = "\s0 \1"
+
+menu_button_unava = "Feature unavailable in this version"
+
+msg_sorry = "Sorry"
+msg_not_yet_impl = "This feature is not yet implemented. Stay tuned."
+
+showLang = "Show Languages"
+label_installing_prod = "Install \1.\nSelect language and additional content."
+btnClose = "Close"
+
+prod_list_button_disable = "Disable"
+prod_list_button_enable = "Enable"
+
+prod_list_status_disabled = "\^D3D3D3Disabled\^^"
+prod_list_status_uptodate = "\^D3D3D3Up-to date\^^"
+
+wnd_credits_title = "Credits"
+prod_changelog_btn = "Changelog"
+
+
+wnd_manage_game = "Game Options"
+btn_replay_intro = "Replay Intro"
+btn_config_prod = "Configure"
+btn_uninstall = "Uninstall"
+btn_update_in_options = "Update"
+btn_read_beta_notes = "Read Beta Notes"
+btn_prod_about = "About the game"
+lbl_game_mnager_not_installed = "\^FF0000Game not installed\^^"
+btn_prod_unlock_full_beta = "Unlock Full Beta"
+btn_prod_play = "Play"
+btn_prod_install_demo = "Install Demo Version"
+btn_prod_unlock = "Join Early Access"
+btn_demo_play = "Play Demo"
+btn_demo_tip_opens_in_browser = "Opens website in browser"
+btn_prod_join_ea = "Unlock full version"
+
+prod_configure_single_wnd_label = "Configure game"
+lbl_configure_single_product = "Below you can select the language and install/uninstall components from \1"
+
+
+################################################## Message Boxes ############################################
+
+msg_tit_info = "Important Information"
+msg_dung_recreated = "The dungeon you have entered has been regenerated. The cause might be changes from the last patch or corrupt or incomplete save file. You don't have to do anything. Have a good game!"
+msg_corrupt_save = "The save files are corrupt, so the previous version has been restored. If you could zip and send the contents of the save folder to support@thingtrunk.com, it would help us greatly in fixing the problem. Just enter %AppData%/\1_\2 in File Explorer or in Run window (hold Win + R).\n\nThanks for your help and sorry for the inconvenience!\nThing Trunk Team"
+msg_corrupt_files = "It looks like the game files are corrupted or incomplete. \nPlease reinstall the game or verify integrity of game cache in Steam game properties. If this won't resolve the issue please contact us at support@thingtrunk.com\n\nThanks for your help and sorry for the inconvenience!\nThing Trunk Team"
+
+## DEMO
+mbox_game_launch_error_title = "Cannot start the game"
+mbox_game_launch_error_msg = "It seems you have already played the full version of the game on current profile. To play the demo, please create a new player profile and select it (via button in the lower right corner)."
+
+################################################## Survey ############################################
+
+btn_survey_show = "R2G Survey"
+btn_survey_hide = "Hide"
+
+mbox_survey_title = "Return 2 Games"
+mbox_survey_text = "Would you like to spend a minute to take a survey?"
+mbox_survey_accept = "Take a survey"
+mbox_survey_never = "Never"
+mbox_survey_not_now = "Not now"
+mbox_survey_desert_text = "Would you care to explain why are you leaving the game?"
+
+# FEEDBACK
+feedback = "FEEDBACK"
+feedback_no_internet = "You are offline. Make sure to have internet connection to send feedback."
+survey = "SURVEY"
+survey_no_internet = "You are offline. Make sure to have internet connection to send feedback."
+
+##################################### SHARE / Recommend #####################################
+
+share_window_title = "Share"
+share_window_note ="Recommend R2G: Book of Demons to your friends via those services:"
+share_window_facebook = "Facebook"
+share_window_twitter = "Twitter"
+share_window_reddit = "Reddit"
+share_window_email = "E-mail"
+
+recommend_button_label = "Recommend"
+recommend_button_ttip = "Recommend R2G: Book of Demons to your friends on Twitter, Facebook, Reddit or via Email."
+
+# Supporters acknowledgement
+supporter_ack_title = "Thank you"
+supporter_ack_text = "Thank you for becoming an official Return 2 Games Supporter!\n\nIf you wish to be listed in the R2G Supporters' section in the Credits, please provide your name (or nickname) and your e-mail address. Your email will not be made public, we'll use it in case we need to contact you about the submitted name. Each entry is processed manually as we can't add obscene or inappropriate words to the credits - sorry!\n\nIf you ever have any questions, do not hesitate to contact us at \^18BDE6support@thingtrunk.com\^^. Thank you!"
+supporter_ack_nick = "Name:"
+supporter_ack_email = "E-mail:"
+supporter_ack_send = "Send"
+supporter_ack_deny = "No thanks/Done already"
+supporter_ack_postpone = "Later"
+supporter_ack_sent_title = "Sent"
+supporter_ack_sent_text = "Data has been sent."
+
+# Twitch
+twitch_login_title = "Log in to Twitch"
+twitch_login_user = "Username"
+twitch_login_pass = "Password"
+twitch_login_channel = "Channel"
+twitch_login_paste = "Paste"
+twitch_login_connect = "Connect"
+twitch_login_user_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+twitch_login_pass_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+twitch_login_channel_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+
+############################################## Names of windows ###########################
+
+msgbox_offline_title = "OFFLINE"
+
+wnd_wir2g_title = "WHAT IS R2G"
+wnd_about_boa = "BOOK OF ALIENS"
+
+wnd_about_bod = "BOOK OF DEMONS"
+wnd_name_betanotes = "BETANOTES"
+wnd_name_changelog = "CHANGELOG"
+wnd_name_sandbox = "SANDBOX"
+
+wnd_name_about = "About"
+
+score_upcase = "SCORE"
+
+# CHANGELOG
+changelog_title = "Changelog"
+
+
+###############################
+## Achievement window
+###############################
+
+achiev_total_score = "Total Score:"
+achiev_num_to_next_lvl = "\1 more to reach next level"
+achiev_lvl_gold = "Gold Level"
+achiev_lvl_silver = "Silver Level"
+achiev_lvl_bronze = "Bronze Level"
+achiev_golden_locase = "golden"
+achiev_silver_locase = "silver"
+achiev_bronze_locase = "bronze"
+wnd_achiev_title = "AWARD SCREEN"
+wnd_achiev_rank_text = "\^FCDA92Rank:\^FFFFFF \1 \s0 \2\^^"
+wnd_achiev_rank_next = "\^FCDA92Next Rank:\^FFFFFF \1 \^FCDA92/\^FFFFFF \2\^^"
+wnd_achiev_rank_progress_tooltip = "\1 points needed to unlock new rank"
+wnd_achieve_chalice_tooltip = "Unlocked \1 out of \2 \3 achievements"
+
+wnd_achieve_badge_stars_label = "\s0\1"
+wnd_achieve_badge_score_label = "\^FCDA92SCORE:\^FFFFFF \1\^^"
+
+wnd_achieve_badge_1_tip = "Heart of Iron"
+wnd_achieve_badge_2_tip = "Clean Sweep"
+wnd_achieve_badge_3_tip = "Ruthless Blade"
+wnd_achieve_badge_to_1 = "\^FCDA92\1\^^ more to bronze badge"
+wnd_achieve_badge_to_2 = "\^FCDA92\1\^^ more to silver badge"
+wnd_achieve_badge_to_3 = "\^FCDA92\1\^^ more to golden badge"
+wnd_achieve_badge_stars_tip = "Collected stars"
+wnd_achieve_badge_score_tip = "Total Game Score"
+
+##################################### Achievements BOOK OF DEMONS #####################################
+
+achiev_0_01_1 = "Trek" #Level 1
+achiev_0_01_1_desc = "Unlock medium flexiscope game size"
+achiev_0_01_2 = "Voyage" #Level 2
+achiev_0_01_2_desc = "Unlock big flexiscope game size"
+achiev_0_01_3 = "Odyssey" #Level 3
+achiev_0_01_3_desc = "Unlock large flexiscope game size"
+
+achiev_0_02_3 = "Game of Crows"
+achiev_0_02_3_desc = "The crows are singing, winter must be coming..."
+
+achiev_0_03_3 = "Captain Planet"
+achiev_0_03_3_desc = "By your powers combined I am Captain Planet"
+
+achiev_0_04_3 = "Eeny, meeny, miny, moe"
+achiev_0_04_3_desc = "Barrel, barrel, Zombie, barrel. Barrel, barrel, Zombie, crap!"
+
+achiev_0_05_3 = "The Alchemist"
+achiev_0_05_3_desc = "Only 5 ingredients and the achievement might be yours!"
+
+achiev_0_06_1 = "Adept Bone Collector"
+achiev_0_06_1_desc = "Defeat 10 Skeletons"
+achiev_0_06_1_max ="10"
+achiev_0_06_2 = "Master Bone Collector"
+achiev_0_06_2_desc = "Defeat 100 Skeletons"
+achiev_0_06_2_max ="100"
+achiev_0_06_3 = "Legendary Bone Collector"
+achiev_0_06_3_desc = "Defeat 1000 Skeletons"
+achiev_0_06_3_max = "1000"
+
+achiev_0_07_1 = "Adept Exorcist"
+achiev_0_07_1_desc = "Defeat 10 Demons"
+achiev_0_07_1_max = "10"
+achiev_0_07_2 = "Master Exorcist"
+achiev_0_07_2_desc = "Defeat 100 Demons"
+achiev_0_07_2_max = "100"
+achiev_0_07_3 = "Legendary Exorcist"
+achiev_0_07_3_desc = "Defeat 1000 Demons"
+achiev_0_07_3_max = "1000"
+
+achiev_0_08_1 = "Adept Exterminator"
+achiev_0_08_1_desc = "Defeat 10 Spiders"
+achiev_0_08_1_max = "10"
+achiev_0_08_2 = "Master Exterminator"
+achiev_0_08_2_desc = "Defeat 100 Spiders"
+achiev_0_08_2_max = "100"
+achiev_0_08_3 = "Legendary Exterminator"
+achiev_0_08_3_desc = "Defeat 1000 Spiders"
+achiev_0_08_3_max = "1000"
+
+achiev_0_09_1 = "Adept Ghostbuster"
+achiev_0_09_1_desc = "Defeat 10 Ghosts"
+achiev_0_09_1_max = "10"
+achiev_0_09_2 = "Master Ghostbuster"
+achiev_0_09_2_desc = "Defeat 100 Ghosts"
+achiev_0_09_2_max = "100"
+achiev_0_09_3 = "Legendary Ghostbuster"
+achiev_0_09_3_desc = "Defeat 1000 Ghosts"
+achiev_0_09_3_max = "1000"
+
+achiev_0_10_1 = "Adept Survivor"
+achiev_0_10_1_desc = "Defeat 10 Zombies"
+achiev_0_10_1_max = "10"
+achiev_0_10_2 = "Master Survivor"
+achiev_0_10_2_desc = "Defeat 100 Zombies"
+achiev_0_10_2_max = "100"
+achiev_0_10_3 = "Legendary Survivor"
+achiev_0_10_3_desc = "Defeat 1000 Zombies"
+achiev_0_10_3_max = "1000"
+
+achiev_0_11_1 = "Adept Goatherd"
+achiev_0_11_1_desc = "Defeat 10 Goatmen"
+achiev_0_11_1_max = "10"
+achiev_0_11_2 = "Master Goatherd"
+achiev_0_11_2_desc = "Defeat 100 Goatmen"
+achiev_0_11_2_max = "100"
+achiev_0_11_3 = "Legendary Goatherd"
+achiev_0_11_3_desc = "Defeat 1000 Goatmen"
+achiev_0_11_3_max = "1000"
+
+achiev_0_12_1 = "Adept Mason"
+achiev_0_12_1_desc = "Defeat 10 Gargoyles"
+achiev_0_12_1_max = "10"
+achiev_0_12_2 = "Master Mason"
+achiev_0_12_2_desc = "Defeat 100 Gargoyles"
+achiev_0_12_2_max = "100"
+achiev_0_12_3 = "Legendary Mason"
+achiev_0_12_3_desc = "Defeat 1000 Gargoyles"
+achiev_0_12_3_max = "1000"
+
+achiev_0_13_1 = "Heartbreaker"
+achiev_0_13_1_desc = "Destroy 1000 monster hearts in total"
+achiev_0_13_1_max = "1000"
+achiev_0_13_2 = "Heartcracker"
+achiev_0_13_2_desc = "Destroy 10000 monster hearts in total"
+achiev_0_13_2_max = "10000"
+achiev_0_13_3 = "Heartripper"
+achiev_0_13_3_desc = "Destroy 100000 monster hearts in total"
+achiev_0_13_3_max = "100000"
+
+achiev_0_14_1 = "Path to hell"
+achiev_0_14_1_desc = "Leave 10000 footprints in the dungeon"
+achiev_0_14_1_max = "10000"
+achiev_0_14_2 = "Road to hell"
+achiev_0_14_2_desc = "Leave 100000 footprints in the dungeon"
+achiev_0_14_2_max = "100000"
+achiev_0_14_3 = "Highway to hell"
+achiev_0_14_3_desc = "Leave 200000 footprints in the dungeon"
+achiev_0_14_3_max = "200000"
+
+achiev_0_15_1 = "Full Armory"
+achiev_0_15_1_desc = "Find all of Warrior's Cards"
+achiev_0_15_1_max = "32"
+achiev_0_15_2 = "Grand Armory"
+achiev_0_15_2_desc = "Upgrade all Warrior's Cards to level 2"
+achiev_0_15_2_max = "32"
+achiev_0_15_3 = "Epic Armory"
+achiev_0_15_3_desc = "Upgrade all Warrior's Cards to level 3"
+achiev_0_15_3_max = "32"
+
+achiev_0_16_1 = "Full Library"
+achiev_0_16_1_desc = "Find all of Mage's Cards"
+achiev_0_16_1_max = "32"
+achiev_0_16_2 = "Arcane Library"
+achiev_0_16_2_desc = "Upgrade all Mage's Cards to level 2"
+achiev_0_16_2_max = "32"
+achiev_0_16_3 = "Unbelievable Library"
+achiev_0_16_3_desc = "Upgrade all Mage's Cards to level 3"
+achiev_0_16_3_max = "32"
+
+achiev_0_17_1 = "Full Stash"
+achiev_0_17_1_desc = "Find all of Rogue's Cards"
+achiev_0_17_1_max = "32"
+achiev_0_17_2 = "Fancy Stash"
+achiev_0_17_2_desc = "Upgrade all Rogue's Cards to level 2"
+achiev_0_17_2_max = "32"
+achiev_0_17_3 = "Legendary Stash"
+achiev_0_17_3_desc = "Upgrade all Rogue's Cards to level 3"
+achiev_0_17_3_max = "32"
+
+achiev_0_18_1 = "Hell's Kitchen"
+achiev_0_18_1_desc = "Defeat the Cook with any hero"
+achiev_0_18_2 = "Cutthroat Kitchen"
+achiev_0_18_2_desc = "Defeat the Cook with any second hero"
+achiev_0_18_3 = "Kitchen Nightmare"
+achiev_0_18_3_desc = "Defeat the Cook with all three heroes"
+
+achiev_0_19_1 = "Breaking the Ritual"
+achiev_0_19_1_desc = "Defeat the Antipope with any hero"
+achiev_0_19_2 = "Averting the Sacrilege"
+achiev_0_19_2_desc = "Defeat the Antipope with any second hero"
+achiev_0_19_3 = "Ending the Blasphemy"
+achiev_0_19_3_desc = "Defeat the Antipope with all three heroes"
+
+achiev_0_20_1 = "All hail new king"
+achiev_0_20_1_desc = "Defeat the Archdemon with any hero"
+achiev_0_20_2 = "Twice the fun"
+achiev_0_20_2_desc = "Defeat the Archdemon with any second hero"
+achiev_0_20_3 = "Third time's a charm"
+achiev_0_20_3_desc = "Defeat the Archdemon with all three heroes"
+
+achiev_0_21_1 = "Who's the boss?"
+achiev_0_21_1_desc = "Defeat 5 boss monsters"
+achiev_0_21_1_max = "5"
+achiev_0_21_2 = "Don't boss around"
+achiev_0_21_2_desc = "Defeat 50 boss monsters"
+achiev_0_21_2_max = "50"
+achiev_0_21_3 = "Not the boss of me"
+achiev_0_21_3_desc = "Defeat 500 boss monsters"
+achiev_0_21_3_max = "500"
+
+achiev_0_22_1 = "Inter-raptor"
+achiev_0_22_1_desc = "Interrupt 10 enemies' spells or skills"
+achiev_0_22_1_max = "10"
+achiev_0_22_2 = "Inter-raptor evolved"
+achiev_0_22_2_desc = "Interrupt 100 enemies' spells or skills"
+achiev_0_22_2_max = "100"
+achiev_0_22_3 = "Inter-raptor Rex"
+achiev_0_22_3_desc = "Interrupt 500 enemies' spells or skills"
+achiev_0_22_3_max = "500"
+
+achiev_0_23_1 = "Crash!"
+achiev_0_23_1_desc = "Destroy 100 enemies' shields"
+achiev_0_23_1_max = "100"
+achiev_0_23_2 = "Smash!"
+achiev_0_23_2_desc = "Destroy 500 enemies' shields"
+achiev_0_23_2_max = "500"
+achiev_0_23_3 = "Bash!"
+achiev_0_23_3_desc = "Destroy 1000 enemies' shields"
+achiev_0_23_3_max = "1000"
+
+achiev_0_24_1 = "Heartpicker"
+achiev_0_24_1_desc = "Pick 50 hearts from the ground"
+achiev_0_24_1_max = "50"
+achiev_0_24_2 = "Heart hoarder"
+achiev_0_24_2_desc = "Pick 500 hearts from the ground"
+achiev_0_24_2_max = "500"
+achiev_0_24_3 = "Organ harvester"
+achiev_0_24_3_desc = "Pick 1000 hearts from the ground"
+achiev_0_24_3_max = "1000"
+
+achiev_0_25_1 = "Magic sweep"
+achiev_0_25_1_desc = "Pick 50 mana globes from the ground"
+achiev_0_25_1_max = "50"
+achiev_0_25_2 = "Mystic sweep"
+achiev_0_25_2_desc = "Pick 500 mana globes from the ground"
+achiev_0_25_2_max = "500"
+achiev_0_25_3 = "Arcane sweep"
+achiev_0_25_3_desc = "Pick 1000 mana globes from the ground"
+achiev_0_25_3_max = "1000"
+
+achiev_0_26_1 = "Fast & Furious"
+achiev_0_26_1_desc = "Defeat 100 monsters in 20 seconds"
+achiev_0_26_1_max = "100"
+achiev_0_26_2 = "Faster & Furier"
+achiev_0_26_2_desc = "Defeat 150 monsters in 15 seconds"
+achiev_0_26_2_max = "150"
+achiev_0_26_3 = "The Fastest & the Furiest"
+achiev_0_26_3_desc = "Defeat 200 monsters in 10 seconds"
+achiev_0_26_3_max = "200"
+
+achiev_0_27_1 = "Badger"
+achiev_0_27_1_desc = "Finish a big Freeplay game in Hard difficulty or higher, receiving all the badges"
+achiev_0_27_2 = "Badger, badger"
+achiev_0_27_2_desc = "Finish a big Freeplay game in Nightmare difficulty or higher, receiving all the badges"
+achiev_0_27_3 = "Badger, badger, badger"
+achiev_0_27_3_desc = "Finish a big Freeplay game in Massacre difficulty receiving all the badges"
+
+achiev_0_28_1 = "Wearing only a smile"
+achiev_0_28_1_desc = "Finish a medium or big Freeplay game in Hard difficulty or higher, without equipping any card"
+achiev_0_28_2 = "Birthday suit"
+achiev_0_28_2_desc = "Finish a medium or big Freeplay game in Nightmare difficulty or higher, without equipping any card"
+achiev_0_28_3 = "Hardcore nudist"
+achiev_0_28_3_desc = "Finish a medium or big Freeplay game in Massacre difficulty without equipping any card"
+
+achiev_0_29_1 = "Quest Master"
+achiev_0_29_1_desc = "Master all level 1 quests"
+achiev_0_29_1_max = "3"
+achiev_0_29_2 = "Quest Champion"
+achiev_0_29_2_desc = "Master all level 2 quests"
+achiev_0_29_2_max = "3"
+achiev_0_29_3 = "Quest Genius"
+achiev_0_29_3_desc = "Master all level 3 quests"
+achiev_0_29_3_max = "3"
+
+achiev_0_30_1 = "Unlucky"
+achiev_0_30_1_desc = "Destroy 50 empty barrels in the dungeon"
+achiev_0_30_1_max = "50"
+achiev_0_30_2 = "Jinxed"
+achiev_0_30_2_desc = "Destroy 500 empty barrels in the dungeon"
+achiev_0_30_2_max = "500"
+achiev_0_30_3 = "Cursed"
+achiev_0_30_3_desc = "Destroy 5000 empty barrels in the dungeon"
+achiev_0_30_3_max = "5000"
+
+achiev_0_31_1 = "Smelly fingers"
+achiev_0_31_1_desc = "Pick up 10 crap"
+achiev_0_31_1_max = "10"
+achiev_0_31_2 = "Dirty hands"
+achiev_0_31_2_desc = "Pick up 100 crap"
+achiev_0_31_2_max = "100"
+achiev_0_31_3 = "I'll never wash it off"
+achiev_0_31_3_desc = "Pick up 1000 crap"
+achiev_0_31_3_max = "1000"
+
+achiev_0_32_1 = "In Good Hands"
+achiev_0_32_1_desc = "Let the Healer heal you 30 times"
+achiev_0_32_1_max = "30"
+achiev_0_32_2 = "Frequent patient"
+achiev_0_32_2_desc = "Let the Healer heal you 100 times"
+achiev_0_32_2_max = "100"
+achiev_0_32_3 = "Hypochondriac"
+achiev_0_32_3_desc = "Let the Healer heal you 300 times"
+achiev_0_32_3_max = "300"
+
+achiev_0_33_1 = "Tasty Soup"
+achiev_0_33_1_desc = "Buy content of the Magical Cauldron for the first time"
+achiev_0_33_2 = "Yummy Brew"
+achiev_0_33_2_desc = "Buy content of the Magical Cauldron 5 times"
+achiev_0_33_2_max = "5"
+achiev_0_33_3 = "Delicious Stew"
+achiev_0_33_3_desc = "Buy content of the Magical Cauldron 10 times"
+achiev_0_33_3_max = "10"
+
+achiev_0_34_1 = "Occasional Buyer"
+achiev_0_34_1_desc = "Charge your cards 10 times at the Fortune Teller's"
+achiev_0_34_1_max = "10"
+achiev_0_34_2 = "Frequent Client"
+achiev_0_34_2_desc = "Charge your cards 50 times at the Fortune Teller's"
+achiev_0_34_2_max = "50"
+achiev_0_34_3 = "Loyal Customer"
+achiev_0_34_3_desc = "Charge your cards 100 times at the Fortune Teller's"
+achiev_0_34_3_max = "100"
+
+achiev_0_35_1 = "First riddle"
+achiev_0_35_1_desc = "Identify your first card with Sage"
+achiev_0_35_2 = "Shrouded in mysteries"
+achiev_0_35_2_desc = "Identify 20 cards with Sage"
+achiev_0_35_2_max = "20"
+achiev_0_35_3 = "No more secrets"
+achiev_0_35_3_desc = "Identify 50 cards with Sage"
+achiev_0_35_3_max = "50"
+
+achiev_0_36_1 = "Deck shuffle"
+achiev_0_36_1_desc = "Equip a slot with a card 10 times in total"
+achiev_0_36_1_max = "10"
+achiev_0_36_2 = "Deck tactics"
+achiev_0_36_2_desc = "Equip a slot with a card 100 times in total"
+achiev_0_36_2_max = "100"
+achiev_0_36_3 = "Deck strategy"
+achiev_0_36_3_desc = "Equip a slot with a card 500 times in total"
+achiev_0_36_3_max = "500"
+
+achiev_0_37_1 = "Stayin' Alive"
+achiev_0_37_1_desc = "Finish 5 games in a row without dying"
+achiev_0_37_1_max = "5"
+achiev_0_37_2 = "Stayin' Alive, stayin' alive"
+achiev_0_37_2_desc = "Finish 10 games in a row without dying"
+achiev_0_37_2_max = "10"
+achiev_0_37_3 = "A! A! A! A! Stayin' Alive"
+achiev_0_37_3_desc = "Finish 20 games in a row without dying"
+achiev_0_37_3_max = "20"
+
+achiev_0_38_1 = "Cleansing Spark"
+achiev_0_38_1_desc = "Burn 30 monsters to ashes"
+achiev_0_38_1_max = "30"
+achiev_0_38_2 = "Cleansing Flame"
+achiev_0_38_2_desc = "Burn 100 monsters to ashes"
+achiev_0_38_2_max = "100"
+achiev_0_38_3 = "Cleansing Fire"
+achiev_0_38_3_desc = "Burn 300 monsters to ashes"
+achiev_0_38_3_max = "300"
+
+achiev_0_39_1 = "Breaking the ice"
+achiev_0_39_1_desc = "Defeat 30 monsters that are frozen"
+achiev_0_39_1_max = "30"
+achiev_0_39_2 = "Keep it cool"
+achiev_0_39_2_desc = "Defeat 100 monsters that are frozen"
+achiev_0_39_2_max = "100"
+achiev_0_39_3 = "Ice ice Baby"
+achiev_0_39_3_desc = "Defeat 300 monsters that are frozen"
+achiev_0_39_3_max = "300"
+
+achiev_0_40_1 = "Poison Ivy"
+achiev_0_40_1_desc = "Defeat 30 monsters with poison"
+achiev_0_40_1_max = "30"
+achiev_0_40_2 = "Venomous Spider"
+achiev_0_40_2_desc = "Defeat 100 monsters with poison"
+achiev_0_40_2_max = "100"
+achiev_0_40_3 = "King Cobra"
+achiev_0_40_3_desc = "Defeat 300 monsters with poison"
+achiev_0_40_3_max = "300"
+
+achiev_0_41_1 = "Easy come, easy go"
+achiev_0_41_1_desc = "Spent 1000 gold"
+achiev_0_41_1_max = "1000"
+achiev_0_41_2 = "Money isn't everything"
+achiev_0_41_2_desc = "Spent 100000 gold"
+achiev_0_41_2_max = "100000"
+achiev_0_41_3 = "Riches have wings"
+achiev_0_41_3_desc = "Spent 1000000 gold"
+achiev_0_41_3_max = "1000000"
+
+achiev_0_42_1 = "Nightmare on Elm Street"
+achiev_0_42_1_desc = "Unlock a Hard difficulty with all heroes"
+achiev_0_42_2 = "Hellraiser"
+achiev_0_42_2_desc = "Unlock a Nightmare difficulty with all heroes"
+achiev_0_42_3 = "Texas Massacre"
+achiev_0_42_3_desc = "Unlock a Massacre difficulty with all heroes"
+
+achiev_0_43_1 = "Nothing more to learn"
+achiev_0_43_1_desc = "Reach a level cap (level 50) with any hero"
+achiev_0_43_2 = "Magnificent Duo"
+achiev_0_43_2_desc = "Reach a level cap with two different class heroes"
+achiev_0_43_3 = "Fantastic Three"
+achiev_0_43_3_desc = "Reach a level cap with all three class heroes"
+
+achiev_0_44_1 = "Cleanser"
+achiev_0_44_1_desc = "Clear 5 dungeon levels"
+achiev_0_44_1_max = "5"
+achiev_0_44_2 = "Pedantic"
+achiev_0_44_2_desc = "Clear 50 dungeon levels"
+achiev_0_44_2_max = "50"
+achiev_0_44_3 = "Obsessive-compulsive"
+achiev_0_44_3_desc = "Clear 500 dungeon levels"
+achiev_0_44_3_max = "500"
+
+achiev_0_45_1 = "Slow as a turtle"
+achiev_0_45_1_desc = "Miss 50 times"
+achiev_0_45_1_max = "50"
+achiev_0_45_2 = "Clumsy as an ox"
+achiev_0_45_2_desc = "Miss 500 times"
+achiev_0_45_2_max = "500"
+achiev_0_45_3 = "Blind as a bat"
+achiev_0_45_3_desc = "Miss 5000 times"
+achiev_0_45_3_max = "5000"
+
+achiev_0_46_1 = "Commando"
+achiev_0_46_1_desc = "Finish a big Freeplay game on Hard difficulty or higher, without any form of healing"
+achiev_0_46_2 = "Predator"
+achiev_0_46_2_desc = "Finish a big Freeplay game on Nightmare difficulty or higher, without any form of healing"
+achiev_0_46_3 = "Terminator"
+achiev_0_46_3_desc = "Finish a big Freeplay game on Massacre difficulty without any form of healing"
+
+achiev_0_47_1 = "Ready for action"
+achiev_0_47_1_desc = "Equip all the card slots with at least level 1 cards"
+achiev_0_47_2 = "Ready for war"
+achiev_0_47_2_desc = "Equip all the card slots with at least level 2 cards"
+achiev_0_47_3 = "Ready for anything"
+achiev_0_47_3_desc = "Equip all the card slots with at least level 3 cards"
+
+achiev_0_48_1 = "Bronze division"
+achiev_0_48_1_desc = "Gain all other bronze level achievements in Book of Demons"
+achiev_0_48_1_max = "55"
+achiev_0_48_2 = "Silver Division"
+achiev_0_48_2_desc = "Gain all other silver level achievements in Book of Demons"
+achiev_0_48_2_max = "55"
+achiev_0_48_3 = "Golden Division"
+achiev_0_48_3_desc = "Gain all other gold level achievements in Book of Demons"
+achiev_0_48_3_max = "60"
+
+achiev_0_49_1 = "Don't look back"
+achiev_0_49_1_desc = "Finish a dungeon level without backtracking your steps"
+achiev_0_49_2 = "Straight to the point"
+achiev_0_49_2_desc = "Finish 3 dungeon levels without backtracking your steps"
+achiev_0_49_2_max = "3"
+achiev_0_49_3 = "Always ahead"
+achiev_0_49_3_desc = "Finish 5 dungeon levels without backtracking your steps"
+achiev_0_49_3_max = "5"
+
+achiev_0_50_1 = "Loads of ammo"
+achiev_0_50_1_desc = "Shoot 100 equipped arrows (Rogue only)"
+achiev_0_50_1_max = "100"
+achiev_0_50_2 = "Piles of ammo"
+achiev_0_50_2_desc = "Shoot 1000 equipped arrows (Rogue only)"
+achiev_0_50_2_max = "1000"
+achiev_0_50_3 = "Tons of ammo"
+achiev_0_50_3_desc = "Shoot 10000 equipped arrows (Rogue only)"
+achiev_0_50_3_max = "10000"
+
+achiev_0_51_1 = "Blast!"
+achiev_0_51_1_desc = "Throw bombs 10 times (Warrior only)"
+achiev_0_51_1_max = "10"
+achiev_0_51_2 = "Boom!"
+achiev_0_51_2_desc = "Throw bombs 100 times (Warrior only)"
+achiev_0_51_2_max = "100"
+achiev_0_51_3 = "KABOOM!"
+achiev_0_51_3_desc = "Throw bombs 500 times (Warrior only)"
+achiev_0_51_3_max = "500"
+
+achiev_0_52_1 = "Magic Friend"
+achiev_0_52_1_desc = "Summon a golem 5 times (Mage only)"
+achiev_0_52_1_max = "5"
+achiev_0_52_2 = "Mage's Companion"
+achiev_0_52_2_desc = "Summon a golem 50 times (Mage only)"
+achiev_0_52_2_max = "50"
+achiev_0_52_3 = "Wizard's BFF"
+achiev_0_52_3_desc = "Summon a golem 200 times (Mage only)"
+achiev_0_52_3_max = "200"
+
+achiev_0_53_1 = "Gatherer"
+achiev_0_53_1_desc = "Collect 3 stars in a single game"
+achiev_0_53_2 = "Collector"
+achiev_0_53_2_desc = "Collect 7 stars in a single game"
+achiev_0_53_3 = "Hoarder"
+achiev_0_53_3_desc = "Collect 13 stars in a single game"
+
+achiev_0_54_1 = "Tick, tock"
+achiev_0_54_1_desc = "Collect 5 timed stars"
+achiev_0_54_1_max = "5"
+achiev_0_54_2 = "Time is of the essence"
+achiev_0_54_2_desc = "Collect 50 timed stars"
+achiev_0_54_2_max = "50"
+achiev_0_54_3 = "Time of your life"
+achiev_0_54_3_desc = "Collect 100 timed stars"
+achiev_0_54_3_max = "100"
+
+achiev_0_55_1 = "Scary"
+achiev_0_55_1_desc = "Scare 10 monsters with a single Fear card use (Rogue only)"
+achiev_0_55_2 = "Horrifying"
+achiev_0_55_2_desc = "Scare 50 monsters with a single Fear card use (Rogue only)"
+achiev_0_55_3 = "Terrifying"
+achiev_0_55_3_desc = "Scare 100 monsters with a single Fear card use (Rogue only)"
+
+achiev_0_56_1 = "Battering ram"
+achiev_0_56_1_desc = "Bash 3 monsters with a single Charge card use (Warrior only)"
+achiev_0_56_2 = "With all one's strength"
+achiev_0_56_2_desc = "Bash 6 monsters with a single Charge card use (Warrior only)"
+achiev_0_56_3 = "Push it to the limit"
+achiev_0_56_3_desc = "Bash 9 monsters with a single Charge card use (Warrior only)"
+
+achiev_0_57_1 = "Wave of Silence"
+achiev_0_57_1_desc = "Dispell 3 spells and skills with a single Mass Dispell card use (Mage only)"
+achiev_0_57_2 = "Storm of Silence"
+achiev_0_57_2_desc = "Dispell 6 spells and skills with a single Mass Dispell card use (Mage only)"
+achiev_0_57_3 = "Tsunami of Silence"
+achiev_0_57_3_desc = "Dispell 9 spells and skills with a single Mass Dispell card use (Mage only)"
+
+achiev_0_58_1 = "Stomp harder"
+achiev_0_58_1_desc = "Destroy 5 Slimy Spores before they explode"
+achiev_0_58_1_max = "5"
+achiev_0_58_2 = "Stomp better"
+achiev_0_58_2_desc = "Destroy 50 Slimy Spores before they explode"
+achiev_0_58_2_max = "50"
+achiev_0_58_3 = "Stomp stronger!"
+achiev_0_58_3_desc = "Destroy 500 Slimy Spores before they explode"
+achiev_0_58_3_max = "500"
+
+achiev_0_59_1 = "So far so good"
+achiev_0_59_1_desc = "Finish 5 games"
+achiev_0_59_1_max = "5"
+achiev_0_59_2 = "Getting better"
+achiev_0_59_2_desc = "Finish 25 games"
+achiev_0_59_2_max = "25"
+achiev_0_59_3 = "The fun goes on"
+achiev_0_59_3_desc = "Finish 100 games"
+achiev_0_59_3_max = "100"
+
+achiev_0_60_1 = "Warming up"
+achiev_0_60_1_desc = "Unlock fourth card slot"
+achiev_0_60_2 = "Lucky 7"
+achiev_0_60_2_desc = "Unlock the 7th cards slot"
+achiev_0_60_3 = "Bull's eye!"
+achiev_0_60_3_desc = "Unlock all 10 card slots"
+
+achiev_0_61_1 = "Chit chat"
+achiev_0_61_1_desc = "Talk 5 times with villagers"
+achiev_0_61_1_max = "5"
+achiev_0_61_2 = "Gossip Girl"
+achiev_0_61_2_desc = "Talk 25 times with villagers"
+achiev_0_61_2_max = "25"
+achiev_0_61_3 = "You have your way with words!"
+achiev_0_61_3_desc = "Talk 50 times with villagers"
+achiev_0_61_3_max = "50"
+
+#achiev_0_06_1_max = "10"
+
+
+################################
+## Avatars
+################################
+
+avatar_ttip_researched =  "Researched avatar"
+avatar_ttip_current = "Current avatar"
+avatar_ttip_next = "Next avatar"
+avatar_ttip_click = "\s0Click to change"
+avatar_ttip_click_pad = "Press \s0 to change"
+avatar_ttip_unknown = "Unknown Avatar"
+
+avatar_origin = "\^E8BC82Origin:\^^ \1"
+
+avatar_ttip_click_to_assign = "\s0Click to assign avatar to your profile"
+avatar_ttip_click_to_assign_pad = "Press \s0 to assign avatar to your profile"
+avatar_ttip_this_is_current = "\s2\^00FF00This is your current profile avatar\^^"
+
+avt_screen_cur_cap = "AVATAR CAP"
+avt_screen_cap_bar_ttip = "Avatar cap rises with each new R2G game you own."
+avt_screen_cap_bar_no_game_ttip = "The Avatar Cap cannot be raised until next R2G games is released."
+
+
+avt_screen_cap_own_game_ttip = "To unlock you must own \1"
+avt_screen_cap_reveal_ttip = "To reveal research any neighbour"
+
+avt_screen_cap_cost_ttip = "Research cost: \1"
+avt_screen_research_prg_bar = "Research progress: \1%"
+avt_screen_research_prg_ttip = "To unlock this avatar you need this much score: \1"
+avatar_click_to_research_ttip = "Press \s0 to select for research"
+avatar_resrch_progress_ttip = "\s3\^00FF00Research in progress\^^"
+btnSendToWebsite = "Share \s1"
+btnSendToWebsite_ttip = "Click here to share your current avatar"
+
+wnd_avt_unckd = "Avatar unlocked!"
+wnd_avt_unckd_set = "Share"
+wnd_avt_unckd_close = "OK \s5"
+wnd_avt_unckd_nfo = "You have unlocked new avatar! Would you like to set it as current?"
+wnd_avt_unckd_set_as_cur = "Set this avatar as current \s4"
+
+wnd_avt_rese = "Research avatar"
+wnd_avt_rese_nfo = "This avatar will be researched next. You cannot change it once you close this window."
+wnd_avt_rese_set = "Change it"
+wnd_avt_rese_close = "Close"
+
+################################## Player Ranks ##################################
+
+rank_0 = "Ignorant"
+rank_1 = "Beginner"
+rank_2 = "Initiate"
+rank_3 = "Jr. Wanderer"
+rank_4 = "Adept Wanderer"
+rank_5 = "Wanderer"
+rank_6 = "Elder Wanderer"
+rank_7 = "Master Wanderer"
+rank_8 = "Jr. Pilgrim"
+rank_9 = "Adept Pilgrim"
+rank_10 = "Pilgrim"
+rank_11 = "Elder Pilgrim"
+rank_12 = "Master Pilgrim"
+rank_13 = "Jr. Traveler"
+rank_14 = "Adept Traveler"
+rank_15 = "Traveler"
+rank_16 = "Elder Traveler"
+rank_17 = "Master Traveler"
+rank_18 = "Jr. Explorer"
+rank_19 = "Adept Explorer"
+rank_20 = "Explorer"
+rank_21 = "Elder Explorer"
+rank_22 = "Master Explorer"
+rank_23 = "Jr. Adventurer"
+rank_24 = "Adept Adventurer"
+rank_25 = "Adventurer"
+rank_26 = "Elder Adventurer"
+rank_27 = "Master Adventurer"
+rank_28 = "Jr. Fortune-hunter"
+rank_29 = "Adept Fortune-hunter"
+rank_30 = "Fortune-hunter"
+rank_31 = "Elder Fortune-hunter"
+rank_32 = "Master Fortune-hunter"
+rank_33 = "Jr. Apprentice"
+rank_34 = "Adept Apprentice"
+rank_35 = "Apprentice"
+rank_36 = "Elder Apprentice"
+rank_37 = "Master Apprentice"
+rank_38 = "Jr. Scholar"
+rank_39 = "Adept Scholar"
+rank_40 = "Scholar"
+rank_41 = "Elder Scholar"
+rank_42 = "Master Scholar"
+rank_43 = "Jr. Advisor"
+rank_44 = "Adept Advisor"
+rank_45 = "Advisor"
+rank_46 = "Elder Advisor"
+rank_47 = "Master Advisor"
+rank_48 = "Jr. Mentor"
+rank_49 = "Adept Mentor"
+rank_50 = "Mentor"
+rank_51 = "Elder Mentor"
+rank_52 = "Master Mentor"
+rank_53 = "Jr. Sage"
+rank_54 = "Adept Sage"
+rank_55 = "Sage"
+rank_56 = "Elder Sage"
+rank_57 = "Master Sage"
+rank_58 = "Jr. Philosopher"
+rank_59 = "Adept Philosopher"
+rank_60 = "Philosopher"
+rank_61 = "Elder Philosopher"
+rank_62 = "Master Philosopher"
+rank_63 = "Jr. Guru"
+rank_64 = "Adept Guru"
+rank_65 = "Guru"
+rank_66 = "Elder Guru"
+rank_67 = "Master Guru"
+rank_68 = "Jr. Pioneer"
+rank_69 = "Adept Pioneer"
+rank_70 = "Pioneer"
+rank_71 = "Elder Pioneer"
+rank_72 = "Master Pioneer"
+rank_73 = "Jr. Champion"
+rank_74 = "Adept Champion"
+rank_75 = "Champion"
+rank_76 = "Elder Champion"
+rank_77 = "Master Champion"
+rank_78 = "Jr. Virtuoso"
+rank_79 = "Adept Virtuoso"
+rank_80 = "Virtuoso"
+rank_81 = "Elder Virtuoso"
+rank_82 = "Master Virtuoso"
+rank_83 = "Jr. Connoisseur"
+rank_84 = "Adept Connoisseur"
+rank_85 = "Connoisseur"
+rank_86 = "Elder Connoisseur"
+rank_87 = "Master Connoisseur"
+
+############################### Avatars and their descriptions ###########################
+
+avatar_1 ="Firefly"
+avatar_2 ="Snake"
+avatar_3 ="Lemming"
+avatar_4 = "Black Crow"
+avatar_6 ="Paranoid Frog"
+avatar_10 ="Hedgehog"
+avatar_14 ="Angry Bird"
+avatar_18 ="The Wanderer"
+avatar_19 ="Monkey King"
+avatar_24 ="Caveman"
+avatar_26 ="Witty Mystic"
+avatar_28 ="Barmaid"
+avatar_29 ="Witch Hunter"
+avatar_30 ="Healer"
+avatar_32 ="Frozen Ninja"
+avatar_35 ="The Minesweeper"
+avatar_38 ="Diner Owner"
+avatar_41 ="Playboy"
+avatar_43 ="Tomb Writer"
+avatar_47 ="Lucky Bejeweller"
+avatar_48 ="Fortune Teller"
+avatar_51 ="Sage"
+avatar_53 ="Persian Prince"
+
+avatar_quote_1 ="Those Archives are Awesome!"
+avatar_quote_2 ="Careful, wouldn't like to bite off my own tail!"
+avatar_quote_3 ="This looks perfectly safe"
+avatar_quote_4 = "Caw, cah"
+avatar_quote_6 ="Always check both sides when crossing the street."
+avatar_quote_10 ="I have a need for speed"
+avatar_quote_14 ="Sure, just shoot me out of a slingshot."
+avatar_quote_18 ="Wrapped in the guise of man, shall he walk amongst the innocent"
+avatar_quote_19 ="When you're a king, you should dress as one."
+avatar_quote_24 ="Search food... Hit dinosaurs..."
+avatar_quote_26 ="No, I don't need a helping hand..."
+avatar_quote_28 ="Forget about all the demons and feast!"
+avatar_quote_29 ="I hope nobody here has a pitchfork"
+avatar_quote_30 = "Please tell me the nature of your medical condition"
+avatar_quote_32 ="At least there are no Scorpions in the snow"
+avatar_quote_35 ="Mind your steps"
+avatar_quote_38 ="Maybe I should start a diner?"
+avatar_quote_41 ="Let's talk about that time I met this lady FBI agent at the airport..."
+avatar_quote_43 ="I should write an adventure book"
+avatar_quote_47 = "Need just two more of those..."
+avatar_quote_48 = "Who needs a Grandfather sword when you can have the Emperor tarot card"
+avatar_quote_51 = "Listen awhile and stay"
+avatar_quote_53 ="Before starting a fight, you should get a sword!"
+
+product_book2 = "Book 2"
+product_book3 = "Book 3"
+product_book4 = "Book 4"
+product_book5 = "Book 5"
+product_book6 = "Book 6"
+product_book7 = "Book 7"
+
+
+#########################
+## CREDITS
+#########################
+
+cred00_head = "a game by"
+cred01_head = ""
+cred02_head = "\m0.3"
+cred03_head = "\m1.3with help from"
+cred04_head = "\m1.3Voice Actors"
+cred05_head = "\m1.3Special Thanks"
+cred06_head = "\m1.3Supporters"
+cred07_head = "\m1.3Translations"
+cred08_head = "\m1.3Testers"
+
+cred_desc_0 = "production, design, additional programming"
+cred_desc_1 = "programming, additional design and writing"
+cred_desc_2 = "concept and design, art and sound direction, programming"
+cred_desc_3 = "web development, additional graphics"
+cred_desc_4 = "additional programming"
+cred_desc_5 = "programming"
+cred_desc_6 = "testing, level content"
+cred_desc_7 = "concept art, 2d graphics and illustrations"
+cred_desc_8 = "level content, scripting, additional sounds and graphics"
+cred_desc_9 = "pr, marketing"
+
+cred_desc_10 = "art-style development and gfx prototypes"
+cred_desc_11 = "graphics"
+cred_desc_12 = "graphics"
+cred_desc_13 = "music and sounds"
+cred_desc_14 = "additional sounds"
+cred_desc_15 = "additional sounds"
+cred_desc_16 = "dialogues and texts"
+
+cred_desc_17 = "Sage"
+cred_desc_18 = "R2G Narrator, Mage"
+cred_desc_19 = "Healer, Cook, Antipope"
+cred_desc_20 = "Barmaid"
+cred_desc_21 = "Warrior, Archdemon"
+cred_desc_22 = "Rogue, Angel"
+cred_desc_23 = "Fortune Teller"
+
+cred_desc_24 = "and everyone in our awesome Early Access community on Steam"
+cred_desc_25 = "Polish - corrections"
+
+###################################
+## Narration
+###################################
+
+skip_intro = "Hold to skip"
+
+############################### Archive Opening ###############################
+
+intro_0 = "Somewhere between space and time"
+intro_1 = "There is a place: the Archive of Awesome."
+intro_2 = "An ancient vault that guards the most amazing stories and myths."
+intro_3 = "Each book, a magical gateway to the paperverse."
+intro_4 = "Let me take you on a journey through the seven masterpieces."
+intro_5 = "It's time to Return 2 Games!"
+
+## Timing - DO NOT EDIT unless everything has exploded
+intro_0_in = "10.5"
+intro_0_out = "14.0"
+
+intro_1_in = "14.0"
+intro_1_out = "18.0"
+
+intro_2_in = "18.1"
+intro_2_out = "23.5"
+
+intro_3_in = "23.5"
+intro_3_out = "27.5"
+
+intro_4_in = "28.0"
+intro_4_out = "32.8"
+
+intro_5_in = "32.9"
+intro_5_out = "37"
+
+############################### Book of Demons Opening ###############################
+
+bod_intro_0 = "Ahh. The Book of Demons!"
+bod_intro_1 = "A truly grim story in our collection."
+bod_intro_2 = "Not for the faint of heart..."
+bod_intro_3 = "A wandering hero returns home,"
+bod_intro_4 = "only to find everything different than remembered."
+bod_intro_5 = "A horrendous evil rose from the depths of hell,"
+bod_intro_6 = "devoured the brave, and poisoned the living with despair."
+bod_intro_7 = "For in the depths of a place once holy,"
+bod_intro_8 = "a dark ritual is concluded."
+bod_intro_9 = "Arrrrrrrrr hrhrhrh!"
+bod_intro_10 = "The ultimate Evil has awoken."
+bod_intro_11 ="Adventure!"
+bod_intro_12 = "Darkness!"
+bod_intro_13 = "Horrors!"
+bod_intro_14 = "All of these await below."
+bod_intro_15 = "Good luck!"
+
+## Timing - DO NOT EDIT unless everything has exploded
+bod_intro_0_in = "3"
+bod_intro_0_out = "5.5"
+
+bod_intro_1_in = "5.5"
+bod_intro_1_out = "8"
+
+bod_intro_2_in = "9"
+bod_intro_2_out = "11"
+
+bod_intro_3_in = "13"
+bod_intro_3_out = "15.4"
+
+bod_intro_4_in = "16"
+bod_intro_4_out = "20"
+
+bod_intro_5_in = "22"
+bod_intro_5_out = "25.5"
+
+bod_intro_6_in = "25.5"
+bod_intro_6_out = "29"
+
+bod_intro_7_in = "31"
+bod_intro_7_out = "34"
+
+bod_intro_8_in = "34"
+bod_intro_8_out = "37"
+
+bod_intro_9_in = "42"
+bod_intro_9_out = "44"
+
+bod_intro_10_in = "44"
+bod_intro_10_out = "46"
+
+bod_intro_11_in = "48"
+bod_intro_11_out = "50"
+
+bod_intro_12_in = "51.7"
+bod_intro_12_out = "53.5"
+
+bod_intro_13_in = "55.6 "
+bod_intro_13_out = "58"
+
+bod_intro_14_in = "63.7"
+bod_intro_14_out = "66.5"
+
+bod_intro_15_in = "72"
+bod_intro_15_out = "75"
+
+################################## Translator's Changelog ######################################
+# Using # sign create a list of already translated items/sections
+## 1.
+## 2.
+## 3.
+## 4.
+## etc
+##
+
+######################## !!! DO NOT CHANGE !!! #########################
+test_font = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789\nFrench\nÙÛÜŸÀÂÆÇÉÈÊËÏÎÔŒ\nùûüÿàâæçéèêëïîôœ\nGerman\nÄÖÜẞ\näöüß\nItalian\nÀÈÉÌÒÓÙ\nàèéìòóù\nPolish\nĄĆĘŁŃÓŚŹŻ\nąćęłńóśźż\nPortuguese\nÃÁÀÂÇÉÊÍÕÓÔÚÜ\nãáàâçéêíõóôúü\nSpanish\nÁÉÍÑÓÚÜ\náéíñóúü\nSPECIALS\n!\"#$%&'()*+,-./:;<=>?@[]^_`{}~¡©®¿\nCzech\nÚŮÝŽÁČĎÉĚÍŇÓŘŠŤ\núůýžáčďéěíňóřšť\nDutch\nÉËÏÓÖÜ\néëïóöü\nSwedish\nÄÅÉÖ\näåéö\nDanish\nÅÆÉØ\nåæéø\nFinnish\nÄÅÖ\näåö\nHungarian\nÁÉÍÖÓŐÜÚŰ\náéíöóőüúű\nNorwegian\nÅÆÂÉÈÊØÓÒÔ\nåæâéèêøóòô\n\nTurkish\nÇĞIİÖŞÜ\nçğıİöşü"
+
+welcome_player = "Welcome \1"
